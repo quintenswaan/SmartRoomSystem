@@ -12,10 +12,10 @@
 			<_id type="a">GUID 96d34362-caac-495e-8461-a8e03c92d759</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">DerivedRequirements</_name>
-			<_modifiedTimeWeak type="a">4.16.2024::15:5:18</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.16.2024::15:0:15</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.16.2024::21:51:24</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::21:51:24</_modifiedTime>
 			<_lastID type="a">3</_lastID>
-			<weakCGTime type="a">4.16.2024::15:5:18</weakCGTime>
+			<weakCGTime type="a">4.16.2024::21:51:24</weakCGTime>
 			<strongCGTime type="a">4.16.2024::15:5:18</strongCGTime>
 			<_defaultComposite type="s">GUID b5ffaa7a-ac7c-4079-bc97-f130456169ef</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -28,6 +28,7 @@
 				<value>GUID 5071d413-acec-4e2d-96cf-221a0e41a996</value>
 				<value>GUID 7773c534-b395-4366-99fe-fc93aff15946</value>
 				<value>GUID 81239596-a281-475e-92af-2fe1733c4d75</value>
+				<value>GUID cd28173c-f10c-4054-bc96-009d7ba990d6</value>
 				<value>GUID b5ffaa7a-ac7c-4079-bc97-f130456169ef</value>
 			</AggregatesList>
 		</ISubsystem>
@@ -588,6 +589,10 @@
 				</INObjectHandle>
 			</_dependent>
 		</IDependency>
+		<ISubsystem type="e">
+			<fileName type="a">SecurityAndAccess</fileName>
+			<_id type="a">GUID cd28173c-f10c-4054-bc96-009d7ba990d6</_id>
+		</ISubsystem>
 		<IClass type="e">
 			<_id type="a">GUID b5ffaa7a-ac7c-4079-bc97-f130456169ef</_id>
 			<_myState type="a">40960</_myState>
