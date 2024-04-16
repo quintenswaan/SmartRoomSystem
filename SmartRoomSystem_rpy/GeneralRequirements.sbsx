@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0</version>
+	<lang>C++</lang>
+	<BuildNo>202002261110</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 4edef5aa-0b08-4591-a420-b210fd43f3cf</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">GeneralRequirements</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::11:10:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::11:10:4</_modifiedTime>
+			<_lastID type="a">5</_lastID>
+			<weakCGTime type="a">4.16.2024::11:10:4</weakCGTime>
+			<strongCGTime type="a">4.16.2024::11:10:4</strongCGTime>
+			<_defaultComposite type="s">GUID 7d95804e-0fb4-46ba-a770-3430206dad9f</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 4ec087e8-932e-4d60-85af-22978a3d35ba</value>
+				<value>GUID 7d95804e-0fb4-46ba-a770-3430206dad9f</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IRequirement type="e">
+			<_id type="a">GUID 4ec087e8-932e-4d60-85af-22978a3d35ba</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SRS_Requirements</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::10:2:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::10:2:23</_modifiedTime>
+			<_lastID type="a">7</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The system should satisfy all functional and non-functional requirements\par%0D
+}%0D
+</_body>
+			<reqID type="a">0</reqID>
+			<AggregatesList type="e">
+				<value>GUID 1d232caf-206e-4fae-8371-b71a01f41c89</value>
+				<value>GUID 0d4efc47-7a13-4866-b345-8bd57827c7d1</value>
+				<value>GUID 1e4aa10c-d89a-465c-81ec-26786cd398c6</value>
+				<value>GUID 28843ec9-816b-47a8-a660-b9b23646eb57</value>
+				<value>GUID 1a278ebe-d099-407b-80d3-d051af5f05b6</value>
+			</AggregatesList>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 1d232caf-206e-4fae-8371-b71a01f41c89</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">HVAC_FR</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::10:2:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::10:2:23</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<_body type="a">The system should be able to control the temperature and air quality in the room automatically, based on the preferences of the RoomUsers.</_body>
+			<reqID type="a">2</reqID>
+			<AggregatesList type="e">
+				<value>GUID 85f88888-b279-4ad3-b30e-f8a83f7dfc9a</value>
+				<value>GUID 47c2704b-6ebb-4dab-beb1-cf522266c073</value>
+			</AggregatesList>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 85f88888-b279-4ad3-b30e-f8a83f7dfc9a</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Temperature_FR</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::8:2:16</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::8:2:16</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The system should be able to change and maintain a certain temperature using the HVAC system.\par%0D
+}%0D
+</_body>
+			<reqID type="a">3</reqID>
+			<AggregatesList type="e">
+				<value>GUID 8a507721-ef8d-4bc0-aada-6da23e023301</value>
+				<value>GUID 50f48aa9-69ce-4017-aa0d-fc4f9486b754</value>
+			</AggregatesList>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 8a507721-ef8d-4bc0-aada-6da23e023301</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">TemperatureUserControl_FR</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::7:23:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::7:23:23</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The RoomUser should be able to change the temperature to a desiredTemp on a touch panel.\par%0D
+}%0D
+</_body>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 50f48aa9-69ce-4017-aa0d-fc4f9486b754</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">TemperatureDefault_FR</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::8:2:16</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::8:2:16</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The temperature should be set to a defaultTemp when there is no one in the room.\par%0D
+}%0D
+</_body>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 47c2704b-6ebb-4dab-beb1-cf522266c073</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">AirQuality_FR</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::10:2:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::10:2:23</_modifiedTime>
+			<_lastID type="a">4</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The system should be able to maintain a healthy air quality in the room.\par%0D
+}%0D
+</_body>
+			<AggregatesList type="e">
+				<value>GUID d1d70a82-2285-4060-99ea-7a6e082f83cc</value>
+				<value>GUID 5d1674bb-1bf0-4063-a9ad-ac98a485951a</value>
+				<value>GUID 0d4cd56d-d3d5-456d-8ec1-a39ec1fb621f</value>
+			</AggregatesList>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID d1d70a82-2285-4060-99ea-7a6e082f83cc</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">AirQualityControl_FR</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::8:38:42</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::8:38:42</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The system should be able to change and maintain a certain air quality using the HVAC system.\par%0D
+}%0D
+</_body>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 5d1674bb-1bf0-4063-a9ad-ac98a485951a</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">AirQualitySettings_FR</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::10:1:7</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::10:1:7</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The desired air quality should depend on the time-of-day and whether there is someone in the room or not.\par%0D
+}%0D
+</_body>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 0d4cd56d-d3d5-456d-8ec1-a39ec1fb621f</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">AirQualityMeasurement_FR</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::10:2:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::10:2:23</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The air quality should be determined by the humidity and amount of CO2 in the room.\par%0D
+}%0D
+</_body>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 0d4efc47-7a13-4866-b345-8bd57827c7d1</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SRS_NFR</_name>
+			<_modifiedTimeWeak type="a">4.15.2024::14:38:10</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.15.2024::14:38:10</_modifiedTime>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 1e4aa10c-d89a-465c-81ec-26786cd398c6</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SecurityAndAcces_FR</_name>
+			<_modifiedTimeWeak type="a">4.15.2024::15:2:44</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.15.2024::14:57:40</_modifiedTime>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 28843ec9-816b-47a8-a660-b9b23646eb57</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">AudioVideo_FR</_name>
+			<_modifiedTimeWeak type="a">4.15.2024::15:2:44</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.15.2024::15:0:8</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20\par%0D
+}%0D
+</_body>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 1a278ebe-d099-407b-80d3-d051af5f05b6</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Lightning_FR</_name>
+			<_modifiedTimeWeak type="a">4.15.2024::15:2:44</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.15.2024::14:59:45</_modifiedTime>
+		</IRequirement>
+		<IClass type="e">
+			<_id type="a">GUID 7d95804e-0fb4-46ba-a770-3430206dad9f</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">4.15.2024::14:39:7</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">4.15.2024::14:39:7</weakCGTime>
+			<strongCGTime type="a">4.15.2024::14:39:7</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+
