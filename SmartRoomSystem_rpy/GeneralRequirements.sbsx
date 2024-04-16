@@ -12,11 +12,11 @@
 			<_id type="a">GUID 4edef5aa-0b08-4591-a420-b210fd43f3cf</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">GeneralRequirements</_name>
-			<_modifiedTimeWeak type="a">4.16.2024::14:16:25</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.16.2024::14:16:25</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.16.2024::15:5:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::15:2:19</_modifiedTime>
 			<_lastID type="a">5</_lastID>
-			<weakCGTime type="a">4.16.2024::14:16:25</weakCGTime>
-			<strongCGTime type="a">4.16.2024::11:10:4</strongCGTime>
+			<weakCGTime type="a">4.16.2024::15:5:18</weakCGTime>
+			<strongCGTime type="a">4.16.2024::15:5:18</strongCGTime>
 			<_defaultComposite type="s">GUID 7d95804e-0fb4-46ba-a770-3430206dad9f</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
 			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
@@ -29,9 +29,9 @@
 			<_id type="a">GUID 4ec087e8-932e-4d60-85af-22978a3d35ba</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">SRS_Requirements</_name>
-			<_modifiedTimeWeak type="a">4.16.2024::14:16:25</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.16.2024::14:16:25</_modifiedTime>
-			<_lastID type="a">7</_lastID>
+			<_modifiedTimeWeak type="a">4.16.2024::15:2:19</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::15:2:19</_modifiedTime>
+			<_lastID type="a">8</_lastID>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 The system should satisfy all functional and non-functional requirements\par%0D
 }%0D
@@ -39,122 +39,419 @@
 			<reqID type="a">0</reqID>
 			<AggregatesList type="e">
 				<value>GUID 1d232caf-206e-4fae-8371-b71a01f41c89</value>
-				<value>GUID 0d4efc47-7a13-4866-b345-8bd57827c7d1</value>
 				<value>GUID 1e4aa10c-d89a-465c-81ec-26786cd398c6</value>
+				<value>GUID 28843ec9-816b-47a8-a660-b9b23646eb57</value>
 				<value>GUID 1a278ebe-d099-407b-80d3-d051af5f05b6</value>
+				<value>GUID 7a75c691-d844-4aca-aa21-53152b5e5adb</value>
 			</AggregatesList>
 		</IRequirement>
 		<IRequirement type="e">
 			<_id type="a">GUID 1d232caf-206e-4fae-8371-b71a01f41c89</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">HVAC_FR</_name>
-			<_modifiedTimeWeak type="a">4.16.2024::10:2:23</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.16.2024::10:2:23</_modifiedTime>
-			<_lastID type="a">2</_lastID>
-			<_body type="a">The system should be able to control the temperature and air quality in the room automatically, based on the preferences of the RoomUsers.</_body>
-			<reqID type="a">2</reqID>
+			<_modifiedTimeWeak type="a">4.16.2024::15:2:19</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::15:2:19</_modifiedTime>
+			<_lastID type="a">4</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The system should be able to control the temperature and air quality in the room automatically, based on the preferences of the RoomUsers.\par%0D
+}%0D
+</_body>
+			<reqID type="a">1a</reqID>
 			<AggregatesList type="e">
+				<value>GUID e99b6908-65ef-4d4c-a46e-6aaaee60456e</value>
 				<value>GUID 85f88888-b279-4ad3-b30e-f8a83f7dfc9a</value>
 				<value>GUID 47c2704b-6ebb-4dab-beb1-cf522266c073</value>
 			</AggregatesList>
 		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID e99b6908-65ef-4d4c-a46e-6aaaee60456e</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">HVAC_NFR</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::14:38:35</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::14:38:35</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 7a75c691-d844-4aca-aa21-53152b5e5adb</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 1d232caf-206e-4fae-8371-b71a01f41c89</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
 		<IRequirement type="e">
 			<_id type="a">GUID 85f88888-b279-4ad3-b30e-f8a83f7dfc9a</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Temperature_FR</_name>
-			<_modifiedTimeWeak type="a">4.16.2024::8:2:16</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.16.2024::8:2:16</_modifiedTime>
-			<_lastID type="a">1</_lastID>
+			<_modifiedTimeWeak type="a">4.16.2024::15:0:2</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::15:0:2</_modifiedTime>
+			<_lastID type="a">4</_lastID>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 The system should be able to change and maintain a certain temperature using the HVAC system.\par%0D
 }%0D
 </_body>
-			<reqID type="a">3</reqID>
+			<reqID type="a">1.1a</reqID>
 			<AggregatesList type="e">
+				<value>GUID e28bcb44-d266-4ee3-a04b-0743d31e09cf</value>
+				<value>GUID 5d7f378c-3abc-40cb-8803-c04b5afd9ce9</value>
 				<value>GUID 8a507721-ef8d-4bc0-aada-6da23e023301</value>
 				<value>GUID 50f48aa9-69ce-4017-aa0d-fc4f9486b754</value>
 			</AggregatesList>
 		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID e28bcb44-d266-4ee3-a04b-0743d31e09cf</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">Temperature_NFR</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::14:50:50</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::14:15:35</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID c76cf18c-88fe-4a96-bff0-b94f986cee01</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 85f88888-b279-4ad3-b30e-f8a83f7dfc9a</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 5d7f378c-3abc-40cb-8803-c04b5afd9ce9</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">Temperature_NFR_0</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::14:59:50</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::14:59:50</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID c76cf18c-88fe-4a96-bff0-b94f986cee01</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 85f88888-b279-4ad3-b30e-f8a83f7dfc9a</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
 		<IRequirement type="e">
 			<_id type="a">GUID 8a507721-ef8d-4bc0-aada-6da23e023301</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">TemperatureUserControl_FR</_name>
-			<_modifiedTimeWeak type="a">4.16.2024::7:23:23</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.16.2024::7:23:23</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.16.2024::15:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::15:0:0</_modifiedTime>
+			<_lastID type="a">3</_lastID>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 The RoomUser should be able to change the temperature to a desiredTemp on a touch panel.\par%0D
 }%0D
 </_body>
+			<reqID type="a">1.1.3a</reqID>
+			<AggregatesList type="e">
+				<value>GUID 3cb321c8-c457-48f9-b7db-f34abda01420</value>
+				<value>GUID aeb3d501-dff5-4aeb-83e4-85677a84d3e0</value>
+			</AggregatesList>
 		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID 3cb321c8-c457-48f9-b7db-f34abda01420</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">TemperatureUserControl_NFR</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::14:50:49</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::14:15:44</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 1acd31aa-3211-4f8c-bac3-e4ceb5161ce6</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 8a507721-ef8d-4bc0-aada-6da23e023301</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID aeb3d501-dff5-4aeb-83e4-85677a84d3e0</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">TemperatureUserControl_NFR_0</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::15:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::15:0:0</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 1acd31aa-3211-4f8c-bac3-e4ceb5161ce6</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 8a507721-ef8d-4bc0-aada-6da23e023301</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
 		<IRequirement type="e">
 			<_id type="a">GUID 50f48aa9-69ce-4017-aa0d-fc4f9486b754</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">TemperatureDefault_FR</_name>
-			<_modifiedTimeWeak type="a">4.16.2024::8:2:16</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.16.2024::8:2:16</_modifiedTime>
-			<_lastID type="a">1</_lastID>
+			<_modifiedTimeWeak type="a">4.16.2024::15:0:2</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::15:0:2</_modifiedTime>
+			<_lastID type="a">5</_lastID>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 The temperature should be set to a defaultTemp when there is no one in the room.\par%0D
 }%0D
 </_body>
+			<reqID type="a">1.1.2a</reqID>
+			<AggregatesList type="e">
+				<value>GUID 69853207-e199-47ea-b5b9-be68d1010780</value>
+				<value>GUID e671043a-c409-4298-a35d-3d1aa6cd5c1f</value>
+			</AggregatesList>
 		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID 69853207-e199-47ea-b5b9-be68d1010780</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">TemperatureDefault_NFR</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::14:15:59</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::14:15:59</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 673fe883-7946-481f-b0ea-9ee6b949f336</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 50f48aa9-69ce-4017-aa0d-fc4f9486b754</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID e671043a-c409-4298-a35d-3d1aa6cd5c1f</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">TemperatureDefault_NFR_0</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::15:0:2</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::15:0:2</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 673fe883-7946-481f-b0ea-9ee6b949f336</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 50f48aa9-69ce-4017-aa0d-fc4f9486b754</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
 		<IRequirement type="e">
 			<_id type="a">GUID 47c2704b-6ebb-4dab-beb1-cf522266c073</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">AirQuality_FR</_name>
-			<_modifiedTimeWeak type="a">4.16.2024::10:2:23</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.16.2024::10:2:23</_modifiedTime>
-			<_lastID type="a">4</_lastID>
+			<_modifiedTimeWeak type="a">4.16.2024::15:2:19</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::15:2:19</_modifiedTime>
+			<_lastID type="a">8</_lastID>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 The system should be able to maintain a healthy air quality in the room.\par%0D
 }%0D
 </_body>
+			<reqID type="a">1.2a</reqID>
 			<AggregatesList type="e">
+				<value>GUID 0419e5d1-9328-412f-b40f-cb0852734618</value>
+				<value>GUID bac68376-db78-4b86-ba43-159f4db259ab</value>
 				<value>GUID d1d70a82-2285-4060-99ea-7a6e082f83cc</value>
 				<value>GUID 5d1674bb-1bf0-4063-a9ad-ac98a485951a</value>
 				<value>GUID 0d4cd56d-d3d5-456d-8ec1-a39ec1fb621f</value>
 			</AggregatesList>
 		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID 0419e5d1-9328-412f-b40f-cb0852734618</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">AirQuality_NFR</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::14:13:57</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::14:13:57</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 94d44336-dfd5-432c-88af-9559f95e38bf</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 47c2704b-6ebb-4dab-beb1-cf522266c073</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID bac68376-db78-4b86-ba43-159f4db259ab</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">AirQuality_NFR_0</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::15:2:2</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::15:2:2</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 94d44336-dfd5-432c-88af-9559f95e38bf</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 47c2704b-6ebb-4dab-beb1-cf522266c073</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
 		<IRequirement type="e">
 			<_id type="a">GUID d1d70a82-2285-4060-99ea-7a6e082f83cc</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">AirQualityControl_FR</_name>
-			<_modifiedTimeWeak type="a">4.16.2024::8:38:42</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.16.2024::8:38:42</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.16.2024::14:14:30</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::14:14:30</_modifiedTime>
+			<_lastID type="a">1</_lastID>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 The system should be able to change and maintain a certain air quality using the HVAC system.\par%0D
 }%0D
 </_body>
+			<reqID type="a">1.2.1a</reqID>
+			<AggregatesList type="e">
+				<value>GUID 09b8ef86-7987-4c55-97b4-6ef1bf15a0a0</value>
+			</AggregatesList>
 		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID 09b8ef86-7987-4c55-97b4-6ef1bf15a0a0</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">AirQualityControl_NFR</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::14:14:30</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::14:14:30</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID ee7c1163-935b-429e-87ca-6f004b52209f</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID d1d70a82-2285-4060-99ea-7a6e082f83cc</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
 		<IRequirement type="e">
 			<_id type="a">GUID 5d1674bb-1bf0-4063-a9ad-ac98a485951a</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">AirQualitySettings_FR</_name>
-			<_modifiedTimeWeak type="a">4.16.2024::10:1:7</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.16.2024::10:1:7</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.16.2024::15:2:9</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::15:2:9</_modifiedTime>
+			<_lastID type="a">2</_lastID>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 The desired air quality should depend on the time-of-day and whether there is someone in the room or not.\par%0D
 }%0D
 </_body>
+			<reqID type="a">1.2.3a</reqID>
+			<AggregatesList type="e">
+				<value>GUID c076f3e2-d19d-47ff-938f-ade19b022679</value>
+				<value>GUID 26921f79-c213-4543-ba8e-109c9fb74a63</value>
+			</AggregatesList>
 		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID c076f3e2-d19d-47ff-938f-ade19b022679</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">AirQualitySettings_NFR</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::14:14:24</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::14:14:24</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 4a5dd4ac-20ff-44ea-b036-d8742afbc003</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 5d1674bb-1bf0-4063-a9ad-ac98a485951a</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 26921f79-c213-4543-ba8e-109c9fb74a63</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">AirQualitySettings_NFR_0</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::15:2:9</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::15:2:9</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 4a5dd4ac-20ff-44ea-b036-d8742afbc003</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 5d1674bb-1bf0-4063-a9ad-ac98a485951a</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
 		<IRequirement type="e">
 			<_id type="a">GUID 0d4cd56d-d3d5-456d-8ec1-a39ec1fb621f</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">AirQualityMeasurement_FR</_name>
-			<_modifiedTimeWeak type="a">4.16.2024::10:2:23</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.16.2024::10:2:23</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.16.2024::15:2:19</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::15:2:19</_modifiedTime>
+			<_lastID type="a">2</_lastID>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 The air quality should be determined by the humidity and amount of CO2 in the room.\par%0D
 }%0D
 </_body>
+			<reqID type="a">1.2.2a</reqID>
+			<AggregatesList type="e">
+				<value>GUID 0c1528e8-d644-4caa-a561-31b1d84daf7d</value>
+				<value>GUID 0fa1537a-d8d7-4d38-ab93-8e9a77014ee9</value>
+			</AggregatesList>
 		</IRequirement>
-		<IRequirement type="e">
-			<_id type="a">GUID 0d4efc47-7a13-4866-b345-8bd57827c7d1</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">SRS_NFR</_name>
-			<_modifiedTimeWeak type="a">4.15.2024::14:38:10</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.15.2024::14:38:10</_modifiedTime>
-		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID 0c1528e8-d644-4caa-a561-31b1d84daf7d</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">AirQualityMeasurement_NFR</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::14:14:16</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::14:14:16</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 61659b33-384c-493c-b431-c854a2921f50</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 0d4cd56d-d3d5-456d-8ec1-a39ec1fb621f</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 0fa1537a-d8d7-4d38-ab93-8e9a77014ee9</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">AirQualityControl_NFR</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::15:2:19</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::15:2:19</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID ee7c1163-935b-429e-87ca-6f004b52209f</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 0d4cd56d-d3d5-456d-8ec1-a39ec1fb621f</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
 		<IRequirement type="e">
 			<_id type="a">GUID 1e4aa10c-d89a-465c-81ec-26786cd398c6</_id>
 			<_myState type="a">8192</_myState>
@@ -163,20 +460,223 @@
 			<_modifiedTime type="a">4.15.2024::14:57:40</_modifiedTime>
 		</IRequirement>
 		<IRequirement type="e">
+			<_id type="a">GUID 28843ec9-816b-47a8-a660-b9b23646eb57</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">AudioVideo_FR</_name>
+			<_modifiedTimeWeak type="a">4.15.2024::15:2:44</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.15.2024::15:0:8</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20\par%0D
+}%0D
+</_body>
+		</IRequirement>
+		<IRequirement type="e">
 			<_id type="a">GUID 1a278ebe-d099-407b-80d3-d051af5f05b6</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Lightning_FR</_name>
 			<_modifiedTimeWeak type="a">4.15.2024::15:2:44</_modifiedTimeWeak>
 			<_modifiedTime type="a">4.15.2024::14:59:45</_modifiedTime>
 		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 7a75c691-d844-4aca-aa21-53152b5e5adb</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">HVAC_NFR</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::14:53:31</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::14:53:31</_modifiedTime>
+			<_lastID type="a">3</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The system should be more energy efficient than a classical thermostat and airconditioning while also increasing user comfort. \par%0D
+}%0D
+</_body>
+			<reqID type="a">1b</reqID>
+			<AggregatesList type="e">
+				<value>GUID 94d44336-dfd5-432c-88af-9559f95e38bf</value>
+				<value>GUID c76cf18c-88fe-4a96-bff0-b94f986cee01</value>
+			</AggregatesList>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 94d44336-dfd5-432c-88af-9559f95e38bf</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">AirQuality_NFR</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::13:19:19</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::13:19:19</_modifiedTime>
+			<_lastID type="a">3</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The system has to meet the air quality requirements of Bouwbesluit 2012.\par%0D
+}%0D
+</_body>
+			<reqID type="a">1.2b</reqID>
+			<AggregatesList type="e">
+				<value>GUID ee7c1163-935b-429e-87ca-6f004b52209f</value>
+				<value>GUID 61659b33-384c-493c-b431-c854a2921f50</value>
+				<value>GUID 4a5dd4ac-20ff-44ea-b036-d8742afbc003</value>
+			</AggregatesList>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID ee7c1163-935b-429e-87ca-6f004b52209f</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">AirQualityControl_NFR</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::13:14:39</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::13:14:39</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The system be able decrease the CO2 PPM by a speed of 200 ppm every 15 minutes and 5%25 humidity every 15 minutes. \par%0D
+}%0D
+</_body>
+			<reqID type="a">1.2.1b</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 61659b33-384c-493c-b431-c854a2921f50</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">AirQualityMeasurement_NFR</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::13:16:30</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::13:16:30</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The system should measure average room CO2 in ppm with an accuracy of 50 ppm. The humidity should be measured in %25 with an accuracy of 5%25.  \par%0D
+}%0D
+</_body>
+			<reqID type="a">1.2.2b</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 4a5dd4ac-20ff-44ea-b036-d8742afbc003</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">AirQualitySettings_NFR</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::13:19:19</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::13:19:19</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The system should be below 800 ppm during work hours and if someone is present in the room. The system should be below 1000 after work hours and if no one is present in the room. The humidity should be between 40 - 60%25 after work hours and between 45 - 55%25 during work hours or if someone is present in the room.\par%0D
+}%0D
+</_body>
+			<reqID type="a">1.2.3b</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID c76cf18c-88fe-4a96-bff0-b94f986cee01</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Temperature_NFR</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::14:53:31</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::14:53:31</_modifiedTime>
+			<_lastID type="a">3</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The system should be able to decrease/increase the temperature by 1 degree every 15 minutes.\par%0D
+}%0D
+</_body>
+			<reqID type="a">1.1b</reqID>
+			<AggregatesList type="e">
+				<value>GUID 648628b4-6fe7-4ea3-8faa-110e2960c6d8</value>
+				<value>GUID 673fe883-7946-481f-b0ea-9ee6b949f336</value>
+				<value>GUID 1acd31aa-3211-4f8c-bac3-e4ceb5161ce6</value>
+			</AggregatesList>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 648628b4-6fe7-4ea3-8faa-110e2960c6d8</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">TemperatureMeasure_NFR</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::13:51:24</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::13:51:24</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The system should measure the temperature with an accuracy of 0.5 degree Celcius.\par%0D
+}%0D
+</_body>
+			<reqID type="a">1.1.1b</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 673fe883-7946-481f-b0ea-9ee6b949f336</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">TemperatureDefault_NFR</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::14:0:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::14:0:17</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The system should change to defaultTemp after no one is in the room for 10 minutes.\par%0D
+}%0D
+</_body>
+			<reqID type="a">1.1.2b</reqID>
+			<AggregatesList type="e">
+				<value>GUID 3f89a71d-fc4b-4d83-8aa7-eedc9bf7d2e2</value>
+			</AggregatesList>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 3f89a71d-fc4b-4d83-8aa7-eedc9bf7d2e2</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">ChangeDefaultTemp_NFR</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::13:59:37</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::13:59:37</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The system should be set to defaultTemp = 18 outside of working hours, defaultTemp = 20 during working hours. If the weather outside is between 18 and 23 degree Celcius outside of working hours, do not cool and do not heat the room. If the weather outside is between 20 and 23 degree Celcius during working hours, do not cool and do not heat the room. This only applies when defaultTemp applies.\par%0D
+}%0D
+</_body>
+			<reqID type="a">1.1.2.1b</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 1acd31aa-3211-4f8c-bac3-e4ceb5161ce6</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">TemperatureUserControl_NFR</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::14:53:31</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::14:53:31</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The user should have a positive experience adjusting the desiredTemperature.\par%0D
+}%0D
+</_body>
+			<reqID type="a">1.1.3b</reqID>
+			<AggregatesList type="e">
+				<value>GUID 7c6f756a-23fa-4d10-8be6-d9f6973f15ab</value>
+			</AggregatesList>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 7c6f756a-23fa-4d10-8be6-d9f6973f15ab</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">DisplayTemperature_NFR</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::14:53:31</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::14:53:31</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The temperature should clearly be readable by the RoomUser.\par%0D
+}%0D
+</_body>
+			<reqID type="a">1.1.3.1b</reqID>
+			<AggregatesList type="e">
+				<value>GUID 6289cbdb-013f-48a6-9750-fb130ee91b29</value>
+			</AggregatesList>
+		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID 6289cbdb-013f-48a6-9750-fb130ee91b29</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">TemperatureDefault_NFR</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Allocation</_hsubsystem>
+							<_hname type="a">allocate</_hname>
+							<_hid type="a">GUID 71e4a680-c847-499c-8160-bc05f6a1f2eb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.16.2024::14:53:31</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::14:53:31</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 673fe883-7946-481f-b0ea-9ee6b949f336</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 7c6f756a-23fa-4d10-8be6-d9f6973f15ab</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
 		<IClass type="e">
 			<_id type="a">GUID 7d95804e-0fb4-46ba-a770-3430206dad9f</_id>
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
-			<_modifiedTimeWeak type="a">4.15.2024::14:39:7</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.16.2024::15:5:18</_modifiedTimeWeak>
 			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<weakCGTime type="a">4.15.2024::14:39:7</weakCGTime>
-			<strongCGTime type="a">4.15.2024::14:39:7</strongCGTime>
+			<weakCGTime type="a">4.16.2024::15:5:18</weakCGTime>
+			<strongCGTime type="a">4.16.2024::15:5:18</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
