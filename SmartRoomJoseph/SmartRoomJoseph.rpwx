@@ -22,10 +22,10 @@
 								<m_nLength type="a">44</m_nLength>
 								<m_nFlags type="a">2</m_nFlags>
 								<m_showCmd type="a">3</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_ptMinPositionX type="a">0</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">422</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-9</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-38</m_ptMaxPositionY>
 								<m_nLeft type="a">156</m_nLeft>
 								<m_nTop type="a">156</m_nTop>
 								<m_nRight type="a">1182</m_nRight>
@@ -36,16 +36,48 @@
 						<_theDiagram type="r">
 							<IHandle type="e">
 								<_hm2Class type="a">IDiagram</_hm2Class>
-								<_hfilename type="a">.\SmartRoomJoseph_rpy\REQUIREMENTS.sbsx</_hfilename>
-								<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS</_hsubsystem>
+								<_hfilename type="a">.\SmartRoomJoseph_rpy\ReqDiagrams.sbsx</_hfilename>
+								<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::ReqDiagrams</_hsubsystem>
 								<_hname type="a">GeneralRequirements</_hname>
 								<_hid type="a">GUID 44475863-5475-488d-8d8b-d1dee102f214</_hid>
 							</IHandle>
 						</_theDiagram>
-						<_UpLeft type="a">7 188 </_UpLeft>
-						<_DownRight type="a">1037 785 </_DownRight>
-						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
+						<_UpLeft type="a">60 -13 </_UpLeft>
+						<_DownRight type="a">1450 776 </_DownRight>
+						<m_nDiagramIndex type="a">1</m_nDiagramIndex>
 						<m_bIsActiveView type="a">1</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-9</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-38</m_ptMaxPositionY>
+								<m_nLeft type="a">32</m_nLeft>
+								<m_nTop type="a">32</m_nTop>
+								<m_nRight type="a">1503</m_nRight>
+								<m_nBottom type="a">654</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IDiagram</_hm2Class>
+								<_hfilename type="a">.\SmartRoomJoseph_rpy\ReqDiagrams.sbsx</_hfilename>
+								<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::ReqDiagrams</_hsubsystem>
+								<_hname type="a">GeneralRequirements_copy</_hname>
+								<_hid type="a">GUID d555ece8-7d9b-4279-90b6-c7567a744896</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">268 0 </_UpLeft>
+						<_DownRight type="a">1696 550 </_DownRight>
+						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
 				</IRPYRawContainer>

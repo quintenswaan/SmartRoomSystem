@@ -12,14 +12,14 @@
 			<_id type="a">GUID 4edef5aa-0b08-4591-a420-b210fd43f3cf</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">GeneralRequirements</_name>
-			<_modifiedTimeWeak type="a">4.16.2024::13:33:22</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.16.2024::13:35:22</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.16.2024::14:26:8</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::14:28:39</_modifiedTime>
 			<_lastID type="a">5</_lastID>
-			<weakCGTime type="a">4.16.2024::13:33:22</weakCGTime>
+			<weakCGTime type="a">4.16.2024::14:26:8</weakCGTime>
 			<strongCGTime type="a">4.16.2024::12:3:52</strongCGTime>
 			<_defaultComposite type="s">GUID 7d95804e-0fb4-46ba-a770-3430206dad9f</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
-			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<_configurationRelatedTime type="a">4.16.2024::14:26:8</_configurationRelatedTime>
 			<AggregatesList type="e">
 				<value>GUID 4ec087e8-932e-4d60-85af-22978a3d35ba</value>
 				<value>GUID 7d95804e-0fb4-46ba-a770-3430206dad9f</value>
@@ -29,8 +29,8 @@
 			<_id type="a">GUID 4ec087e8-932e-4d60-85af-22978a3d35ba</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">SRS_Requirements</_name>
-			<_modifiedTimeWeak type="a">4.16.2024::13:33:22</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.16.2024::13:33:22</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.16.2024::14:10:30</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::14:10:30</_modifiedTime>
 			<_lastID type="a">7</_lastID>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 The system should satisfy all functional and non-functional requirements\par%0D
@@ -153,10 +153,6 @@
 			<_id type="a">GUID 0d4efc47-7a13-4866-b345-8bd57827c7d1</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">SRS_NFR</_name>
-			<Annotations type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Annotations>
 			<_modifiedTimeWeak type="a">4.16.2024::13:6:14</_modifiedTimeWeak>
 			<_modifiedTime type="a">4.15.2024::14:38:10</_modifiedTime>
 		</IRequirement>
@@ -164,14 +160,13 @@
 			<_id type="a">GUID 1e4aa10c-d89a-465c-81ec-26786cd398c6</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">SecurityAndAcces_FR</_name>
-			<_modifiedTimeWeak type="a">4.16.2024::13:33:22</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.16.2024::13:33:22</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.16.2024::14:10:30</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::14:10:30</_modifiedTime>
 			<_lastID type="a">4</_lastID>
 			<_body type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\ltrpar\lang1043\kerning2\f0\fs24 The SRS must ensure user security and accessibility.\lang1033\kerning0\f1\fs20\par%0D
 }%0D
 </_body>
-			<reqID type="a">4</reqID>
 			<AggregatesList type="e">
 				<value>GUID 76d59cc7-51e2-4648-8770-faf790ebd308</value>
 				<value>GUID 1d8be49f-4c90-487f-b6d2-f3876c84b0fb</value>
