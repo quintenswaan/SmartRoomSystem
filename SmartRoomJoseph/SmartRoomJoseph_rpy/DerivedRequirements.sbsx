@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0</version>
+	<lang>C++</lang>
+	<BuildNo>202002261110</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 96d34362-caac-495e-8461-a8e03c92d759</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">DerivedRequirements</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::13:30:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::13:35:22</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<weakCGTime type="a">4.16.2024::13:30:22</weakCGTime>
+			<strongCGTime type="a">4.16.2024::12:20:55</strongCGTime>
+			<_defaultComposite type="s">GUID b5ffaa7a-ac7c-4079-bc97-f130456169ef</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">4.16.2024::12:29:45</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 1061bb5b-437f-4ab1-9bb3-b66ef1933b10</value>
+				<value>GUID 7352380f-a00d-4841-94d8-1ce9c7595651</value>
+				<value>GUID 2228ce97-f31a-47ff-855b-fd50105b967a</value>
+				<value>GUID c331d640-26ba-4b67-a5d7-3d39da3f1374</value>
+				<value>GUID cd28173c-f10c-4054-bc96-009d7ba990d6</value>
+				<value>GUID b5ffaa7a-ac7c-4079-bc97-f130456169ef</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IRequirement type="e">
+			<_id type="a">GUID 1061bb5b-437f-4ab1-9bb3-b66ef1933b10</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">ChangeDefaultTemp_FR</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::11:10:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::11:10:18</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 defaultTemp should depend on the time-of-day and the weather forecasts to save energy.\par%0D
+}%0D
+</_body>
+			<AggregatesList type="e">
+				<value>GUID 35d3c3f7-bd9c-4937-9d17-502c4d5b604d</value>
+			</AggregatesList>
+		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID 35d3c3f7-bd9c-4937-9d17-502c4d5b604d</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">TemperatureDefault_FR</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">derive</_hname>
+							<_hid type="a">GUID 77e51128-5c12-48fa-9a18-d782ae0ec76a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.16.2024::8:2:21</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::8:2:21</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\GeneralRequirements.sbsx</_hfilename>
+					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::GeneralRequirements</_hsubsystem>
+					<_hname type="a">TemperatureDefault_FR</_hname>
+					<_hid type="a">GUID 50f48aa9-69ce-4017-aa0d-fc4f9486b754</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 1061bb5b-437f-4ab1-9bb3-b66ef1933b10</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IRequirement type="e">
+			<_id type="a">GUID 7352380f-a00d-4841-94d8-1ce9c7595651</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">DisplayTemperature_FR</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::11:10:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::11:10:18</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The current temperature should be displayed on the touch panel.\par%0D
+}%0D
+</_body>
+			<AggregatesList type="e">
+				<value>GUID da98dc35-9948-4694-b083-abc019a97c55</value>
+			</AggregatesList>
+		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID da98dc35-9948-4694-b083-abc019a97c55</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">TemperatureUserControl_FR</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">derive</_hname>
+							<_hid type="a">GUID 77e51128-5c12-48fa-9a18-d782ae0ec76a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.16.2024::8:2:8</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::8:2:8</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\GeneralRequirements.sbsx</_hfilename>
+					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::GeneralRequirements</_hsubsystem>
+					<_hname type="a">TemperatureUserControl_FR</_hname>
+					<_hid type="a">GUID 8a507721-ef8d-4bc0-aada-6da23e023301</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 7352380f-a00d-4841-94d8-1ce9c7595651</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IRequirement type="e">
+			<_id type="a">GUID 2228ce97-f31a-47ff-855b-fd50105b967a</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">TemperatureMeasure_FR</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::11:10:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::11:10:18</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The system should be able to measure the temperature in the room.\par%0D
+}%0D
+</_body>
+			<AggregatesList type="e">
+				<value>GUID b4988e78-d9d1-4a1c-b8a7-8f44dc5d8e8e</value>
+			</AggregatesList>
+		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID b4988e78-d9d1-4a1c-b8a7-8f44dc5d8e8e</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">Temperature_FR</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">derive</_hname>
+							<_hid type="a">GUID 77e51128-5c12-48fa-9a18-d782ae0ec76a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.16.2024::8:13:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::8:13:14</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\GeneralRequirements.sbsx</_hfilename>
+					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::GeneralRequirements</_hsubsystem>
+					<_hname type="a">Temperature_FR</_hname>
+					<_hid type="a">GUID 85f88888-b279-4ad3-b30e-f8a83f7dfc9a</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 2228ce97-f31a-47ff-855b-fd50105b967a</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<ISubsystem type="e">
+			<fileName type="a">CommunicationMedia</fileName>
+			<_id type="a">GUID c331d640-26ba-4b67-a5d7-3d39da3f1374</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">SecurityAndAccess</fileName>
+			<_id type="a">GUID cd28173c-f10c-4054-bc96-009d7ba990d6</_id>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID b5ffaa7a-ac7c-4079-bc97-f130456169ef</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::12:3:52</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">4.16.2024::12:3:52</weakCGTime>
+			<strongCGTime type="a">4.16.2024::12:3:52</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

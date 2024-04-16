@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0</version>
+	<lang>C++</lang>
+	<BuildNo>202002261110</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID cd28173c-f10c-4054-bc96-009d7ba990d6</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SecurityAndAccess</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::13:36:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::13:36:33</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<weakCGTime type="a">4.16.2024::13:36:33</weakCGTime>
+			<strongCGTime type="a">4.16.2024::13:30:33</strongCGTime>
+			<_defaultComposite type="s">GUID 43d704d7-46a3-488d-9f36-1714aef6921c</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.1.1970::1:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 0a18337c-690e-4398-ae4d-fbecb81736e6</value>
+				<value>GUID 9430b989-a72c-4975-86fa-b72adc3b49e8</value>
+				<value>GUID 43d704d7-46a3-488d-9f36-1714aef6921c</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IRequirement type="e">
+			<_id type="a">GUID 0a18337c-690e-4398-ae4d-fbecb81736e6</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">LocalDataBase_FR</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::13:35:30</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::13:35:30</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The SRS must has local data base to save temporary files.\par%0D
+}%0D
+</_body>
+			<reqID type="a">4.1.1</reqID>
+			<AggregatesList type="e">
+				<value>GUID bf4086f9-2fd9-4136-84ef-3dd215032294</value>
+			</AggregatesList>
+		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID bf4086f9-2fd9-4136-84ef-3dd215032294</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">DataCleanup_FR</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">derive</_hname>
+							<_hid type="a">GUID 77e51128-5c12-48fa-9a18-d782ae0ec76a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.16.2024::13:35:30</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::13:35:30</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\GeneralRequirements.sbsx</_hfilename>
+					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::GeneralRequirements</_hsubsystem>
+					<_hname type="a">DataCleanup_FR</_hname>
+					<_hid type="a">GUID 1d8be49f-4c90-487f-b6d2-f3876c84b0fb</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 0a18337c-690e-4398-ae4d-fbecb81736e6</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IRequirement type="e">
+			<_id type="a">GUID 9430b989-a72c-4975-86fa-b72adc3b49e8</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">GlobalDataBase_FR</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::13:36:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::13:36:33</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The SRS must has global data base to store room schedules.\par%0D
+}%0D
+</_body>
+			<reqID type="a">4.4.1</reqID>
+			<AggregatesList type="e">
+				<value>GUID 6b0d172e-fa56-4fde-8c4b-ad68e78fa883</value>
+			</AggregatesList>
+		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID 6b0d172e-fa56-4fde-8c4b-ad68e78fa883</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">RoomScheduler_FR</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">derive</_hname>
+							<_hid type="a">GUID 77e51128-5c12-48fa-9a18-d782ae0ec76a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.16.2024::13:36:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::13:36:33</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\GeneralRequirements.sbsx</_hfilename>
+					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::GeneralRequirements</_hsubsystem>
+					<_hname type="a">RoomScheduler_FR</_hname>
+					<_hid type="a">GUID 76d59cc7-51e2-4648-8770-faf790ebd308</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 9430b989-a72c-4975-86fa-b72adc3b49e8</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IClass type="e">
+			<_id type="a">GUID 43d704d7-46a3-488d-9f36-1714aef6921c</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

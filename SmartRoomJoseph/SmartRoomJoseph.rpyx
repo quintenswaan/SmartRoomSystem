@@ -24,8 +24,8 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.16.2024::11:27:42</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.16.2024::11:27:42</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.16.2024::12:5:8</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::12:14:20</_modifiedTime>
 			<_UserColors type="w">
 				<IRPYRawContainer type="e">
 					<value>16777215</value>
@@ -98,10 +98,7 @@
 				<value>GUID 5717d983-7bb5-4aba-bdc8-41bcb977f568</value>
 				<value>GUID e579b3aa-e3e3-4ac3-86a3-3cb7d23842a5</value>
 				<value>GUID 78b86f4c-637a-4fb9-b008-8cd0e85928a2</value>
-				<value>GUID 46ff2c44-3e09-425c-bfd5-5652c96ec3ee</value>
-				<value>GUID f8b0ed6f-3315-4281-b267-aec7373f71e4</value>
-				<value>GUID 659333a9-6b45-46fe-82d0-a79599488491</value>
-				<value>GUID c2326b35-523c-4079-8070-413a37759744</value>
+				<value>GUID fb78b107-cb02-4b4d-9315-b3afd60bf0a7</value>
 				<value>GUID 77a68f3b-3622-42ad-ab90-9b02798e40de</value>
 				<value>GUID 089254b1-b71a-4be9-b410-c99b68841bd2</value>
 			</AggregatesList>
@@ -156,20 +153,8 @@
 			<_id type="a">GUID 78b86f4c-637a-4fb9-b008-8cd0e85928a2</_id>
 		</ISubsystem>
 		<ISubsystem type="e">
-			<fileName type="a">Problem_Statement</fileName>
-			<_id type="a">GUID 46ff2c44-3e09-425c-bfd5-5652c96ec3ee</_id>
-		</ISubsystem>
-		<ISubsystem type="e">
-			<fileName type="a">Requirement_Diagram</fileName>
-			<_id type="a">GUID f8b0ed6f-3315-4281-b267-aec7373f71e4</_id>
-		</ISubsystem>
-		<ISubsystem type="e">
-			<fileName type="a">System_Context_Diagram</fileName>
-			<_id type="a">GUID 659333a9-6b45-46fe-82d0-a79599488491</_id>
-		</ISubsystem>
-		<ISubsystem type="e">
-			<fileName type="a">User_Case_Diagram</fileName>
-			<_id type="a">GUID c2326b35-523c-4079-8070-413a37759744</_id>
+			<fileName type="a">SYSTEM_ANALYSIS</fileName>
+			<_id type="a">GUID fb78b107-cb02-4b4d-9315-b3afd60bf0a7</_id>
 		</ISubsystem>
 		<IDiagram type="e">
 			<_id type="a">GUID 77a68f3b-3622-42ad-ab90-9b02798e40de</_id>

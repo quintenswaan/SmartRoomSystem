@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0</version>
+	<lang>C++</lang>
+	<BuildNo>202002261110</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID a38346a9-9e23-477d-9838-e2eda24e10ff</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">ControlSmartDisplay</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::12:44:36</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::12:44:36</_modifiedTime>
+			<_lastID type="a">5</_lastID>
+			<weakCGTime type="a">4.16.2024::12:44:36</weakCGTime>
+			<strongCGTime type="a">4.16.2024::12:30:15</strongCGTime>
+			<_defaultComposite type="s">GUID a325c9ff-9f66-4485-909a-408f9485e9fc</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID c04cb6ab-5795-4a99-bf4a-44752bdee75d</value>
+				<value>GUID 5582842f-27c4-437f-9086-a2db02328643</value>
+				<value>GUID 080ec68d-118a-428f-897c-f6ba83574d1b</value>
+				<value>GUID a8cd3afb-ff6e-41cb-b235-51eb5d2a00ea</value>
+				<value>GUID 028c6845-7516-4e6d-9c09-508b41599714</value>
+				<value>GUID a325c9ff-9f66-4485-909a-408f9485e9fc</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IRequirement type="e">
+			<_id type="a">GUID c04cb6ab-5795-4a99-bf4a-44752bdee75d</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">DetectDispConnectedDevice_FR</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::12:44:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::12:44:32</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_body type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\ltrpar\lang1043\kerning2\f0\fs24 The SRS Smart Display must be able to detect connected device(s) either wireless or wired.\lang1033\kerning0\f1\fs20\par%0D
+}%0D
+</_body>
+			<reqID type="a">3.1.1</reqID>
+			<AggregatesList type="e">
+				<value>GUID 953b6e17-17f3-448c-b340-d5efae2c5000</value>
+			</AggregatesList>
+		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID 953b6e17-17f3-448c-b340-d5efae2c5000</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">ControlSmartDisplay_FR</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">derive</_hname>
+							<_hid type="a">GUID 77e51128-5c12-48fa-9a18-d782ae0ec76a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.16.2024::12:44:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::12:44:32</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\GeneralRequirements.sbsx</_hfilename>
+					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::GeneralRequirements</_hsubsystem>
+					<_hname type="a">ControlSmartDisplay_FR</_hname>
+					<_hid type="a">GUID a3bdb0b9-40d4-45c2-b3f6-f488cfcd0bb7</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID c04cb6ab-5795-4a99-bf4a-44752bdee75d</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IRequirement type="e">
+			<_id type="a">GUID 5582842f-27c4-437f-9086-a2db02328643</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">WriteDisplay_FR</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::12:44:25</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::12:44:25</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<_body type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\ltrpar\lang1043\kerning2\f0\fs24 The SRS Smart Display must provide writing function for the user when it\rquote s on.\lang1033\kerning0\f1\fs20\par%0D
+}%0D
+</_body>
+			<reqID type="a">3.1.2</reqID>
+			<AggregatesList type="e">
+				<value>GUID 0f90b478-8e4e-40b8-b09d-d59d382ae49e</value>
+				<value>GUID 9849497d-58c8-4982-9bfb-ee0d0edcd025</value>
+			</AggregatesList>
+		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID 0f90b478-8e4e-40b8-b09d-d59d382ae49e</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">ControlSmartDisplay_FR</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">derive</_hname>
+							<_hid type="a">GUID 77e51128-5c12-48fa-9a18-d782ae0ec76a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.16.2024::12:44:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::12:44:5</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\GeneralRequirements.sbsx</_hfilename>
+					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::GeneralRequirements</_hsubsystem>
+					<_hname type="a">ControlSmartDisplay_FR</_hname>
+					<_hid type="a">GUID a3bdb0b9-40d4-45c2-b3f6-f488cfcd0bb7</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 5582842f-27c4-437f-9086-a2db02328643</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 9849497d-58c8-4982-9bfb-ee0d0edcd025</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">ControlSmartDisplay_FR_0</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">derive</_hname>
+							<_hid type="a">GUID 77e51128-5c12-48fa-9a18-d782ae0ec76a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.16.2024::12:44:25</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::12:44:25</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\GeneralRequirements.sbsx</_hfilename>
+					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::GeneralRequirements</_hsubsystem>
+					<_hname type="a">ControlSmartDisplay_FR</_hname>
+					<_hid type="a">GUID a3bdb0b9-40d4-45c2-b3f6-f488cfcd0bb7</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 5582842f-27c4-437f-9086-a2db02328643</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IRequirement type="e">
+			<_id type="a">GUID 080ec68d-118a-428f-897c-f6ba83574d1b</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">VideoAudioDataTransfer_FR</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::12:44:29</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::12:44:29</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_body type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\ltrpar\lang1043\kerning2\f0\fs24 The SRS Smart Display must receive video and audio data when connected to a device.\lang1033\kerning0\f1\fs20\par%0D
+}%0D
+</_body>
+			<reqID type="a">3.1.3</reqID>
+			<AggregatesList type="e">
+				<value>GUID bfc4618a-3205-4337-82a3-4b8590c5452a</value>
+			</AggregatesList>
+		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID bfc4618a-3205-4337-82a3-4b8590c5452a</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">ControlSmartDisplay_FR</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">derive</_hname>
+							<_hid type="a">GUID 77e51128-5c12-48fa-9a18-d782ae0ec76a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.16.2024::12:44:29</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::12:44:29</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\GeneralRequirements.sbsx</_hfilename>
+					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::GeneralRequirements</_hsubsystem>
+					<_hname type="a">ControlSmartDisplay_FR</_hname>
+					<_hid type="a">GUID a3bdb0b9-40d4-45c2-b3f6-f488cfcd0bb7</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 080ec68d-118a-428f-897c-f6ba83574d1b</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IRequirement type="e">
+			<_id type="a">GUID a8cd3afb-ff6e-41cb-b235-51eb5d2a00ea</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">DecideBestBrightness_FR</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::12:44:36</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::12:44:36</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_body type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\ltrpar\lang1043\kerning2\f0\fs24 The SRS Smart Display must be able to decide the best brightness level by using the light intensity sensor in the Smart Display (Smart Display is treated as a black box, so the light intensity sensor is not modelled).\lang1033\kerning0\f1\fs20\par%0D
+}%0D
+</_body>
+			<reqID type="a">3.1.4</reqID>
+			<AggregatesList type="e">
+				<value>GUID c5402c6b-d998-4992-9c70-44ccf9cd2d3a</value>
+			</AggregatesList>
+		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID c5402c6b-d998-4992-9c70-44ccf9cd2d3a</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">ControlSmartDisplay_FR</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">derive</_hname>
+							<_hid type="a">GUID 77e51128-5c12-48fa-9a18-d782ae0ec76a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.16.2024::12:44:36</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::12:44:36</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\GeneralRequirements.sbsx</_hfilename>
+					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::GeneralRequirements</_hsubsystem>
+					<_hname type="a">ControlSmartDisplay_FR</_hname>
+					<_hid type="a">GUID a3bdb0b9-40d4-45c2-b3f6-f488cfcd0bb7</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID a8cd3afb-ff6e-41cb-b235-51eb5d2a00ea</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IRequirement type="e">
+			<_id type="a">GUID 028c6845-7516-4e6d-9c09-508b41599714</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">AutoAdjustBrightness_FR</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::12:43:36</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::12:43:36</_modifiedTime>
+			<_body type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\ltrpar\lang1043\kerning2\f0\fs24 The SRS Smart Display must adjust the brightness to the best level that has been decided by itself.\lang1033\kerning0\f1\fs20\par%0D
+}%0D
+</_body>
+			<reqID type="a">3.1.5</reqID>
+		</IRequirement>
+		<IClass type="e">
+			<_id type="a">GUID a325c9ff-9f66-4485-909a-408f9485e9fc</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

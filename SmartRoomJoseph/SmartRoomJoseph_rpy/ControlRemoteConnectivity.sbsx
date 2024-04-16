@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0</version>
+	<lang>C++</lang>
+	<BuildNo>202002261110</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID abf96a96-73f1-4410-be82-fbedc48f87c7</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">ControlRemoteConnectivity</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::13:5:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::13:35:22</_modifiedTime>
+			<_lastID type="a">4</_lastID>
+			<weakCGTime type="a">4.16.2024::13:5:4</weakCGTime>
+			<strongCGTime type="a">4.16.2024::13:2:43</strongCGTime>
+			<_defaultComposite type="s">GUID 7d09a946-cce4-4b93-8933-9356d615ade1</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.1.1970::1:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 48361665-4a2d-4cba-8e55-a53ddd78758d</value>
+				<value>GUID eec02972-74ba-4c92-a5c5-d98a8a645aa1</value>
+				<value>GUID 716a6cb2-fa23-4cf8-9137-21308a0c551c</value>
+				<value>GUID d73b22b7-eaf8-45a1-a9fd-7a6bd5c97730</value>
+				<value>GUID 7d09a946-cce4-4b93-8933-9356d615ade1</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IRequirement type="e">
+			<_id type="a">GUID 48361665-4a2d-4cba-8e55-a53ddd78758d</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">ConnectRemotely_FR</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::13:3:13</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::13:3:13</_modifiedTime>
+			<_body type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\ltrpar\lang1043\kerning2\f0\fs24 The SRS Communication Media must provide user to connect remotely to itself.\lang1033\kerning0\f1\fs20\par%0D
+}%0D
+</_body>
+			<reqID type="a">3.6.1</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID eec02972-74ba-4c92-a5c5-d98a8a645aa1</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">DisconnectRemotely_FR</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::13:5:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::13:5:4</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_body type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\ltrpar\lang1043\kerning2\f0\fs24 The SRS Communication Media must provide user to disconnect remotely to itself.\lang1033\kerning0\f1\fs20\par%0D
+}%0D
+</_body>
+			<reqID type="a">3.6.2</reqID>
+			<AggregatesList type="e">
+				<value>GUID 0cb65bf9-c143-424f-b003-9880c5946663</value>
+			</AggregatesList>
+		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID 0cb65bf9-c143-424f-b003-9880c5946663</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">ControlRemoteConnectivity_FR</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">derive</_hname>
+							<_hid type="a">GUID 77e51128-5c12-48fa-9a18-d782ae0ec76a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.16.2024::13:5:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::13:5:4</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\GeneralRequirements.sbsx</_hfilename>
+					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::GeneralRequirements</_hsubsystem>
+					<_hname type="a">ControlRemoteConnectivity_FR</_hname>
+					<_hid type="a">GUID 0ac79bf4-a782-471e-b247-4c7e4e3c3f8c</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID eec02972-74ba-4c92-a5c5-d98a8a645aa1</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IRequirement type="e">
+			<_id type="a">GUID 716a6cb2-fa23-4cf8-9137-21308a0c551c</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">ShareRemotely_FR</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::13:4:59</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::13:4:59</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_body type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\ltrpar\lang1043\kerning2\f0\fs24 The SRS Communication Media must provide user to share remotely to itself.\lang1033\kerning0\f1\fs20\par%0D
+}%0D
+</_body>
+			<reqID type="a">3.6.3</reqID>
+			<AggregatesList type="e">
+				<value>GUID 2da7eed5-c548-4a97-a06a-60c276192007</value>
+			</AggregatesList>
+		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID 2da7eed5-c548-4a97-a06a-60c276192007</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">ControlRemoteConnectivity_FR</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">derive</_hname>
+							<_hid type="a">GUID 77e51128-5c12-48fa-9a18-d782ae0ec76a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.16.2024::13:4:59</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::13:4:59</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\GeneralRequirements.sbsx</_hfilename>
+					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::GeneralRequirements</_hsubsystem>
+					<_hname type="a">ControlRemoteConnectivity_FR</_hname>
+					<_hid type="a">GUID 0ac79bf4-a782-471e-b247-4c7e4e3c3f8c</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 716a6cb2-fa23-4cf8-9137-21308a0c551c</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IRequirement type="e">
+			<_id type="a">GUID d73b22b7-eaf8-45a1-a9fd-7a6bd5c97730</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">UnshareRemotely_FR</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::13:4:56</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::13:4:56</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<_body type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\ltrpar\lang1043\kerning2\f0\fs24 The SRS Communication Media must provide user to unshare remotely to itself.\lang1033\kerning0\f1\fs20\par%0D
+}%0D
+</_body>
+			<reqID type="a">3.6.4</reqID>
+			<AggregatesList type="e">
+				<value>GUID 1865a147-748b-4cec-9275-3fd10bdb0787</value>
+				<value>GUID 3a022de0-a9e4-490f-a7df-26c706e5dc68</value>
+			</AggregatesList>
+		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID 1865a147-748b-4cec-9275-3fd10bdb0787</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">ControlRemoteConnectivity_FR</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">derive</_hname>
+							<_hid type="a">GUID 77e51128-5c12-48fa-9a18-d782ae0ec76a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.16.2024::13:4:52</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::13:4:52</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\GeneralRequirements.sbsx</_hfilename>
+					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::GeneralRequirements</_hsubsystem>
+					<_hname type="a">ControlRemoteConnectivity_FR</_hname>
+					<_hid type="a">GUID 0ac79bf4-a782-471e-b247-4c7e4e3c3f8c</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID d73b22b7-eaf8-45a1-a9fd-7a6bd5c97730</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 3a022de0-a9e4-490f-a7df-26c706e5dc68</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">ControlRemoteConnectivity_FR_0</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">derive</_hname>
+							<_hid type="a">GUID 77e51128-5c12-48fa-9a18-d782ae0ec76a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.16.2024::13:4:56</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::13:4:56</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\GeneralRequirements.sbsx</_hfilename>
+					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::GeneralRequirements</_hsubsystem>
+					<_hname type="a">ControlRemoteConnectivity_FR</_hname>
+					<_hid type="a">GUID 0ac79bf4-a782-471e-b247-4c7e4e3c3f8c</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID d73b22b7-eaf8-45a1-a9fd-7a6bd5c97730</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IClass type="e">
+			<_id type="a">GUID 7d09a946-cce4-4b93-8933-9356d615ade1</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0</version>
+	<lang>C++</lang>
+	<BuildNo>202002261110</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID d0cade2f-e2b4-45ce-83cf-36338ae1897b</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">ControlMediaConnectivity</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::13:2:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::13:35:22</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<weakCGTime type="a">4.16.2024::13:2:33</weakCGTime>
+			<strongCGTime type="a">4.16.2024::13:1:25</strongCGTime>
+			<_defaultComposite type="s">GUID cc3aed7d-45e4-4c19-8f1f-a8935f0c511a</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.1.1970::1:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID bd51aeef-8f01-400f-bbe7-8c530bb7558d</value>
+				<value>GUID cc3aed7d-45e4-4c19-8f1f-a8935f0c511a</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IRequirement type="e">
+			<_id type="a">GUID bd51aeef-8f01-400f-bbe7-8c530bb7558d</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">ConnectAllMedia_FR</_name>
+			<_modifiedTimeWeak type="a">4.16.2024::13:2:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::13:2:33</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_body type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\ltrpar\lang1043\kerning2\f0\fs24 The SRS control panel must be connected to all the media (Loudspeaker, Display, Microphone).\lang1033\kerning0\f1\fs20\par%0D
+}%0D
+</_body>
+			<reqID type="a">3.5.1</reqID>
+			<AggregatesList type="e">
+				<value>GUID 42e37858-68aa-436d-bdc9-f0d60c53e506</value>
+			</AggregatesList>
+		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID 42e37858-68aa-436d-bdc9-f0d60c53e506</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">ControlMediaConnectivity_FR</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">derive</_hname>
+							<_hid type="a">GUID 77e51128-5c12-48fa-9a18-d782ae0ec76a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.16.2024::13:2:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.16.2024::13:2:33</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\GeneralRequirements.sbsx</_hfilename>
+					<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::GeneralRequirements</_hsubsystem>
+					<_hname type="a">ControlMediaConnectivity_FR</_hname>
+					<_hid type="a">GUID e58a1d54-b458-4f52-aa98-05ea8a2554be</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID bd51aeef-8f01-400f-bbe7-8c530bb7558d</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IClass type="e">
+			<_id type="a">GUID cc3aed7d-45e4-4c19-8f1f-a8935f0c511a</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+
