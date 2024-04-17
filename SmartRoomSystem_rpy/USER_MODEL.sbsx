@@ -12,11 +12,11 @@
 			<_id type="a">GUID 697b8bd6-075f-4677-8098-763f81d85e43</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">USER_MODEL</_name>
-			<_modifiedTimeWeak type="a">4.17.2024::13:34:48</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.17.2024::13:48:35</_modifiedTimeWeak>
 			<_modifiedTime type="a">4.17.2024::13:28:11</_modifiedTime>
 			<_lastID type="a">2</_lastID>
-			<weakCGTime type="a">4.17.2024::13:34:48</weakCGTime>
-			<strongCGTime type="a">4.17.2024::13:34:48</strongCGTime>
+			<weakCGTime type="a">4.17.2024::13:48:35</weakCGTime>
+			<strongCGTime type="a">4.17.2024::13:48:35</strongCGTime>
 			<_defaultComposite type="s">GUID 2b6afeb6-dca0-4441-b670-94e8ee8846ba</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
 			<_configurationRelatedTime type="a">4.17.2024::12:28:18</_configurationRelatedTime>
@@ -512,6 +512,9 @@
 			<m_displayOption type="a">Public</m_displayOption>
 			<m_bShowInherited type="a">0</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
+			<_itemValueOfFontPropertiesMapCount type="a">2</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
 		<CGICompartment type="e">
 			<_id type="a">GUID 09c1b76e-fb84-4c3d-9f2e-240e9f81f8a3</_id>
@@ -519,6 +522,15 @@
 			<m_displayOption type="a">Public</m_displayOption>
 			<m_bShowInherited type="a">0</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
+			<_itemValueOfFontPropertiesMapCount type="a">8</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
 		<CGIObjectInstance type="e">
 			<_id type="a">GUID d3bd53bc-3737-4cda-a52c-970e3351916b</_id>
@@ -637,6 +649,11 @@
 			<m_displayOption type="a">Public</m_displayOption>
 			<m_bShowInherited type="a">0</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
+			<_itemValueOfFontPropertiesMapCount type="a">4</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
 		<CGICompartment type="e">
 			<_id type="a">GUID ee942ba4-b061-4251-966f-a7bed88fad45</_id>
@@ -1067,6 +1084,9 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IState</_hm2Class>
 					<_hfilename type="a">.\SYSTEM_CONTEXT.sbsx</_hfilename>
+					<_hsubsystem type="a">SYSTEM_ANALYSIS::SYSTEM_CONTEXT</_hsubsystem>
+					<_hclass type="a">HVAC</_hclass>
+					<_hname type="a">ROOT.Off</_hname>
 					<_hid type="a">GUID bec029d0-02b8-4d79-b769-04abb78e5506</_hid>
 				</IHandle>
 			</m_pModelObject>
@@ -1143,6 +1163,9 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IState</_hm2Class>
 					<_hfilename type="a">.\SYSTEM_CONTEXT.sbsx</_hfilename>
+					<_hsubsystem type="a">SYSTEM_ANALYSIS::SYSTEM_CONTEXT</_hsubsystem>
+					<_hclass type="a">HVAC</_hclass>
+					<_hname type="a">ROOT.On</_hname>
 					<_hid type="a">GUID 33f4e313-f54d-4653-9ecc-a7323b44e23e</_hid>
 				</IHandle>
 			</m_pModelObject>
@@ -1219,6 +1242,9 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IState</_hm2Class>
 					<_hfilename type="a">.\SYSTEM_CONTEXT.sbsx</_hfilename>
+					<_hsubsystem type="a">SYSTEM_ANALYSIS::SYSTEM_CONTEXT</_hsubsystem>
+					<_hclass type="a">HVAC</_hclass>
+					<_hname type="a">ROOT.On.Heating</_hname>
 					<_hid type="a">GUID f930c93f-127f-4e94-926b-73268804ec66</_hid>
 				</IHandle>
 			</m_pModelObject>
@@ -1295,6 +1321,9 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IState</_hm2Class>
 					<_hfilename type="a">.\SYSTEM_CONTEXT.sbsx</_hfilename>
+					<_hsubsystem type="a">SYSTEM_ANALYSIS::SYSTEM_CONTEXT</_hsubsystem>
+					<_hclass type="a">HVAC</_hclass>
+					<_hname type="a">ROOT.On.Cooling</_hname>
 					<_hid type="a">GUID da55ada8-ed75-4a0b-833d-6937d2716fd3</_hid>
 				</IHandle>
 			</m_pModelObject>
@@ -1339,10 +1368,10 @@
 			<_id type="a">GUID 2b6afeb6-dca0-4441-b670-94e8ee8846ba</_id>
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
-			<_modifiedTimeWeak type="a">4.17.2024::13:34:48</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.17.2024::13:48:35</_modifiedTimeWeak>
 			<_modifiedTime type="a">4.17.2024::13:28:18</_modifiedTime>
-			<weakCGTime type="a">4.17.2024::13:34:48</weakCGTime>
-			<strongCGTime type="a">4.17.2024::13:34:48</strongCGTime>
+			<weakCGTime type="a">4.17.2024::13:48:35</weakCGTime>
+			<strongCGTime type="a">4.17.2024::13:48:35</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
