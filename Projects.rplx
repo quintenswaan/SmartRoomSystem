@@ -14,21 +14,21 @@
 			<_myState type="a">8192</_myState>
 			<_name type="a">Projects</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::11:54:56</_modifiedTime>
+			<_modifiedTime type="a">4.17.2024::14:27:13</_modifiedTime>
 			<AggregatesList type="e">
-				<value>GUID 89bf1b27-680e-4dfe-a91c-b6346ab920b7</value>
 				<value>GUID c4e68525-23da-407c-8953-4e2a03efb7c0</value>
+				<value>GUID 89bf1b27-680e-4dfe-a91c-b6346ab920b7</value>
 			</AggregatesList>
 		</IWorkspace>
-		<IProject type="e">
-			<fileName type="a">SmartRoomJoseph</fileName>
-			<_persistAs type="a">D:\Study\Courses\SysML\Project\SmartRoomSystem\SmartRoomJoseph</_persistAs>
-			<_id type="a">GUID 89bf1b27-680e-4dfe-a91c-b6346ab920b7</_id>
-		</IProject>
 		<IProject type="e">
 			<fileName type="a">SmartRoomSystem</fileName>
 			<_persistAs type="a">D:\Study\Courses\SysML\Project\SmartRoomSystem</_persistAs>
 			<_id type="a">GUID c4e68525-23da-407c-8953-4e2a03efb7c0</_id>
+		</IProject>
+		<IProject type="e">
+			<fileName type="a">SmartRoomJoseph</fileName>
+			<_persistAs type="a">D:\Study\Courses\SysML\Project\SmartRoomSystem\SmartRoomJoseph</_persistAs>
+			<_id type="a">GUID 89bf1b27-680e-4dfe-a91c-b6346ab920b7</_id>
 		</IProject>
 		
 	</RHAPSODY-MODEL>

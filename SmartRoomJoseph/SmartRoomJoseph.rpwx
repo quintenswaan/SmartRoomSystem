@@ -26,26 +26,57 @@
 								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
 								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
 								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
-								<m_nLeft type="a">130</m_nLeft>
-								<m_nTop type="a">130</m_nTop>
-								<m_nRight type="a">1285</m_nRight>
-								<m_nBottom type="a">724</m_nBottom>
+								<m_nLeft type="a">208</m_nLeft>
+								<m_nTop type="a">208</m_nTop>
+								<m_nRight type="a">1415</m_nRight>
+								<m_nBottom type="a">696</m_nBottom>
 							</CCommon_WINDOWPLACEMENT>
 						</_placement>
 						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
 						<_theDiagram type="r">
 							<IHandle type="e">
-								<_hm2Class type="a">IStateChartDiagram</_hm2Class>
-								<_hfilename type="a">.\..\..\..\OneDrive - TU Eindhoven\EngD\Courses\Block 3\System Design Engineering with SysML - 2PDASDSDE\LocalSmartRoomSystem\SmartRoomQuinten\SmartRoomQuinten_rpy\SYSTEM_CONTEXT.sbsx</_hfilename>
+								<_hm2Class type="a">IDiagram</_hm2Class>
+								<_hfilename type="a">.\..\SmartRoomSystem_rpy\OPERATING_ENVIRONMENT.sbsx</_hfilename>
+								<_hsubsystem type="a">SYSTEM_ANALYSIS::OPERATING_ENVIRONMENT</_hsubsystem>
+								<_hname type="a">SRS_OE</_hname>
+								<_hid type="a">GUID 782b43f9-420f-485f-a524-93ede20e6d63</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">-72 0 </_UpLeft>
+						<_DownRight type="a">1098 428 </_DownRight>
+						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_nLeft type="a">182</m_nLeft>
+								<m_nTop type="a">182</m_nTop>
+								<m_nRight type="a">1389</m_nRight>
+								<m_nBottom type="a">670</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IDiagram</_hm2Class>
+								<_hfilename type="a">.\..\SmartRoomSystem_rpy\SYSTEM_CONTEXT.sbsx</_hfilename>
 								<_hsubsystem type="a">SYSTEM_ANALYSIS::SYSTEM_CONTEXT</_hsubsystem>
-								<_hclass type="a">HVAC</_hclass>
-								<_hname type="a">StatechartDiagram</_hname>
-								<_hid type="a">GUID 29bf5bdc-1747-4393-9d20-be00ae4bf0da</_hid>
+								<_hname type="a">SYSTEM_CONTEXT</_hname>
+								<_hid type="a">GUID 22815286-52a9-4ceb-b054-817b1e4b4db0</_hid>
 							</IHandle>
 						</_theDiagram>
 						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">1118 534 </_DownRight>
-						<m_nDiagramIndex type="a">4</m_nDiagramIndex>
+						<_DownRight type="a">1170 428 </_DownRight>
+						<m_nDiagramIndex type="a">1</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
@@ -55,102 +86,6 @@
 								<m_nLength type="a">44</m_nLength>
 								<m_nFlags type="a">2</m_nFlags>
 								<m_showCmd type="a">3</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
-								<m_nLeft type="a">104</m_nLeft>
-								<m_nTop type="a">104</m_nTop>
-								<m_nRight type="a">1285</m_nRight>
-								<m_nBottom type="a">606</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">IDiagram</_hm2Class>
-								<_hfilename type="a">.\SmartRoomJoseph_rpy\OPERATING_ENVIRONMENT.sbsx</_hfilename>
-								<_hsubsystem type="a">SYSTEM_ANALYSIS::OPERATING_ENVIRONMENT</_hsubsystem>
-								<_hname type="a">SRS_OE</_hname>
-								<_hid type="a">GUID 782b43f9-420f-485f-a524-93ede20e6d63</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">-72 0 </_UpLeft>
-						<_DownRight type="a">1322 715 </_DownRight>
-						<m_nDiagramIndex type="a">3</m_nDiagramIndex>
-						<m_bIsActiveView type="a">1</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
-								<m_nLeft type="a">0</m_nLeft>
-								<m_nTop type="a">0</m_nTop>
-								<m_nRight type="a">1207</m_nRight>
-								<m_nBottom type="a">488</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">IPanelDiagram</_hm2Class>
-								<_hfilename type="a">.\SmartRoomJoseph_rpy\USER_MODEL.sbsx</_hfilename>
-								<_hsubsystem type="a">SYSTEM_ANALYSIS::USER_MODEL</_hsubsystem>
-								<_hname type="a">GUI</_hname>
-								<_hid type="a">GUID b4858c3f-5d69-4aee-a57f-54879013378b</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">1205 441 </_DownRight>
-						<m_nDiagramIndex type="a">2</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
-								<m_nLeft type="a">0</m_nLeft>
-								<m_nTop type="a">0</m_nTop>
-								<m_nRight type="a">1155</m_nRight>
-								<m_nBottom type="a">594</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">IDiagram</_hm2Class>
-								<_hfilename type="a">.\SmartRoomJoseph_rpy\USER_MODEL.sbsx</_hfilename>
-								<_hsubsystem type="a">SYSTEM_ANALYSIS::USER_MODEL</_hsubsystem>
-								<_hname type="a">OBJ_SRS</_hname>
-								<_hid type="a">GUID e8e37a96-046a-4c4c-9fae-09a5b1339f56</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">0 6 </_UpLeft>
-						<_DownRight type="a">1118 540 </_DownRight>
-						<m_nDiagramIndex type="a">5</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
 								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
 								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
 								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
@@ -165,21 +100,21 @@
 						<_theDiagram type="r">
 							<IHandle type="e">
 								<_hm2Class type="a">IUCDiagram</_hm2Class>
-								<_hfilename type="a">.\SmartRoomJoseph_rpy\USE_CASES.sbsx</_hfilename>
+								<_hfilename type="a">.\..\SmartRoomSystem_rpy\USE_CASES.sbsx</_hfilename>
 								<_hsubsystem type="a">SYSTEM_ANALYSIS::USE_CASES</_hsubsystem>
 								<_hname type="a">USE_CASE_REMOTE_TEMP</_hname>
 								<_hid type="a">GUID 45e2e9c8-5b02-4456-ad46-d6387f6df8ba</_hid>
 							</IHandle>
 						</_theDiagram>
-						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">1144 442 </_DownRight>
-						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
+						<_UpLeft type="a">0 12 </_UpLeft>
+						<_DownRight type="a">1040 516 </_DownRight>
+						<m_nDiagramIndex type="a">2</m_nDiagramIndex>
+						<m_bIsActiveView type="a">1</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
 				</IRPYRawContainer>
 			</myViewsWithID>
-			<_fullName type="a">C:\Users\20174215\Documents\SmartRoomSystem\SmartRoomJoseph\SmartRoomJoseph</_fullName>
+			<_fullName type="a">D:\Study\Courses\SysML\Project\SmartRoomSystem\SmartRoomJoseph\SmartRoomJoseph</_fullName>
 			<m_SearchScopeList type="c">
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
