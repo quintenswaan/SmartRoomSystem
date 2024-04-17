@@ -12,15 +12,25 @@
 			<_id type="a">GUID 53e664ad-a82b-4332-ac3c-6657b848ed00</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">SYSTEM_CONTEXT</_name>
-			<_modifiedTimeWeak type="a">4.15.2024::14:24:55</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.15.2024::14:24:55</_modifiedTime>
-			<_lastID type="a">23</_lastID>
-			<weakCGTime type="a">4.15.2024::14:24:55</weakCGTime>
-			<strongCGTime type="a">4.15.2024::14:7:33</strongCGTime>
+			<_modifiedTimeWeak type="a">4.17.2024::12:40:40</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\SYSTEM_ANALYSIS.sbsx</_hfilename>
+					<_hsubsystem type="a">SYSTEM_ANALYSIS</_hsubsystem>
+					<_hname type="a">package diagram_3</_hname>
+					<_hid type="a">GUID 33e99764-4536-461d-a806-e4269e4c7519</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">4.17.2024::12:53:6</_modifiedTime>
+			<_lastID type="a">24</_lastID>
+			<weakCGTime type="a">4.17.2024::12:40:40</weakCGTime>
+			<strongCGTime type="a">4.17.2024::12:40:40</strongCGTime>
 			<_defaultComposite type="s">GUID 956a6a41-0f07-4d1a-a13c-36db8f75737f</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
 			<_configurationRelatedTime type="a">4.15.2024::14:15:5</_configurationRelatedTime>
 			<AggregatesList type="e">
+				<value>GUID 855c6194-4024-4c63-ad6c-54964a254bb7</value>
 				<value>GUID 22815286-52a9-4ceb-b054-817b1e4b4db0</value>
 				<value>GUID 956a6a41-0f07-4d1a-a13c-36db8f75737f</value>
 				<value>GUID ed05c565-2ca7-4a6d-a6d2-b362d8dffe68</value>
@@ -34,6 +44,28 @@
 				<value>GUID f7ef12a0-3549-4267-bc1d-85068e03a0ee</value>
 			</AggregatesList>
 		</ISubsystem>
+		<IDependency type="e">
+			<_id type="a">GUID 855c6194-4024-4c63-ad6c-54964a254bb7</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">PROJECT_CONTEXT</_name>
+			<_modifiedTimeWeak type="a">4.17.2024::12:40:40</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.17.2024::12:40:40</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">ISubsystem</_hm2Class>
+					<_hfilename type="a">.\PROJECT_CONTEXT.sbsx</_hfilename>
+					<_hsubsystem type="a">SYSTEM_ANALYSIS</_hsubsystem>
+					<_hname type="a">PROJECT_CONTEXT</_hname>
+					<_hid type="a">GUID 9c198552-1e6a-4278-bcb2-b9b3c3c20f96</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">ISubsystem</_hm2Class>
+					<_hid type="a">GUID 53e664ad-a82b-4332-ac3c-6657b848ed00</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
 		<IDiagram type="e">
 			<_id type="a">GUID 22815286-52a9-4ceb-b054-817b1e4b4db0</_id>
 			<_myState type="a">8192</_myState>
@@ -1124,7 +1156,6 @@
 			<m_bShowQualifier2 type="a">1</m_bShowQualifier2>
 			<m_sourceRole type="p">
 				<CGIText type="e">
-					<m_str type="a">itsStakeholders</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1141,7 +1172,6 @@
 			</m_sourceRole>
 			<m_targetRole type="p">
 				<CGIText type="e">
-					<m_str type="a">itsSmartRoomSystem</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1391,7 +1421,6 @@
 			<m_bShowQualifier2 type="a">1</m_bShowQualifier2>
 			<m_sourceRole type="p">
 				<CGIText type="e">
-					<m_str type="a">itsStandards</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1408,7 +1437,6 @@
 			</m_sourceRole>
 			<m_targetRole type="p">
 				<CGIText type="e">
-					<m_str type="a">itsSmartRoomSystem</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -2790,10 +2818,10 @@
 			<_id type="a">GUID 956a6a41-0f07-4d1a-a13c-36db8f75737f</_id>
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
-			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
-			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_modifiedTimeWeak type="a">4.17.2024::12:40:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">4.17.2024::12:40:32</weakCGTime>
+			<strongCGTime type="a">4.17.2024::12:40:32</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -2817,7 +2845,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.15.2024::14:24:29</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.17.2024::12:40:32</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -2825,8 +2853,8 @@
 				</IHandle>
 			</_theMainDiagram>
 			<_modifiedTime type="a">4.15.2024::14:24:29</_modifiedTime>
-			<weakCGTime type="a">4.15.2024::14:24:29</weakCGTime>
-			<strongCGTime type="a">4.15.2024::14:8:2</strongCGTime>
+			<weakCGTime type="a">4.17.2024::12:40:32</weakCGTime>
+			<strongCGTime type="a">4.17.2024::12:40:32</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -3036,7 +3064,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.15.2024::14:18:0</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.17.2024::12:40:32</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -3044,8 +3072,8 @@
 				</IHandle>
 			</_theMainDiagram>
 			<_modifiedTime type="a">4.15.2024::14:18:0</_modifiedTime>
-			<weakCGTime type="a">4.15.2024::14:18:0</weakCGTime>
-			<strongCGTime type="a">4.15.2024::14:8:45</strongCGTime>
+			<weakCGTime type="a">4.17.2024::12:40:32</weakCGTime>
+			<strongCGTime type="a">4.17.2024::12:40:32</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -3094,7 +3122,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.15.2024::14:19:19</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.17.2024::12:40:32</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -3102,8 +3130,8 @@
 				</IHandle>
 			</_theMainDiagram>
 			<_modifiedTime type="a">4.15.2024::14:19:19</_modifiedTime>
-			<weakCGTime type="a">4.15.2024::14:19:19</weakCGTime>
-			<strongCGTime type="a">4.15.2024::14:18:24</strongCGTime>
+			<weakCGTime type="a">4.17.2024::12:40:32</weakCGTime>
+			<strongCGTime type="a">4.17.2024::12:40:32</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -3152,7 +3180,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.15.2024::14:19:56</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.17.2024::12:40:32</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -3160,8 +3188,8 @@
 				</IHandle>
 			</_theMainDiagram>
 			<_modifiedTime type="a">4.15.2024::14:19:56</_modifiedTime>
-			<weakCGTime type="a">4.15.2024::14:19:56</weakCGTime>
-			<strongCGTime type="a">4.15.2024::14:19:47</strongCGTime>
+			<weakCGTime type="a">4.17.2024::12:40:32</weakCGTime>
+			<strongCGTime type="a">4.17.2024::12:40:32</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -3210,7 +3238,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.15.2024::14:21:7</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.17.2024::12:40:32</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -3218,8 +3246,8 @@
 				</IHandle>
 			</_theMainDiagram>
 			<_modifiedTime type="a">4.15.2024::14:21:7</_modifiedTime>
-			<weakCGTime type="a">4.15.2024::14:21:7</weakCGTime>
-			<strongCGTime type="a">4.15.2024::14:21:3</strongCGTime>
+			<weakCGTime type="a">4.17.2024::12:40:32</weakCGTime>
+			<strongCGTime type="a">4.17.2024::12:40:32</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -3268,7 +3296,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.15.2024::14:21:26</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.17.2024::12:40:32</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -3276,8 +3304,8 @@
 				</IHandle>
 			</_theMainDiagram>
 			<_modifiedTime type="a">4.15.2024::14:21:26</_modifiedTime>
-			<weakCGTime type="a">4.15.2024::14:21:26</weakCGTime>
-			<strongCGTime type="a">4.15.2024::14:21:19</strongCGTime>
+			<weakCGTime type="a">4.17.2024::12:40:32</weakCGTime>
+			<strongCGTime type="a">4.17.2024::12:40:32</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -3326,7 +3354,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.15.2024::14:22:4</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.17.2024::12:40:32</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -3334,8 +3362,8 @@
 				</IHandle>
 			</_theMainDiagram>
 			<_modifiedTime type="a">4.15.2024::14:22:4</_modifiedTime>
-			<weakCGTime type="a">4.15.2024::14:22:4</weakCGTime>
-			<strongCGTime type="a">4.15.2024::14:21:57</strongCGTime>
+			<weakCGTime type="a">4.17.2024::12:40:32</weakCGTime>
+			<strongCGTime type="a">4.17.2024::12:40:32</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -3384,7 +3412,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.15.2024::14:24:29</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.17.2024::12:40:32</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -3392,8 +3420,8 @@
 				</IHandle>
 			</_theMainDiagram>
 			<_modifiedTime type="a">4.15.2024::14:24:29</_modifiedTime>
-			<weakCGTime type="a">4.15.2024::14:24:29</weakCGTime>
-			<strongCGTime type="a">4.15.2024::14:23:50</strongCGTime>
+			<weakCGTime type="a">4.17.2024::12:40:32</weakCGTime>
+			<strongCGTime type="a">4.17.2024::12:40:32</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -3429,7 +3457,7 @@
 			<_id type="a">GUID f7ef12a0-3549-4267-bc1d-85068e03a0ee</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">RoomUser</_name>
-			<_modifiedTimeWeak type="a">4.15.2024::14:17:26</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.17.2024::12:40:32</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -3437,8 +3465,8 @@
 				</IHandle>
 			</_theMainDiagram>
 			<_modifiedTime type="a">4.15.2024::14:17:26</_modifiedTime>
-			<weakCGTime type="a">4.15.2024::14:17:26</weakCGTime>
-			<strongCGTime type="a">4.15.2024::14:15:9</strongCGTime>
+			<weakCGTime type="a">4.17.2024::12:40:32</weakCGTime>
+			<strongCGTime type="a">4.17.2024::12:40:32</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
