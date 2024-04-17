@@ -44,7 +44,7 @@
 						</_theDiagram>
 						<_UpLeft type="a">0 0 </_UpLeft>
 						<_DownRight type="a">878 430 </_DownRight>
-						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
+						<m_nDiagramIndex type="a">2</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
@@ -75,8 +75,8 @@
 							</IHandle>
 						</_theDiagram>
 						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">1205 498 </_DownRight>
-						<m_nDiagramIndex type="a">3</m_nDiagramIndex>
+						<_DownRight type="a">1206 498 </_DownRight>
+						<m_nDiagramIndex type="a">4</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
@@ -106,9 +106,9 @@
 								<_hid type="a">GUID a9d4733c-bec5-4212-9ec1-a7679055a021</_hid>
 							</IHandle>
 						</_theDiagram>
-						<_UpLeft type="a">-13 -20 </_UpLeft>
-						<_DownRight type="a">978 389 </_DownRight>
-						<m_nDiagramIndex type="a">2</m_nDiagramIndex>
+						<_UpLeft type="a">0 0 </_UpLeft>
+						<_DownRight type="a">991 409 </_DownRight>
+						<m_nDiagramIndex type="a">3</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
@@ -138,15 +138,15 @@
 								<_hid type="a">GUID 9cc6da38-60ba-4f4b-abc7-025e3701eabf</_hid>
 							</IHandle>
 						</_theDiagram>
-						<_UpLeft type="a">9 0 </_UpLeft>
-						<_DownRight type="a">1063 657 </_DownRight>
+						<_UpLeft type="a">0 0 </_UpLeft>
+						<_DownRight type="a">2228 1143 </_DownRight>
 						<m_nDiagramIndex type="a">1</m_nDiagramIndex>
 						<m_bIsActiveView type="a">1</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
 				</IRPYRawContainer>
 			</myViewsWithID>
-			<_fullName type="a">D:\Study\Courses\SysML\Project\SmartRoomSystem\SmartRoomSystem</_fullName>
+			<_fullName type="a">C:\Users\20174215\Documents\SmartRoomSystem\SmartRoomSystem</_fullName>
 			<m_SearchScopeList type="c">
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
