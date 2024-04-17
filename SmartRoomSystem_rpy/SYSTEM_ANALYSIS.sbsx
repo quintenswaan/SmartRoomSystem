@@ -12,16 +12,16 @@
 			<_id type="a">GUID fb78b107-cb02-4b4d-9315-b3afd60bf0a7</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">SYSTEM_ANALYSIS</_name>
-			<_modifiedTimeWeak type="a">4.17.2024::12:29:37</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.17.2024::13:34:47</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID 33e99764-4536-461d-a806-e4269e4c7519</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">4.17.2024::12:53:6</_modifiedTime>
+			<_modifiedTime type="a">4.17.2024::13:34:47</_modifiedTime>
 			<_lastID type="a">5</_lastID>
-			<weakCGTime type="a">4.17.2024::12:29:37</weakCGTime>
+			<weakCGTime type="a">4.17.2024::13:34:47</weakCGTime>
 			<strongCGTime type="a">4.15.2024::13:43:54</strongCGTime>
 			<_defaultComposite type="s">GUID 3c1756f8-7ff7-4339-b46e-6fd6a314ae48</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -32,6 +32,9 @@
 				<value>GUID ee2925ec-79e1-428a-b2cd-d8ede5b8481d</value>
 				<value>GUID 46ff2c44-3e09-425c-bfd5-5652c96ec3ee</value>
 				<value>GUID 33e99764-4536-461d-a806-e4269e4c7519</value>
+				<value>GUID 6ff00bc4-a51e-438f-903f-d773225c5ff3</value>
+				<value>GUID 8eb1687c-627a-4d0b-af03-8215ecc9c8ea</value>
+				<value>GUID 697b8bd6-075f-4677-8098-763f81d85e43</value>
 				<value>GUID 3c1756f8-7ff7-4339-b46e-6fd6a314ae48</value>
 			</AggregatesList>
 		</ISubsystem>
@@ -1140,6 +1143,18 @@
 			<m_ShowName type="a">0</m_ShowName>
 			<m_ShowStereotype type="a">1</m_ShowStereotype>
 		</CGIInheritance>
+		<ISubsystem type="e">
+			<fileName type="a">OPERATING_ENVIRONMENT</fileName>
+			<_id type="a">GUID 6ff00bc4-a51e-438f-903f-d773225c5ff3</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">USE_CASES</fileName>
+			<_id type="a">GUID 8eb1687c-627a-4d0b-af03-8215ecc9c8ea</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">USER_MODEL</fileName>
+			<_id type="a">GUID 697b8bd6-075f-4677-8098-763f81d85e43</_id>
+		</ISubsystem>
 		<IClass type="e">
 			<_id type="a">GUID 3c1756f8-7ff7-4339-b46e-6fd6a314ae48</_id>
 			<_myState type="a">40960</_myState>
