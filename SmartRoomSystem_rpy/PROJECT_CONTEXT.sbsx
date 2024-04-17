@@ -12,10 +12,10 @@
 			<_id type="a">GUID 9c198552-1e6a-4278-bcb2-b9b3c3c20f96</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">PROJECT_CONTEXT</_name>
-			<_modifiedTimeWeak type="a">4.16.2024::7:14:9</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.16.2024::8:18:11</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.17.2024::8:11:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.17.2024::8:11:22</_modifiedTime>
 			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">4.16.2024::7:14:9</weakCGTime>
+			<weakCGTime type="a">4.17.2024::8:11:22</weakCGTime>
 			<strongCGTime type="a">4.15.2024::13:44:20</strongCGTime>
 			<_defaultComposite type="s">GUID dcacdcc8-c7e1-47bb-bc6a-f0d471eb5fb9</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -266,8 +266,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.16.2024::7:14:11</_modifiedTime>
-			<_lastModifiedTime type="a">4.16.2024::7:14:11</_lastModifiedTime>
+			<_modifiedTime type="a">4.17.2024::8:14:26</_modifiedTime>
+			<_lastModifiedTime type="a">4.17.2024::8:14:26</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -477,6 +477,35 @@
 		</CGIFreeShape>
 		<CGIFreeText type="e">
 			<_id type="a">GUID 20d34dad-557e-4036-96e1-5a87b3be4d3c</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">Format</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">FreeText</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">Wordbreak</_Name>
+													<_Value type="a">True</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<m_type type="a">189</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -500,10 +529,12 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_transform type="a">1 0 0 1 33 30 </m_transform>
+			<m_transform type="a">0.868996 0 0 1.26136 37.917 -70.7954 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
-			<m_points type="a">4 236 202  274 202  274 220  236 220  </m_points>
-			<m_text type="a">PROJECT CONTEXT</m_text>
+			<m_points type="a">4 236 202  465 202  465 290  236 290  </m_points>
+			<m_text type="a">PROJECT CONTEXT%0D
+%0D
+To enhance the comfort of room users and increase energy efficiency compared to simple room</m_text>
 		</CGIFreeText>
 		<CGIFreeText type="e">
 			<_id type="a">GUID 04e266ee-8dc3-4648-a072-f373abe7590f</_id>
