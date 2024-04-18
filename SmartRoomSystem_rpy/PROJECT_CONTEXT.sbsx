@@ -12,7 +12,7 @@
 			<_id type="a">GUID 9c198552-1e6a-4278-bcb2-b9b3c3c20f96</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">PROJECT_CONTEXT</_name>
-			<_modifiedTimeWeak type="a">4.17.2024::12:40:36</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.18.2024::9:0:27</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -22,9 +22,9 @@
 					<_hid type="a">GUID 33e99764-4536-461d-a806-e4269e4c7519</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">4.17.2024::12:53:6</_modifiedTime>
+			<_modifiedTime type="a">4.18.2024::9:0:27</_modifiedTime>
 			<_lastID type="a">2</_lastID>
-			<weakCGTime type="a">4.17.2024::12:40:36</weakCGTime>
+			<weakCGTime type="a">4.18.2024::9:0:27</weakCGTime>
 			<strongCGTime type="a">4.17.2024::12:40:36</strongCGTime>
 			<_defaultComposite type="s">GUID dcacdcc8-c7e1-47bb-bc6a-f0d471eb5fb9</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -298,8 +298,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::8:14:26</_modifiedTime>
-			<_lastModifiedTime type="a">4.17.2024::8:14:26</_lastModifiedTime>
+			<_modifiedTime type="a">4.18.2024::9:1:23</_modifiedTime>
+			<_lastModifiedTime type="a">4.18.2024::9:1:23</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -456,7 +456,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_transform type="a">2.64815 0 0 3.63636 20 20 </m_transform>
+			<m_transform type="a">2.97685 0 0 3.63636 20 20 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -865,12 +865,14 @@ Room is located in the Netherlands</m_text>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
 			<m_transform type="a">1 0 0 1 132 222 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
-			<m_points type="a">4 292 110  450 110  450 182  292 182  </m_points>
+			<m_points type="a">4 292 110  521 110  521 257  292 257  </m_points>
 			<m_text type="a">External systems%0D
 1. HVAC%0D
 2. Fire sprinkler system%0D
 3. Room schedular system%0D
 4. Security and acces system%0D
+5. Temperature sensor%0D
+6. Air purifyer%0D
 </m_text>
 		</CGIFreeText>
 		<CGIFreeShape type="e">

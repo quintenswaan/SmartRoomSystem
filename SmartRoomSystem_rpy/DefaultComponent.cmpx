@@ -12,8 +12,8 @@
 			<_id type="a">GUID 507c2e93-ad41-4831-bd03-7946953df561</_id>
 			<_myState type="a">139264</_myState>
 			<_name type="a">DefaultComponent</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.15.2024::13:43:25</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.18.2024::9:33:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::9:40:14</_modifiedTime>
 			<m_buildType type="a">Executable</m_buildType>
 			<m_configActive type="r">
 				<ICodeGenConfigInfoHandle type="e">
@@ -23,14 +23,6 @@
 			</m_configActive>
 			<HandlesInMe type="c">
 				<IRPYRawContainer type="e">
-					
-						<IHandle type="e">
-							<_hm2Class type="a">ISubsystem</_hm2Class>
-							<_hfilename type="a">.\Default.sbsx</_hfilename>
-							<_hname type="a">Default</_hname>
-							<_hid type="a">GUID 39d0cfb9-6115-443d-9fc9-005bc0b2f8dc</_hid>
-						</IHandle>
-					
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IProfile</_hm2Class>
@@ -47,6 +39,157 @@
 							<_hid type="a">GUID 5717d983-7bb5-4aba-bdc8-41bcb977f568</_hid>
 						</IHandle>
 					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\Default.sbsx</_hfilename>
+							<_hname type="a">Default</_hname>
+							<_hid type="a">GUID 39d0cfb9-6115-443d-9fc9-005bc0b2f8dc</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\SYSTEM_ANALYSIS.sbsx</_hfilename>
+							<_hname type="a">SYSTEM_ANALYSIS</_hname>
+							<_hid type="a">GUID fb78b107-cb02-4b4d-9315-b3afd60bf0a7</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\PROJECT_CONTEXT.sbsx</_hfilename>
+							<_hsubsystem type="a">SYSTEM_ANALYSIS</_hsubsystem>
+							<_hname type="a">PROJECT_CONTEXT</_hname>
+							<_hid type="a">GUID 9c198552-1e6a-4278-bcb2-b9b3c3c20f96</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\REQUIREMENTS.sbsx</_hfilename>
+							<_hsubsystem type="a">SYSTEM_ANALYSIS</_hsubsystem>
+							<_hname type="a">REQUIREMENTS</_hname>
+							<_hid type="a">GUID ee2925ec-79e1-428a-b2cd-d8ede5b8481d</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\GeneralRequirements.sbsx</_hfilename>
+							<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS</_hsubsystem>
+							<_hname type="a">GeneralRequirements</_hname>
+							<_hid type="a">GUID 4edef5aa-0b08-4591-a420-b210fd43f3cf</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\DerivedRequirements.sbsx</_hfilename>
+							<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS</_hsubsystem>
+							<_hname type="a">DerivedRequirements</_hname>
+							<_hid type="a">GUID 96d34362-caac-495e-8461-a8e03c92d759</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\SecurityAndAccess.sbsx</_hfilename>
+							<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::DerivedRequirements</_hsubsystem>
+							<_hname type="a">SecurityAndAccess</_hname>
+							<_hid type="a">GUID cd28173c-f10c-4054-bc96-009d7ba990d6</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\TopDiagram.sbsx</_hfilename>
+							<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS</_hsubsystem>
+							<_hname type="a">TopDiagram</_hname>
+							<_hid type="a">GUID 1373e35d-c6cf-49ee-b671-3ccb99cb864e</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\TemperatureRequirements_FR_NFR.sbsx</_hfilename>
+							<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::TopDiagram</_hsubsystem>
+							<_hname type="a">TemperatureRequirements_FR_NFR</_hname>
+							<_hid type="a">GUID 427913d2-dc03-429c-bca4-70add6483105</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\AirQualityRequirements_FR_NFR.sbsx</_hfilename>
+							<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::TopDiagram</_hsubsystem>
+							<_hname type="a">AirQualityRequirements_FR_NFR</_hname>
+							<_hid type="a">GUID 4f77240f-551e-401b-87a5-6057791c1c94</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\RoomRemoteControl_FR_NFR.sbsx</_hfilename>
+							<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::TopDiagram</_hsubsystem>
+							<_hname type="a">RoomRemoteControl_FR_NFR</_hname>
+							<_hid type="a">GUID eaf0a4a7-bd6f-4a78-b893-143a2362c443</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\RoomSecurity_FR_NFR.sbsx</_hfilename>
+							<_hsubsystem type="a">SYSTEM_ANALYSIS::REQUIREMENTS::TopDiagram</_hsubsystem>
+							<_hname type="a">RoomSecurity_FR_NFR</_hname>
+							<_hid type="a">GUID 1ca8fcc7-02ce-4771-90bb-c632bac8e9a0</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\PROBLEM_DEFINITION.sbsx</_hfilename>
+							<_hsubsystem type="a">SYSTEM_ANALYSIS</_hsubsystem>
+							<_hname type="a">PROBLEM_DEFINITION</_hname>
+							<_hid type="a">GUID 46ff2c44-3e09-425c-bfd5-5652c96ec3ee</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\SYSTEM_CONTEXT.sbsx</_hfilename>
+							<_hsubsystem type="a">SYSTEM_ANALYSIS</_hsubsystem>
+							<_hname type="a">SYSTEM_CONTEXT</_hname>
+							<_hid type="a">GUID 53e664ad-a82b-4332-ac3c-6657b848ed00</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\USER_MODEL.sbsx</_hfilename>
+							<_hsubsystem type="a">SYSTEM_ANALYSIS</_hsubsystem>
+							<_hname type="a">USER_MODEL</_hname>
+							<_hid type="a">GUID 697b8bd6-075f-4677-8098-763f81d85e43</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\USE_CASES.sbsx</_hfilename>
+							<_hsubsystem type="a">SYSTEM_ANALYSIS</_hsubsystem>
+							<_hname type="a">USE_CASES</_hname>
+							<_hid type="a">GUID 8eb1687c-627a-4d0b-af03-8215ecc9c8ea</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\OPERATING_ENVIRONMENT.sbsx</_hfilename>
+							<_hsubsystem type="a">SYSTEM_ANALYSIS</_hsubsystem>
+							<_hname type="a">OPERATING_ENVIRONMENT</_hname>
+							<_hid type="a">GUID 6ff00bc4-a51e-438f-903f-d773225c5ff3</_hid>
+						</IHandle>
+					
 				</IRPYRawContainer>
 			</HandlesInMe>
 			<VariationPoints type="c">
@@ -57,7 +200,7 @@
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
 			</SelectedVariants>
-			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<weakCGTime type="a">4.18.2024::9:33:4</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<AggregatesList type="e">
 				<value>GUID 859d6e20-be4e-4445-806d-88d28dd441dc</value>
@@ -83,10 +226,10 @@
 			<_id type="a">GUID caaa5eb1-eb1b-4836-af7c-8e7772c46f69</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">DefaultConfig</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.15.2024::13:43:25</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.18.2024::9:33:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::9:33:4</_modifiedTime>
 			<_scopeType type="a">Explicit</_scopeType>
-			<_instrumentation type="a">None</_instrumentation>
+			<_instrumentation type="a">Animation</_instrumentation>
 			<_timeModel type="a">RealTime</_timeModel>
 			<m_generateActors type="a">1</m_generateActors>
 			<_statechartImplementation type="a">Flat</_statechartImplementation>
@@ -100,8 +243,8 @@
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
 			</InitialInstances>
-			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
-			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<weakCGTime type="a">4.18.2024::9:33:4</weakCGTime>
+			<strongCGTime type="a">4.18.2024::9:33:4</strongCGTime>
 			<AnimScopeElements type="c">
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
@@ -109,9 +252,37 @@
 			<m_allInAnimScope type="a">1</m_allInAnimScope>
 			<m_generateUsecases type="a">0</m_generateUsecases>
 			<AggregatesList type="e">
+				<value>GUID b9311c18-42a6-4e91-9798-dcfbdfe857cf</value>
+				<value>GUID f1d330de-56e3-43b8-9eb3-d795321c6781</value>
 				<value>GUID 627b00ee-5ecf-4f8a-b5d9-d63a4ee3e1eb</value>
 			</AggregatesList>
 		</ICodeGenConfigInfo>
+		<IMHyperLink type="e">
+			<_id type="a">GUID b9311c18-42a6-4e91-9798-dcfbdfe857cf</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::9:32:56</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</_dependsOn>
+			<_linkDispName type="a">Edit Makefile</_linkDispName>
+			<_linkType type="a">FREE</_linkType>
+			<_linkTarget type="a">DefaultComponent.mak</_linkTarget>
+			<isConfigurationFileHyperLink type="a">1</isConfigurationFileHyperLink>
+		</IMHyperLink>
+		<IMHyperLink type="e">
+			<_id type="a">GUID f1d330de-56e3-43b8-9eb3-d795321c6781</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::9:32:56</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</_dependsOn>
+			<_linkDispName type="a">Edit Main File</_linkDispName>
+			<_linkType type="a">FREE</_linkType>
+			<_linkTarget type="a">MainDefaultComponent</_linkTarget>
+			<isConfigurationFileHyperLink type="a">1</isConfigurationFileHyperLink>
+		</IMHyperLink>
 		<IFolder type="e">
 			<_id type="a">GUID 627b00ee-5ecf-4f8a-b5d9-d63a4ee3e1eb</_id>
 			<_myState type="a">8192</_myState>
