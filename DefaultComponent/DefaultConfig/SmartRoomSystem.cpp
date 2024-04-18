@@ -78,7 +78,7 @@ void SmartRoomSystem::p_SmartRoomSystem_C::cleanUpRelations(void) {
 }
 //#]
 
-SmartRoomSystem::SmartRoomSystem(void) : int_currentTemp_ProxyFlowPropertyInterface(), HVAC_ON_OFF(0), HVAC_heat_cool(0), currentTemp(15), desiredTemp(15), itsAirPurifier(NULL), itsFireSprinklerSystem(NULL), itsHVAC(NULL), itsNaturalEnvironment(NULL), itsRoomSchedularSystem(NULL), itsRoomUser(NULL), itsSecurityAndAccesSystem(NULL), itsStakeholders(NULL), itsStandards(NULL), itsTemperatureSensor(NULL) {
+SmartRoomSystem::SmartRoomSystem(void) : int_currentTemp_ProxyFlowPropertyInterface(), currentTemp(15), desiredTemp(20), itsAirPurifier(NULL), itsFireSprinklerSystem(NULL), itsHVAC(NULL), itsNaturalEnvironment(NULL), itsRoomSchedularSystem(NULL), itsRoomUser(NULL), itsSecurityAndAccesSystem(NULL), itsStakeholders(NULL), itsStandards(NULL), itsTemperatureSensor(NULL) {
     NOTIFY_CONSTRUCTOR(SmartRoomSystem, SmartRoomSystem(), 0, SYSTEM_ANALYSIS_SYSTEM_CONTEXT_SmartRoomSystem_SmartRoomSystem_SERIALIZE);
     initRelations();
 }
@@ -104,22 +104,6 @@ SmartRoomSystem::p_SmartRoomSystem_C* SmartRoomSystem::getP_SmartRoomSystem(void
 
 SmartRoomSystem::p_SmartRoomSystem_C* SmartRoomSystem::get_p_SmartRoomSystem(void) const {
     return (SmartRoomSystem::p_SmartRoomSystem_C*) &p_SmartRoomSystem;
-}
-
-const bool SmartRoomSystem::getHVAC_ON_OFF(void) const {
-    return HVAC_ON_OFF;
-}
-
-void SmartRoomSystem::setHVAC_ON_OFF(const bool p_HVAC_ON_OFF) {
-    HVAC_ON_OFF = p_HVAC_ON_OFF;
-}
-
-const bool SmartRoomSystem::getHVAC_heat_cool(void) const {
-    return HVAC_heat_cool;
-}
-
-void SmartRoomSystem::setHVAC_heat_cool(const bool p_HVAC_heat_cool) {
-    HVAC_heat_cool = p_HVAC_heat_cool;
 }
 
 const int SmartRoomSystem::getCurrentTemp(void) const {
@@ -618,8 +602,6 @@ void SmartRoomSystem::_clearItsTemperatureSensor(void) {
 void OMAnimatedSmartRoomSystem::serializeAttributes(AOMSAttributes* aomsAttributes) const {
     aomsAttributes->addAttribute("currentTemp", x2String(myReal->currentTemp));
     aomsAttributes->addAttribute("desiredTemp", x2String(myReal->desiredTemp));
-    aomsAttributes->addAttribute("HVAC_ON_OFF", x2String(myReal->HVAC_ON_OFF));
-    aomsAttributes->addAttribute("HVAC_heat_cool", x2String(myReal->HVAC_heat_cool));
 }
 
 void OMAnimatedSmartRoomSystem::serializeRelations(AOMSRelations* aomsRelations) const {

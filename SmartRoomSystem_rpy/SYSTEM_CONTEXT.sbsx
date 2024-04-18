@@ -12,10 +12,10 @@
 			<_id type="a">GUID 53e664ad-a82b-4332-ac3c-6657b848ed00</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">SYSTEM_CONTEXT</_name>
-			<_modifiedTimeWeak type="a">4.18.2024::9:40:9</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.18.2024::9:40:14</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.18.2024::10:16:36</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::10:15:12</_modifiedTime>
 			<_lastID type="a">26</_lastID>
-			<weakCGTime type="a">4.18.2024::9:40:9</weakCGTime>
+			<weakCGTime type="a">4.18.2024::10:16:36</weakCGTime>
 			<strongCGTime type="a">4.17.2024::13:48:6</strongCGTime>
 			<_defaultComposite type="s">GUID 956a6a41-0f07-4d1a-a13c-36db8f75737f</_defaultComposite>
 			<_eventsBaseID type="a">9401</_eventsBaseID>
@@ -3408,16 +3408,16 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.18.2024::9:46:18</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.18.2024::10:9:50</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID 22815286-52a9-4ceb-b054-817b1e4b4db0</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">4.18.2024::9:46:18</_modifiedTime>
-			<_lastID type="a">4</_lastID>
-			<weakCGTime type="a">4.18.2024::9:46:18</weakCGTime>
+			<_modifiedTime type="a">4.18.2024::10:9:50</_modifiedTime>
+			<_lastID type="a">6</_lastID>
+			<weakCGTime type="a">4.18.2024::10:9:50</weakCGTime>
 			<strongCGTime type="a">4.17.2024::13:48:6</strongCGTime>
 			<Operations type="c">
 				<IRPYRawContainer type="e">
@@ -3432,9 +3432,7 @@
 				<value>GUID 0f1fa12c-d115-4ad0-855e-abd753cae05f</value>
 				<value>GUID 39e44b13-bd5a-41c8-b12e-49d4c87b914f</value>
 				<value>GUID 6fce86e6-5bd3-441f-a40d-fe0a4fa49ed1</value>
-				<value>GUID 0b1451a4-26af-479c-b805-c1544b2d0d10</value>
-				<value>GUID bdc9952a-169d-43e1-918c-2385bb9938fa</value>
-				<value>GUID 79b7421b-3235-4554-a5b1-7e30ae4f1ca0</value>
+				<value>GUID 5924e863-b220-4824-8a24-e4d2e94804b7</value>
 				<value>GUID 7f62cb14-c088-4be0-8d56-b69c4b7a1132</value>
 				<value>GUID ddf9ea14-bb52-496f-8dcd-00e8f3438c5b</value>
 				<value>GUID 06e904b2-b87c-40fc-8cd6-b4ce8922f2f1</value>
@@ -3640,7 +3638,7 @@
 			<_value type="a">15</_value>
 		</ILiteralSpecification>
 		<IAttribute type="e">
-			<_id type="a">GUID 0b1451a4-26af-479c-b805-c1544b2d0d10</_id>
+			<_id type="a">GUID 5924e863-b220-4824-8a24-e4d2e94804b7</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">desiredTemp</_name>
 			<Stereotypes type="c">
@@ -3649,15 +3647,15 @@
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
 							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
-							<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
-							<_hname type="a">flowProperty</_hname>
-							<_hid type="a">GUID eab7d550-8820-4016-84c4-5f9d822752a1</_hid>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">ValueProperty</_hname>
+							<_hid type="a">GUID 04164f8c-01a3-4eab-b4a4-c37aae7a46e9</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.17.2024::11:51:49</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::11:51:49</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.18.2024::10:9:50</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::10:9:50</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -3672,209 +3670,14 @@
 			<_isReferenceAttr type="a">0</_isReferenceAttr>
 			<_isConstant type="a">0</_isConstant>
 			<AggregatesList type="e">
-				<value>GUID ee8a59a1-cedf-4d4a-b5d1-0844f0ec339f</value>
-				<value>GUID afe49a3b-17a1-483e-9901-fab234655d48</value>
+				<value>GUID 935a2680-7dc5-4b9d-b7a9-9a13fb23989a</value>
 			</AggregatesList>
 		</IAttribute>
-		<ITag type="e">
-			<_id type="a">GUID ee8a59a1-cedf-4d4a-b5d1-0844f0ec339f</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">direction</_name>
-			<_modifiedTimeWeak type="a">4.17.2024::11:51:49</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::11:51:49</_modifiedTime>
-			<_typeOf type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IType</_hm2Class>
-					<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
-					<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
-					<_hname type="a">FlowDirection</_hname>
-					<_hid type="a">GUID a03711f4-fb72-4f76-9470-618a1ee3394f</_hid>
-				</IHandle>
-			</_typeOf>
-			<_isOrdered type="a">0</_isOrdered>
-			<_base type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">ITag</_hm2Class>
-					<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
-					<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
-					<_hclass type="a">flowProperty</_hclass>
-					<_hname type="a">direction</_hname>
-					<_hid type="a">GUID cc62d98a-dc8a-4c6d-87b9-a6fc4d62bb79</_hid>
-				</IHandle>
-			</_base>
-			<AggregatesList type="e">
-				<value>GUID dee27ea3-93c5-40db-b85c-84f5f6ade387</value>
-			</AggregatesList>
-		</ITag>
 		<ILiteralSpecification type="e">
-			<_id type="a">GUID dee27ea3-93c5-40db-b85c-84f5f6ade387</_id>
-			<_modifiedTimeWeak type="a">4.17.2024::11:51:49</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::11:51:49</_modifiedTime>
-			<_value type="a">In</_value>
-		</ILiteralSpecification>
-		<ILiteralSpecification type="e">
-			<_id type="a">GUID afe49a3b-17a1-483e-9901-fab234655d48</_id>
-			<_modifiedTimeWeak type="a">4.17.2024::11:51:45</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::11:51:45</_modifiedTime>
-			<_value type="a">15</_value>
-		</ILiteralSpecification>
-		<IAttribute type="e">
-			<_id type="a">GUID bdc9952a-169d-43e1-918c-2385bb9938fa</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">HVAC_ON_OFF</_name>
-			<Stereotypes type="c">
-				<IRPYRawContainer type="e">
-					
-						<IHandle type="e">
-							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
-							<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
-							<_hname type="a">flowProperty</_hname>
-							<_hid type="a">GUID eab7d550-8820-4016-84c4-5f9d822752a1</_hid>
-						</IHandle>
-					
-				</IRPYRawContainer>
-			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.17.2024::12:13:42</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::12:13:42</_modifiedTime>
-			<_typeOf type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IType</_hm2Class>
-					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
-					<_hname type="a">bool</_hname>
-					<_hid type="a">GUID e6c263cc-4bc5-4a11-b32d-02148c93add0</_hid>
-				</IHandle>
-			</_typeOf>
-			<_isOrdered type="a">0</_isOrdered>
-			<_protection type="a">iPublic</_protection>
-			<_static type="a">0</_static>
-			<_isReferenceAttr type="a">0</_isReferenceAttr>
-			<_isConstant type="a">0</_isConstant>
-			<AggregatesList type="e">
-				<value>GUID 10391d99-a2e4-4d1d-8990-70d31f73d76f</value>
-				<value>GUID 29de079d-f9a7-4c2b-92d2-f0cc22b01a63</value>
-			</AggregatesList>
-		</IAttribute>
-		<ITag type="e">
-			<_id type="a">GUID 10391d99-a2e4-4d1d-8990-70d31f73d76f</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">direction</_name>
-			<_modifiedTimeWeak type="a">4.17.2024::12:13:42</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::12:13:42</_modifiedTime>
-			<_typeOf type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IType</_hm2Class>
-					<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
-					<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
-					<_hname type="a">FlowDirection</_hname>
-					<_hid type="a">GUID a03711f4-fb72-4f76-9470-618a1ee3394f</_hid>
-				</IHandle>
-			</_typeOf>
-			<_isOrdered type="a">0</_isOrdered>
-			<_base type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">ITag</_hm2Class>
-					<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
-					<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
-					<_hclass type="a">flowProperty</_hclass>
-					<_hname type="a">direction</_hname>
-					<_hid type="a">GUID cc62d98a-dc8a-4c6d-87b9-a6fc4d62bb79</_hid>
-				</IHandle>
-			</_base>
-			<AggregatesList type="e">
-				<value>GUID fbbea596-d7d9-40cf-9e77-1b2be4ad6146</value>
-			</AggregatesList>
-		</ITag>
-		<ILiteralSpecification type="e">
-			<_id type="a">GUID fbbea596-d7d9-40cf-9e77-1b2be4ad6146</_id>
-			<_modifiedTimeWeak type="a">4.17.2024::12:13:42</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::12:13:42</_modifiedTime>
-			<_value type="a">Out</_value>
-		</ILiteralSpecification>
-		<ILiteralSpecification type="e">
-			<_id type="a">GUID 29de079d-f9a7-4c2b-92d2-f0cc22b01a63</_id>
-			<_modifiedTimeWeak type="a">4.17.2024::12:13:16</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::12:13:16</_modifiedTime>
-			<_value type="a">0</_value>
-		</ILiteralSpecification>
-		<IAttribute type="e">
-			<_id type="a">GUID 79b7421b-3235-4554-a5b1-7e30ae4f1ca0</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">HVAC_heat_cool</_name>
-			<Stereotypes type="c">
-				<IRPYRawContainer type="e">
-					
-						<IHandle type="e">
-							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
-							<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
-							<_hname type="a">flowProperty</_hname>
-							<_hid type="a">GUID eab7d550-8820-4016-84c4-5f9d822752a1</_hid>
-						</IHandle>
-					
-				</IRPYRawContainer>
-			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.17.2024::12:13:45</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::12:13:45</_modifiedTime>
-			<_typeOf type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IType</_hm2Class>
-					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
-					<_hname type="a">bool</_hname>
-					<_hid type="a">GUID e6c263cc-4bc5-4a11-b32d-02148c93add0</_hid>
-				</IHandle>
-			</_typeOf>
-			<_isOrdered type="a">0</_isOrdered>
-			<_protection type="a">iPublic</_protection>
-			<_static type="a">0</_static>
-			<_isReferenceAttr type="a">0</_isReferenceAttr>
-			<_isConstant type="a">0</_isConstant>
-			<AggregatesList type="e">
-				<value>GUID 883bc016-0f27-4b7d-aefd-345cbe9c3544</value>
-				<value>GUID 67caacaa-c00a-4b86-bc4b-76c4db403a03</value>
-			</AggregatesList>
-		</IAttribute>
-		<ITag type="e">
-			<_id type="a">GUID 883bc016-0f27-4b7d-aefd-345cbe9c3544</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">direction</_name>
-			<_modifiedTimeWeak type="a">4.17.2024::12:13:45</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::12:13:45</_modifiedTime>
-			<_typeOf type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IType</_hm2Class>
-					<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
-					<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
-					<_hname type="a">FlowDirection</_hname>
-					<_hid type="a">GUID a03711f4-fb72-4f76-9470-618a1ee3394f</_hid>
-				</IHandle>
-			</_typeOf>
-			<_isOrdered type="a">0</_isOrdered>
-			<_base type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">ITag</_hm2Class>
-					<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
-					<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
-					<_hclass type="a">flowProperty</_hclass>
-					<_hname type="a">direction</_hname>
-					<_hid type="a">GUID cc62d98a-dc8a-4c6d-87b9-a6fc4d62bb79</_hid>
-				</IHandle>
-			</_base>
-			<AggregatesList type="e">
-				<value>GUID 58623fb9-c636-402d-817a-898dc7585743</value>
-			</AggregatesList>
-		</ITag>
-		<ILiteralSpecification type="e">
-			<_id type="a">GUID 58623fb9-c636-402d-817a-898dc7585743</_id>
-			<_modifiedTimeWeak type="a">4.17.2024::12:13:45</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::12:13:45</_modifiedTime>
-			<_value type="a">Out</_value>
-		</ILiteralSpecification>
-		<ILiteralSpecification type="e">
-			<_id type="a">GUID 67caacaa-c00a-4b86-bc4b-76c4db403a03</_id>
-			<_modifiedTimeWeak type="a">4.17.2024::12:13:37</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::12:13:37</_modifiedTime>
-			<_value type="a">0</_value>
+			<_id type="a">GUID 935a2680-7dc5-4b9d-b7a9-9a13fb23989a</_id>
+			<_modifiedTimeWeak type="a">4.18.2024::10:9:50</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::10:9:50</_modifiedTime>
+			<_value type="a">20</_value>
 		</ILiteralSpecification>
 		<IAssociationEnd type="e">
 			<_id type="a">GUID 7f62cb14-c088-4be0-8d56-b69c4b7a1132</_id>
@@ -4294,17 +4097,21 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.17.2024::13:49:6</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.18.2024::10:16:36</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID 22815286-52a9-4ceb-b054-817b1e4b4db0</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">4.17.2024::13:49:6</_modifiedTime>
+			<_modifiedTime type="a">4.18.2024::10:15:12</_modifiedTime>
 			<_lastID type="a">8</_lastID>
-			<weakCGTime type="a">4.17.2024::13:49:6</weakCGTime>
+			<weakCGTime type="a">4.18.2024::10:16:36</weakCGTime>
 			<strongCGTime type="a">4.17.2024::13:48:6</strongCGTime>
+			<Operations type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Operations>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IStateChart</_hm2Class>
@@ -4313,360 +4120,18 @@
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<AggregatesList type="e">
-				<value>GUID 03029b90-5759-454d-8adf-bcece395669b</value>
-				<value>GUID 3156a512-082b-42a6-b16f-a9779059e97c</value>
-				<value>GUID 053c73a0-6df1-4548-b418-5748447a2f16</value>
-				<value>GUID cfeb548a-2cde-4620-bdd6-a7cd9220895f</value>
-				<value>GUID 0b8749fa-6647-4194-9f47-89872a338c78</value>
-				<value>GUID a2c58e61-0379-4e16-99fe-4776bd4b7d18</value>
-				<value>GUID 6928db6b-1935-4d5b-ab50-722a206547c4</value>
-				<value>GUID b29f8f61-1950-4326-9a88-6d6e89166aef</value>
-				<value>GUID be0bd55c-559a-45ae-ad65-6b3a60fccde1</value>
-				<value>GUID 75060ab2-d753-47ad-a4d5-be38be86a290</value>
 				<value>GUID da890f8b-ceb7-4441-b87d-615270762403</value>
 				<value>GUID 30b25177-d317-4b52-8bd6-b2375b01f773</value>
 			</AggregatesList>
 		</IClass>
-		<IReception type="e">
-			<_id type="a">GUID 03029b90-5759-454d-8adf-bcece395669b</_id>
-			<_myState type="a">8192</_myState>
-			<_modifiedTimeWeak type="a">4.17.2024::12:45:24</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<_virtual type="a">0</_virtual>
-			<Args type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Args>
-			<_event type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hid type="a">GUID 8c01a3a7-9304-4e1f-8ee1-569f3be1cd39</_hid>
-				</IHandle>
-			</_event>
-		</IReception>
-		<IReception type="e">
-			<_id type="a">GUID 3156a512-082b-42a6-b16f-a9779059e97c</_id>
-			<_myState type="a">8192</_myState>
-			<_modifiedTimeWeak type="a">4.17.2024::12:45:24</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<_virtual type="a">0</_virtual>
-			<Args type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Args>
-			<_event type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hid type="a">GUID 74536963-fd97-4dd8-9aa6-d3d2cb7c480b</_hid>
-				</IHandle>
-			</_event>
-		</IReception>
-		<IReception type="e">
-			<_id type="a">GUID 053c73a0-6df1-4548-b418-5748447a2f16</_id>
-			<_myState type="a">8192</_myState>
-			<_modifiedTimeWeak type="a">4.17.2024::12:45:24</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<_virtual type="a">0</_virtual>
-			<Args type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Args>
-			<_event type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hid type="a">GUID aef8d899-289e-4783-8afc-b04d67f11d17</_hid>
-				</IHandle>
-			</_event>
-		</IReception>
-		<IReception type="e">
-			<_id type="a">GUID cfeb548a-2cde-4620-bdd6-a7cd9220895f</_id>
-			<_myState type="a">8192</_myState>
-			<_modifiedTimeWeak type="a">4.17.2024::12:45:24</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<_virtual type="a">0</_virtual>
-			<Args type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Args>
-			<_event type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hid type="a">GUID 9f5269cf-c02f-410a-97af-598584604899</_hid>
-				</IHandle>
-			</_event>
-		</IReception>
-		<IPrimitiveOperation type="e">
-			<_id type="a">GUID 0b8749fa-6647-4194-9f47-89872a338c78</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">setHVACon</_name>
-			<_modifiedTimeWeak type="a">4.17.2024::13:27:34</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::13:27:34</_modifiedTime>
-			<_virtual type="a">1</_virtual>
-			<Args type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Args>
-			<_returnType type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IType</_hm2Class>
-					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
-					<_hname type="a">void</_hname>
-					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
-				</IHandle>
-			</_returnType>
-			<_abstract type="a">0</_abstract>
-			<_final type="a">0</_final>
-			<_concurrency type="a">Sequential</_concurrency>
-			<_protection type="a">iPublic</_protection>
-			<_static type="a">0</_static>
-			<_constant type="a">0</_constant>
-			<_itsBody type="p"><IBody type="e">
-				<_bodyData type="a">std::cout &lt;&lt; &quot;HVAC: Turning on!\n&quot;;</_bodyData>
-			</IBody>
-			</_itsBody>
-		</IPrimitiveOperation>
-		<IPrimitiveOperation type="e">
-			<_id type="a">GUID a2c58e61-0379-4e16-99fe-4776bd4b7d18</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">setHVACoff</_name>
-			<_modifiedTimeWeak type="a">4.17.2024::13:27:38</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::13:27:38</_modifiedTime>
-			<_virtual type="a">1</_virtual>
-			<Args type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Args>
-			<_returnType type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IType</_hm2Class>
-					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
-					<_hname type="a">void</_hname>
-					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
-				</IHandle>
-			</_returnType>
-			<_abstract type="a">0</_abstract>
-			<_final type="a">0</_final>
-			<_concurrency type="a">Sequential</_concurrency>
-			<_protection type="a">iPublic</_protection>
-			<_static type="a">0</_static>
-			<_constant type="a">0</_constant>
-			<_itsBody type="p"><IBody type="e">
-				<_bodyData type="a">std::cout &lt;&lt; &quot;HVAC: Turning off!\n&quot;;</_bodyData>
-			</IBody>
-			</_itsBody>
-		</IPrimitiveOperation>
-		<IPrimitiveOperation type="e">
-			<_id type="a">GUID 6928db6b-1935-4d5b-ab50-722a206547c4</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">setHVACheat</_name>
-			<_modifiedTimeWeak type="a">4.17.2024::13:27:17</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::13:27:17</_modifiedTime>
-			<_virtual type="a">1</_virtual>
-			<Args type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Args>
-			<_returnType type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IType</_hm2Class>
-					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
-					<_hname type="a">void</_hname>
-					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
-				</IHandle>
-			</_returnType>
-			<_abstract type="a">0</_abstract>
-			<_final type="a">0</_final>
-			<_concurrency type="a">Sequential</_concurrency>
-			<_protection type="a">iPublic</_protection>
-			<_static type="a">0</_static>
-			<_constant type="a">0</_constant>
-			<_itsBody type="p"><IBody type="e">
-				<_bodyData type="a">std::cout &lt;&lt; &quot;HVAC: Heating... \n&quot;;</_bodyData>
-			</IBody>
-			</_itsBody>
-		</IPrimitiveOperation>
-		<IPrimitiveOperation type="e">
-			<_id type="a">GUID b29f8f61-1950-4326-9a88-6d6e89166aef</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">setHVACcool</_name>
-			<_modifiedTimeWeak type="a">4.17.2024::13:21:41</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::13:21:41</_modifiedTime>
-			<_virtual type="a">1</_virtual>
-			<Args type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Args>
-			<_returnType type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IType</_hm2Class>
-					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
-					<_hname type="a">void</_hname>
-					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
-				</IHandle>
-			</_returnType>
-			<_abstract type="a">0</_abstract>
-			<_final type="a">0</_final>
-			<_concurrency type="a">Sequential</_concurrency>
-			<_protection type="a">iPublic</_protection>
-			<_static type="a">0</_static>
-			<_constant type="a">0</_constant>
-			<_itsBody type="p"><IBody type="e">
-				<_bodyData type="a">std::cout &lt;&lt; &quot;HVAC: Cooling... \n&quot;;</_bodyData>
-			</IBody>
-			</_itsBody>
-		</IPrimitiveOperation>
-		<IAttribute type="e">
-			<_id type="a">GUID be0bd55c-559a-45ae-ad65-6b3a60fccde1</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">HVAC_heat_cool</_name>
-			<Stereotypes type="c">
-				<IRPYRawContainer type="e">
-					
-						<IHandle type="e">
-							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
-							<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
-							<_hname type="a">flowProperty</_hname>
-							<_hid type="a">GUID eab7d550-8820-4016-84c4-5f9d822752a1</_hid>
-						</IHandle>
-					
-				</IRPYRawContainer>
-			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.17.2024::12:14:18</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::12:14:18</_modifiedTime>
-			<_typeOf type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IType</_hm2Class>
-					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
-					<_hname type="a">bool</_hname>
-					<_hid type="a">GUID e6c263cc-4bc5-4a11-b32d-02148c93add0</_hid>
-				</IHandle>
-			</_typeOf>
-			<_isOrdered type="a">0</_isOrdered>
-			<_protection type="a">iPublic</_protection>
-			<_static type="a">0</_static>
-			<_isReferenceAttr type="a">0</_isReferenceAttr>
-			<_isConstant type="a">0</_isConstant>
-			<AggregatesList type="e">
-				<value>GUID 600426f7-7a9a-4172-bcfa-68a23d5f83df</value>
-			</AggregatesList>
-		</IAttribute>
-		<ITag type="e">
-			<_id type="a">GUID 600426f7-7a9a-4172-bcfa-68a23d5f83df</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">direction</_name>
-			<_modifiedTimeWeak type="a">4.17.2024::12:14:18</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::12:14:18</_modifiedTime>
-			<_typeOf type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IType</_hm2Class>
-					<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
-					<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
-					<_hname type="a">FlowDirection</_hname>
-					<_hid type="a">GUID a03711f4-fb72-4f76-9470-618a1ee3394f</_hid>
-				</IHandle>
-			</_typeOf>
-			<_isOrdered type="a">0</_isOrdered>
-			<_base type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">ITag</_hm2Class>
-					<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
-					<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
-					<_hclass type="a">flowProperty</_hclass>
-					<_hname type="a">direction</_hname>
-					<_hid type="a">GUID cc62d98a-dc8a-4c6d-87b9-a6fc4d62bb79</_hid>
-				</IHandle>
-			</_base>
-			<AggregatesList type="e">
-				<value>GUID 6051eb60-ee83-4d71-904e-2b13c35fb09a</value>
-			</AggregatesList>
-		</ITag>
-		<ILiteralSpecification type="e">
-			<_id type="a">GUID 6051eb60-ee83-4d71-904e-2b13c35fb09a</_id>
-			<_modifiedTimeWeak type="a">4.17.2024::12:14:18</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::12:14:18</_modifiedTime>
-			<_value type="a">In</_value>
-		</ILiteralSpecification>
-		<IAttribute type="e">
-			<_id type="a">GUID 75060ab2-d753-47ad-a4d5-be38be86a290</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">HVAC_ON_OFF</_name>
-			<Stereotypes type="c">
-				<IRPYRawContainer type="e">
-					
-						<IHandle type="e">
-							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
-							<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
-							<_hname type="a">flowProperty</_hname>
-							<_hid type="a">GUID eab7d550-8820-4016-84c4-5f9d822752a1</_hid>
-						</IHandle>
-					
-				</IRPYRawContainer>
-			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.17.2024::13:19:46</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::13:19:46</_modifiedTime>
-			<_typeOf type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IType</_hm2Class>
-					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
-					<_hname type="a">bool</_hname>
-					<_hid type="a">GUID e6c263cc-4bc5-4a11-b32d-02148c93add0</_hid>
-				</IHandle>
-			</_typeOf>
-			<_isOrdered type="a">0</_isOrdered>
-			<_protection type="a">iPublic</_protection>
-			<_static type="a">0</_static>
-			<_isReferenceAttr type="a">0</_isReferenceAttr>
-			<_isConstant type="a">0</_isConstant>
-			<AggregatesList type="e">
-				<value>GUID 6954d1d3-8a40-45ef-9ab9-f1283eda7f12</value>
-			</AggregatesList>
-		</IAttribute>
-		<ITag type="e">
-			<_id type="a">GUID 6954d1d3-8a40-45ef-9ab9-f1283eda7f12</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">direction</_name>
-			<_modifiedTimeWeak type="a">4.17.2024::12:14:33</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::12:14:33</_modifiedTime>
-			<_typeOf type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IType</_hm2Class>
-					<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
-					<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
-					<_hname type="a">FlowDirection</_hname>
-					<_hid type="a">GUID a03711f4-fb72-4f76-9470-618a1ee3394f</_hid>
-				</IHandle>
-			</_typeOf>
-			<_isOrdered type="a">0</_isOrdered>
-			<_base type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">ITag</_hm2Class>
-					<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
-					<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
-					<_hclass type="a">flowProperty</_hclass>
-					<_hname type="a">direction</_hname>
-					<_hid type="a">GUID cc62d98a-dc8a-4c6d-87b9-a6fc4d62bb79</_hid>
-				</IHandle>
-			</_base>
-			<AggregatesList type="e">
-				<value>GUID 1646490f-ba15-4a84-9d67-260419da9298</value>
-			</AggregatesList>
-		</ITag>
-		<ILiteralSpecification type="e">
-			<_id type="a">GUID 1646490f-ba15-4a84-9d67-260419da9298</_id>
-			<_modifiedTimeWeak type="a">4.17.2024::12:14:33</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::12:14:33</_modifiedTime>
-			<_value type="a">In</_value>
-		</ILiteralSpecification>
 		<IStateChart type="e">
 			<_id type="a">GUID da890f8b-ceb7-4441-b87d-615270762403</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">statechart</_name>
-			<_modifiedTimeWeak type="a">4.17.2024::13:32:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::13:25:1</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.18.2024::10:16:36</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::10:16:36</_modifiedTime>
 			<_lastID type="a">15</_lastID>
-			<weakCGTime type="a">4.17.2024::13:32:2</weakCGTime>
+			<weakCGTime type="a">4.18.2024::10:16:36</weakCGTime>
 			<strongCGTime type="a">4.17.2024::12:45:24</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -4674,7 +4139,7 @@
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<_defNumber type="a">4</_defNumber>
-			<_version type="a">4.17.2024::15:32:2</_version>
+			<_version type="a">4.18.2024::12:16:40</_version>
 			<_baseVersion type="a">1.2.1990::0:0:0</_baseVersion>
 			<_diagram type="s">GUID 29bf5bdc-1747-4393-9d20-be00ae4bf0da</_diagram>
 			<AggregatesList type="e">
@@ -4720,8 +4185,8 @@
 			<_id type="a">GUID 3394d905-8ab5-4a76-9e5d-f04e3c6c9e48</_id>
 			<_myState type="a">2048</_myState>
 			<_name type="a">transition_6</_name>
-			<_modifiedTimeWeak type="a">4.17.2024::12:26:42</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::12:26:42</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.18.2024::10:14:41</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::10:14:41</_modifiedTime>
 			<_itsTarget type="s">GUID 33f4e313-f54d-4653-9ecc-a7323b44e23e</_itsTarget>
 			<_staticReaction type="a">0</_staticReaction>
 			<_itsSource type="s">GUID bec029d0-02b8-4d79-b769-04abb78e5506</_itsSource>
@@ -4731,38 +4196,18 @@
 		</ITransition>
 		<ILabel type="e">
 			<_id type="a">GUID b619f6d4-bac4-4953-97ae-204dd39167af</_id>
-			<_modifiedTimeWeak type="a">4.17.2024::12:26:42</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::12:26:42</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.18.2024::10:14:41</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::10:14:41</_modifiedTime>
+			<_itsTrigger>NULL</_itsTrigger>
 			<_itsGuard>NULL</_itsGuard>
-			<AggregatesList type="e">
-				<value>GUID dc7bab8d-4d55-4c6a-9f03-04455df8f74e</value>
-				<value>GUID 5d8cb333-ccb0-41b2-ad68-8002518874ec</value>
-			</AggregatesList>
+			<_itsAction>NULL</_itsAction>
 		</ILabel>
-		<IInterfaceItemTrigger type="e">
-			<_id type="a">GUID dc7bab8d-4d55-4c6a-9f03-04455df8f74e</_id>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<_body type="a">reqHVACon</_body>
-			<_itsInterfaceItem type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hid type="a">GUID 8c01a3a7-9304-4e1f-8ee1-569f3be1cd39</_hid>
-				</IHandle>
-			</_itsInterfaceItem>
-		</IInterfaceItemTrigger>
-		<IAction type="e">
-			<_id type="a">GUID 5d8cb333-ccb0-41b2-ad68-8002518874ec</_id>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<_body type="a">setHVACon();</_body>
-		</IAction>
 		<ITransition type="e">
 			<_id type="a">GUID f0566aef-4045-401d-8dae-f590fc8c95b6</_id>
 			<_myState type="a">2048</_myState>
 			<_name type="a">transition_8</_name>
-			<_modifiedTimeWeak type="a">4.17.2024::13:22:3</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::13:22:3</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.18.2024::10:14:43</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::10:14:43</_modifiedTime>
 			<_itsTarget type="s">GUID bec029d0-02b8-4d79-b769-04abb78e5506</_itsTarget>
 			<_staticReaction type="a">0</_staticReaction>
 			<_itsSource type="s">GUID 33f4e313-f54d-4653-9ecc-a7323b44e23e</_itsSource>
@@ -4772,38 +4217,18 @@
 		</ITransition>
 		<ILabel type="e">
 			<_id type="a">GUID c6601844-af20-433d-bea1-80a6d558739f</_id>
-			<_modifiedTimeWeak type="a">4.17.2024::13:22:3</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::13:22:3</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.18.2024::10:14:43</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::10:14:43</_modifiedTime>
+			<_itsTrigger>NULL</_itsTrigger>
 			<_itsGuard>NULL</_itsGuard>
-			<AggregatesList type="e">
-				<value>GUID b017f461-fa2a-472c-8728-5e878386ead2</value>
-				<value>GUID a127cb72-36db-4ceb-a0f9-c8f16ed3852b</value>
-			</AggregatesList>
+			<_itsAction>NULL</_itsAction>
 		</ILabel>
-		<IInterfaceItemTrigger type="e">
-			<_id type="a">GUID b017f461-fa2a-472c-8728-5e878386ead2</_id>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<_body type="a">reqHVACoff</_body>
-			<_itsInterfaceItem type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hid type="a">GUID 74536963-fd97-4dd8-9aa6-d3d2cb7c480b</_hid>
-				</IHandle>
-			</_itsInterfaceItem>
-		</IInterfaceItemTrigger>
-		<IAction type="e">
-			<_id type="a">GUID a127cb72-36db-4ceb-a0f9-c8f16ed3852b</_id>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<_body type="a">setHVACoff();</_body>
-		</IAction>
 		<ITransition type="e">
 			<_id type="a">GUID 09d07621-1bdd-4941-a106-95fec56ab636</_id>
 			<_myState type="a">2048</_myState>
 			<_name type="a">transition_9</_name>
-			<_modifiedTimeWeak type="a">4.17.2024::12:25:50</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::12:25:50</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.18.2024::10:14:46</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::10:14:46</_modifiedTime>
 			<_itsTarget type="s">GUID da55ada8-ed75-4a0b-833d-6937d2716fd3</_itsTarget>
 			<_staticReaction type="a">0</_staticReaction>
 			<_itsSource type="s">GUID f930c93f-127f-4e94-926b-73268804ec66</_itsSource>
@@ -4813,32 +4238,18 @@
 		</ITransition>
 		<ILabel type="e">
 			<_id type="a">GUID 67b0f5ea-57db-4e39-a455-3329e55b3d20</_id>
-			<_modifiedTimeWeak type="a">4.17.2024::12:25:50</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::12:25:50</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.18.2024::10:14:46</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::10:14:46</_modifiedTime>
+			<_itsTrigger>NULL</_itsTrigger>
 			<_itsGuard>NULL</_itsGuard>
 			<_itsAction>NULL</_itsAction>
-			<AggregatesList type="e">
-				<value>GUID c60663de-7f14-45be-933a-c039889dbf56</value>
-			</AggregatesList>
 		</ILabel>
-		<IInterfaceItemTrigger type="e">
-			<_id type="a">GUID c60663de-7f14-45be-933a-c039889dbf56</_id>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<_body type="a">reqCooling</_body>
-			<_itsInterfaceItem type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hid type="a">GUID aef8d899-289e-4783-8afc-b04d67f11d17</_hid>
-				</IHandle>
-			</_itsInterfaceItem>
-		</IInterfaceItemTrigger>
 		<ITransition type="e">
 			<_id type="a">GUID 10dfa4f6-5279-47f7-b85c-ebe7b83b9c70</_id>
 			<_myState type="a">2048</_myState>
 			<_name type="a">transition_10</_name>
-			<_modifiedTimeWeak type="a">4.17.2024::12:26:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::12:26:0</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.18.2024::10:14:48</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::10:14:48</_modifiedTime>
 			<_itsTarget type="s">GUID f930c93f-127f-4e94-926b-73268804ec66</_itsTarget>
 			<_staticReaction type="a">0</_staticReaction>
 			<_itsSource type="s">GUID da55ada8-ed75-4a0b-833d-6937d2716fd3</_itsSource>
@@ -4848,26 +4259,12 @@
 		</ITransition>
 		<ILabel type="e">
 			<_id type="a">GUID 47721bfa-8433-439d-8c77-cacf30206a51</_id>
-			<_modifiedTimeWeak type="a">4.17.2024::12:26:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::12:26:0</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.18.2024::10:14:48</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::10:14:48</_modifiedTime>
+			<_itsTrigger>NULL</_itsTrigger>
 			<_itsGuard>NULL</_itsGuard>
 			<_itsAction>NULL</_itsAction>
-			<AggregatesList type="e">
-				<value>GUID 39ba27c8-079b-4db0-a44b-4f5cb0d3e983</value>
-			</AggregatesList>
 		</ILabel>
-		<IInterfaceItemTrigger type="e">
-			<_id type="a">GUID 39ba27c8-079b-4db0-a44b-4f5cb0d3e983</_id>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<_body type="a">reqHeating</_body>
-			<_itsInterfaceItem type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hid type="a">GUID 9f5269cf-c02f-410a-97af-598584604899</_hid>
-				</IHandle>
-			</_itsInterfaceItem>
-		</IInterfaceItemTrigger>
 		<IDefaultDrvdTrans type="e">
 			<_id type="a">GUID b46bda4a-a41c-4cc7-bf1d-d7ab8da7835a</_id>
 			<_myState type="a">2048</_myState>
@@ -4958,34 +4355,18 @@
 		<IState type="e">
 			<_id type="a">GUID f930c93f-127f-4e94-926b-73268804ec66</_id>
 			<_name type="a">Heating</_name>
-			<_modifiedTimeWeak type="a">4.17.2024::13:24:44</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::13:24:44</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.18.2024::10:15:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::10:15:22</_modifiedTime>
 			<_parent type="s">GUID 33f4e313-f54d-4653-9ecc-a7323b44e23e</_parent>
 			<_defaultTrans type="s"></_defaultTrans>
-			<_entryAction type="p"><IAction type="e">
-				<_id type="a">GUID 82d373a2-93ac-4c2f-afc2-74e8ebd4a778</_id>
-				<_myState type="a">4096</_myState>
-				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-				<_body type="a">setHVACheat();</_body>
-			</IAction>
-			</_entryAction>
 		</IState>
 		<IState type="e">
 			<_id type="a">GUID da55ada8-ed75-4a0b-833d-6937d2716fd3</_id>
 			<_name type="a">Cooling</_name>
-			<_modifiedTimeWeak type="a">4.17.2024::13:25:1</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::13:25:1</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.18.2024::10:15:28</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::10:15:28</_modifiedTime>
 			<_parent type="s">GUID 33f4e313-f54d-4653-9ecc-a7323b44e23e</_parent>
 			<_defaultTrans type="s"></_defaultTrans>
-			<_entryAction type="p"><IAction type="e">
-				<_id type="a">GUID f41318c0-aaea-475b-b7a8-d3a067f9ff5b</_id>
-				<_myState type="a">4096</_myState>
-				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-				<_body type="a">setHVACcool();</_body>
-			</IAction>
-			</_entryAction>
 		</IState>
 		<IStateChartDiagram type="e">
 			<_id type="a">GUID 29bf5bdc-1747-4393-9d20-be00ae4bf0da</_id>
@@ -5306,9 +4687,9 @@
 			</IPropertyContainer>
 			</_properties>
 			<_name type="a">statechartdiagram_0</_name>
-			<_modifiedTimeWeak type="a">4.17.2024::13:32:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::13:24:33</_modifiedTime>
-			<_lastModifiedTime type="a">4.17.2024::13:32:2</_lastModifiedTime>
+			<_modifiedTimeWeak type="a">4.18.2024::10:16:36</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::10:16:36</_modifiedTime>
+			<_lastModifiedTime type="a">4.18.2024::10:16:40</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -5459,7 +4840,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_transform type="a">2.74537 0 0 3.63636 20 20 </m_transform>
+			<m_transform type="a">2.63889 0 0 3.63636 20 20 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -5538,7 +4919,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.100365 0 0 0.0650943 74 86 </m_transform>
+			<m_transform type="a">0.100365 0 0 0.0650943 36 93 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -5619,7 +5000,7 @@
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">98 52 </m_SourcePort>
+			<m_SourcePort type="a">60 59 </m_SourcePort>
 			<m_TargetPort type="a">239 0 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
@@ -5685,7 +5066,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.230839 0 0 0.300943 350 86 </m_transform>
+			<m_transform type="a">0.230839 0 0 0.300943 312 93 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -5793,8 +5174,7 @@
 			<m_polygon type="a">4 0 0  0 1060  1096 1060  1096 0  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<frameset type="a">&lt;frameset rows=100%25&gt;
-&lt;frame name=ReactionsListCompartment&gt;</frameset>
+			<frameset type="a">&lt;frameset rows=&gt;</frameset>
 			<nAndLineCount type="a">0</nAndLineCount>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
@@ -5812,8 +5192,6 @@
 			<m_displayOption type="a">All</m_displayOption>
 			<m_bShowInherited type="a">0</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
-			<_itemValueOfFontPropertiesMapCount type="a">1</_itemValueOfFontPropertiesMapCount>
-			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
 		<CGIState type="e">
 			<_id type="a">GUID 3eede451-1071-4e49-ad66-89a51fe05ffb</_id>
@@ -5893,8 +5271,7 @@
 			<m_polygon type="a">4 0 0  0 1060  1096 1060  1096 0  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<frameset type="a">&lt;frameset rows=100%25&gt;
-&lt;frame name=ReactionsListCompartment&gt;</frameset>
+			<frameset type="a">&lt;frameset rows=&gt;</frameset>
 			<nAndLineCount type="a">0</nAndLineCount>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
@@ -5912,8 +5289,6 @@
 			<m_displayOption type="a">All</m_displayOption>
 			<m_bShowInherited type="a">0</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
-			<_itemValueOfFontPropertiesMapCount type="a">1</_itemValueOfFontPropertiesMapCount>
-			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
 		<CGITrans type="e">
 			<_id type="a">GUID 2892b65e-35f7-4665-b32e-4e9d677f7f5c</_id>
@@ -5950,7 +5325,6 @@
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">reqHVACon/setHVACon();</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -6015,7 +5389,6 @@
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">reqHVACoff/setHVACoff();</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -6080,7 +5453,6 @@
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">reqCooling</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -6145,7 +5517,6 @@
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">reqHeating</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -6260,11 +5631,10 @@
 					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 391 144  379 144  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">121 136 </m_SourcePort>
+			<m_SourcePort type="a">126 136 </m_SourcePort>
 			<m_TargetPort type="a">12 -1 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
@@ -6322,6 +5692,7 @@
 					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
+			<m_arrow type="a">3 354 130  370 130  370 180  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>

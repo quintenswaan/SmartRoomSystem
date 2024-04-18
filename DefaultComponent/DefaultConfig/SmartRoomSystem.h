@@ -130,18 +130,6 @@ public :
     p_SmartRoomSystem_C* get_p_SmartRoomSystem(void) const;
     
     //## auto_generated
-    const bool getHVAC_ON_OFF(void) const;
-    
-    //## auto_generated
-    void setHVAC_ON_OFF(const bool p_HVAC_ON_OFF);
-    
-    //## auto_generated
-    const bool getHVAC_heat_cool(void) const;
-    
-    //## auto_generated
-    void setHVAC_heat_cool(const bool p_HVAC_heat_cool);
-    
-    //## auto_generated
     const int getCurrentTemp(void) const;
     
     //## auto_generated
@@ -222,10 +210,6 @@ protected :
 
 private :
 
-    bool HVAC_ON_OFF;		//## attribute HVAC_ON_OFF
-    
-    bool HVAC_heat_cool;		//## attribute HVAC_heat_cool
-    
     int currentTemp;		//## attribute currentTemp
     
     int desiredTemp;		//## attribute desiredTemp

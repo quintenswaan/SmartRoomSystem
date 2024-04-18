@@ -20,14 +20,6 @@
 #include "SmartRoomSystem.h"
 //#[ ignore
 #define SYSTEM_ANALYSIS_SYSTEM_CONTEXT_HVAC_HVAC_SERIALIZE OM_NO_OP
-
-#define SYSTEM_ANALYSIS_SYSTEM_CONTEXT_HVAC_setHVACcool_SERIALIZE OM_NO_OP
-
-#define SYSTEM_ANALYSIS_SYSTEM_CONTEXT_HVAC_setHVACheat_SERIALIZE OM_NO_OP
-
-#define SYSTEM_ANALYSIS_SYSTEM_CONTEXT_HVAC_setHVACoff_SERIALIZE OM_NO_OP
-
-#define SYSTEM_ANALYSIS_SYSTEM_CONTEXT_HVAC_setHVACon_SERIALIZE OM_NO_OP
 //#]
 
 //## package SYSTEM_ANALYSIS::SYSTEM_CONTEXT
@@ -42,50 +34,6 @@ HVAC::HVAC(IOxfActive* const theActiveContext) : OMReactive(), itsSmartRoomSyste
 HVAC::~HVAC(void) {
     NOTIFY_DESTRUCTOR(~HVAC, true);
     cleanUpRelations();
-}
-
-void HVAC::setHVACcool(void) {
-    NOTIFY_OPERATION(setHVACcool, setHVACcool(), 0, SYSTEM_ANALYSIS_SYSTEM_CONTEXT_HVAC_setHVACcool_SERIALIZE);
-    //#[ operation setHVACcool()
-    std::cout << "HVAC: Cooling... \n";
-    //#]
-}
-
-void HVAC::setHVACheat(void) {
-    NOTIFY_OPERATION(setHVACheat, setHVACheat(), 0, SYSTEM_ANALYSIS_SYSTEM_CONTEXT_HVAC_setHVACheat_SERIALIZE);
-    //#[ operation setHVACheat()
-    std::cout << "HVAC: Heating... \n";
-    //#]
-}
-
-void HVAC::setHVACoff(void) {
-    NOTIFY_OPERATION(setHVACoff, setHVACoff(), 0, SYSTEM_ANALYSIS_SYSTEM_CONTEXT_HVAC_setHVACoff_SERIALIZE);
-    //#[ operation setHVACoff()
-    std::cout << "HVAC: Turning off!\n";
-    //#]
-}
-
-void HVAC::setHVACon(void) {
-    NOTIFY_OPERATION(setHVACon, setHVACon(), 0, SYSTEM_ANALYSIS_SYSTEM_CONTEXT_HVAC_setHVACon_SERIALIZE);
-    //#[ operation setHVACon()
-    std::cout << "HVAC: Turning on!\n";
-    //#]
-}
-
-const bool HVAC::getHVAC_ON_OFF(void) const {
-    return HVAC_ON_OFF;
-}
-
-void HVAC::setHVAC_ON_OFF(const bool p_HVAC_ON_OFF) {
-    HVAC_ON_OFF = p_HVAC_ON_OFF;
-}
-
-const bool HVAC::getHVAC_heat_cool(void) const {
-    return HVAC_heat_cool;
-}
-
-void HVAC::setHVAC_heat_cool(const bool p_HVAC_heat_cool) {
-    HVAC_heat_cool = p_HVAC_heat_cool;
 }
 
 const SmartRoomSystem* HVAC::getItsSmartRoomSystem(void) const {
@@ -153,6 +101,7 @@ void HVAC::_clearItsSmartRoomSystem(void) {
 
 void HVAC::On_entDef(void) {
     NOTIFY_STATE_ENTERED("ROOT.On");
+    pushNullTransition();
     rootState_subState = On;
     OnEntDef();
 }
@@ -168,11 +117,9 @@ void HVAC::On_entShallowHist(void) {
         {
             NOTIFY_TRANSITION_STARTED("6");
             NOTIFY_STATE_ENTERED("ROOT.On.Heating");
+            pushNullTransition();
             On_subState = Heating;
             rootState_active = Heating;
-            //#[ state On.Heating.(Entry) 
-            setHVACheat();
-            //#]
             NOTIFY_TRANSITION_TERMINATED("6");
         }
     else
@@ -182,21 +129,17 @@ void HVAC::On_entShallowHist(void) {
                 case Heating:
                 {
                     NOTIFY_STATE_ENTERED("ROOT.On.Heating");
+                    pushNullTransition();
                     On_subState = Heating;
                     rootState_active = Heating;
-                    //#[ state On.Heating.(Entry) 
-                    setHVACheat();
-                    //#]
                 }
                 break;
                 case Cooling:
                 {
                     NOTIFY_STATE_ENTERED("ROOT.On.Cooling");
+                    pushNullTransition();
                     On_subState = Cooling;
                     rootState_active = Cooling;
-                    //#[ state On.Cooling.(Entry) 
-                    setHVACcool();
-                    //#]
                 }
                 break;
                 default:
@@ -207,14 +150,16 @@ void HVAC::On_entShallowHist(void) {
 
 IOxfReactive::TakeEventStatus HVAC::On_handleEvent(void) {
     IOxfReactive::TakeEventStatus res = eventNotConsumed;
-    if(IS_EVENT_TYPE_OF(reqHVACoff_SYSTEM_CONTEXT_SYSTEM_ANALYSIS_id) == 1)
+    if(IS_EVENT_TYPE_OF(OMNullEventId) == 1)
         {
             NOTIFY_TRANSITION_STARTED("2");
             On_lastState = On_subState;
+            popNullTransition();
             switch (On_subState) {
                 // State Heating
                 case Heating:
                 {
+                    popNullTransition();
                     NOTIFY_STATE_EXITED("ROOT.On.Heating");
                     On_lastState = Heating;
                 }
@@ -222,6 +167,7 @@ IOxfReactive::TakeEventStatus HVAC::On_handleEvent(void) {
                 // State Cooling
                 case Cooling:
                 {
+                    popNullTransition();
                     NOTIFY_STATE_EXITED("ROOT.On.Cooling");
                     On_lastState = Cooling;
                 }
@@ -231,10 +177,8 @@ IOxfReactive::TakeEventStatus HVAC::On_handleEvent(void) {
             }
             On_subState = OMNonState;
             NOTIFY_STATE_EXITED("ROOT.On");
-            //#[ transition 2 
-            setHVACoff();
-            //#]
             NOTIFY_STATE_ENTERED("ROOT.Off");
+            pushNullTransition();
             rootState_subState = Off;
             rootState_active = Off;
             NOTIFY_TRANSITION_TERMINATED("2");
@@ -249,6 +193,7 @@ void HVAC::rootState_entDef(void) {
         NOTIFY_STATE_ENTERED("ROOT");
         NOTIFY_TRANSITION_STARTED("0");
         NOTIFY_STATE_ENTERED("ROOT.Off");
+        pushNullTransition();
         rootState_subState = Off;
         rootState_active = Off;
         NOTIFY_TRANSITION_TERMINATED("0");
@@ -261,13 +206,11 @@ IOxfReactive::TakeEventStatus HVAC::rootState_processEvent(void) {
         // State Off
         case Off:
         {
-            if(IS_EVENT_TYPE_OF(reqHVACon_SYSTEM_CONTEXT_SYSTEM_ANALYSIS_id) == 1)
+            if(IS_EVENT_TYPE_OF(OMNullEventId) == 1)
                 {
                     NOTIFY_TRANSITION_STARTED("1");
+                    popNullTransition();
                     NOTIFY_STATE_EXITED("ROOT.Off");
-                    //#[ transition 1 
-                    setHVACon();
-                    //#]
                     On_entDef();
                     NOTIFY_TRANSITION_TERMINATED("1");
                     res = eventConsumed;
@@ -278,16 +221,15 @@ IOxfReactive::TakeEventStatus HVAC::rootState_processEvent(void) {
         // State Heating
         case Heating:
         {
-            if(IS_EVENT_TYPE_OF(reqCooling_SYSTEM_CONTEXT_SYSTEM_ANALYSIS_id) == 1)
+            if(IS_EVENT_TYPE_OF(OMNullEventId) == 1)
                 {
                     NOTIFY_TRANSITION_STARTED("3");
+                    popNullTransition();
                     NOTIFY_STATE_EXITED("ROOT.On.Heating");
                     NOTIFY_STATE_ENTERED("ROOT.On.Cooling");
+                    pushNullTransition();
                     On_subState = Cooling;
                     rootState_active = Cooling;
-                    //#[ state On.Cooling.(Entry) 
-                    setHVACcool();
-                    //#]
                     NOTIFY_TRANSITION_TERMINATED("3");
                     res = eventConsumed;
                 }
@@ -301,16 +243,15 @@ IOxfReactive::TakeEventStatus HVAC::rootState_processEvent(void) {
         // State Cooling
         case Cooling:
         {
-            if(IS_EVENT_TYPE_OF(reqHeating_SYSTEM_CONTEXT_SYSTEM_ANALYSIS_id) == 1)
+            if(IS_EVENT_TYPE_OF(OMNullEventId) == 1)
                 {
                     NOTIFY_TRANSITION_STARTED("4");
+                    popNullTransition();
                     NOTIFY_STATE_EXITED("ROOT.On.Cooling");
                     NOTIFY_STATE_ENTERED("ROOT.On.Heating");
+                    pushNullTransition();
                     On_subState = Heating;
                     rootState_active = Heating;
-                    //#[ state On.Heating.(Entry) 
-                    setHVACheat();
-                    //#]
                     NOTIFY_TRANSITION_TERMINATED("4");
                     res = eventConsumed;
                 }
@@ -329,11 +270,6 @@ IOxfReactive::TakeEventStatus HVAC::rootState_processEvent(void) {
 
 #ifdef _OMINSTRUMENT
 //#[ ignore
-void OMAnimatedHVAC::serializeAttributes(AOMSAttributes* aomsAttributes) const {
-    aomsAttributes->addAttribute("HVAC_heat_cool", x2String(myReal->HVAC_heat_cool));
-    aomsAttributes->addAttribute("HVAC_ON_OFF", x2String(myReal->HVAC_ON_OFF));
-}
-
 void OMAnimatedHVAC::serializeRelations(AOMSRelations* aomsRelations) const {
     aomsRelations->addRelation("itsSmartRoomSystem", false, true);
     if(myReal->itsSmartRoomSystem)

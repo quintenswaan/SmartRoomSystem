@@ -46,35 +46,9 @@ public :
     explicit HVAC(IOxfActive* const theActiveContext = NULL);
     
     //## auto_generated
-    virtual ~HVAC(void);
-    
-    ////    Operations    ////
-    
-    //## operation setHVACcool()
-    virtual void setHVACcool(void);
-    
-    //## operation setHVACheat()
-    virtual void setHVACheat(void);
-    
-    //## operation setHVACoff()
-    virtual void setHVACoff(void);
-    
-    //## operation setHVACon()
-    virtual void setHVACon(void);
+    ~HVAC(void);
     
     ////    Additional operations    ////
-    
-    //## auto_generated
-    const bool getHVAC_ON_OFF(void) const;
-    
-    //## auto_generated
-    void setHVAC_ON_OFF(const bool p_HVAC_ON_OFF);
-    
-    //## auto_generated
-    const bool getHVAC_heat_cool(void) const;
-    
-    //## auto_generated
-    void setHVAC_heat_cool(const bool p_HVAC_heat_cool);
     
     //## auto_generated
     const SmartRoomSystem* getItsSmartRoomSystem(void) const;
@@ -93,16 +67,10 @@ protected :
     //## auto_generated
     void cleanUpRelations(void);
     
-    ////    Attributes    ////
+    ////    Relations and components    ////
 
 private :
 
-    bool HVAC_ON_OFF;		//## attribute HVAC_ON_OFF
-    
-    bool HVAC_heat_cool;		//## attribute HVAC_heat_cool
-    
-    ////    Relations and components    ////
-    
     SmartRoomSystem* itsSmartRoomSystem;		//## link itsSmartRoomSystem
     
     ////    Framework operations    ////
@@ -192,8 +160,6 @@ class OMAnimatedHVAC : virtual public AOMInstance {
     
 public :
 
-    virtual void serializeAttributes(AOMSAttributes* aomsAttributes) const;
-    
     virtual void serializeRelations(AOMSRelations* aomsRelations) const;
     
     //## statechart_method
