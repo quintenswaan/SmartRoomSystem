@@ -6,8 +6,8 @@ I-Logix-RPY-Archive version 8.15.0 * 202002261110
 	"DefaultComponent\\DefaultConfig\\AirPurifier.h" 4.18.2024::9:33:7
 	"DefaultComponent\\DefaultConfig\\FireSprinklerSystem.cpp" 4.18.2024::9:33:6
 	"DefaultComponent\\DefaultConfig\\FireSprinklerSystem.h" 4.18.2024::9:33:6
-	"DefaultComponent\\DefaultConfig\\HVAC.cpp" 4.18.2024::9:33:6
-	"DefaultComponent\\DefaultConfig\\HVAC.h" 4.18.2024::9:33:6
+	"DefaultComponent\\DefaultConfig\\HVAC.cpp" 4.18.2024::10:16:4
+	"DefaultComponent\\DefaultConfig\\HVAC.h" 4.18.2024::10:16:3
 	"DefaultComponent\\DefaultConfig\\NaturalEnvironment.cpp" 4.18.2024::9:33:6
 	"DefaultComponent\\DefaultConfig\\NaturalEnvironment.h" 4.18.2024::9:33:6
 	"DefaultComponent\\DefaultConfig\\OPERATING_ENVIRONMENT.cpp" 4.18.2024::9:33:7
@@ -22,8 +22,8 @@ I-Logix-RPY-Archive version 8.15.0 * 202002261110
 	"DefaultComponent\\DefaultConfig\\SYSTEM_CONTEXT.h" 4.18.2024::9:33:7
 	"DefaultComponent\\DefaultConfig\\SecurityAndAccesSystem.cpp" 4.18.2024::9:33:7
 	"DefaultComponent\\DefaultConfig\\SecurityAndAccesSystem.h" 4.18.2024::9:33:7
-	"DefaultComponent\\DefaultConfig\\SmartRoomSystem.cpp" 4.18.2024::9:44:36
-	"DefaultComponent\\DefaultConfig\\SmartRoomSystem.h" 4.18.2024::9:44:36
+	"DefaultComponent\\DefaultConfig\\SmartRoomSystem.cpp" 4.18.2024::10:16:4
+	"DefaultComponent\\DefaultConfig\\SmartRoomSystem.h" 4.18.2024::10:16:4
 	"DefaultComponent\\DefaultConfig\\Stakeholders.cpp" 4.18.2024::9:33:6
 	"DefaultComponent\\DefaultConfig\\Stakeholders.h" 4.18.2024::9:33:6
 	"DefaultComponent\\DefaultConfig\\Standards.cpp" 4.18.2024::9:33:6
@@ -44,16 +44,21 @@ I-Logix-RPY-Archive version 8.15.0 * 202002261110
 	"GUID 697b8bd6-075f-4677-8098-763f81d85e43" "GUID fb78b107-cb02-4b4d-9315-b3afd60bf0a7"
 	"GUID 6ff00bc4-a51e-438f-903f-d773225c5ff3" "GUID fb78b107-cb02-4b4d-9315-b3afd60bf0a7"
 	"GUID 8eb1687c-627a-4d0b-af03-8215ecc9c8ea" "GUID fb78b107-cb02-4b4d-9315-b3afd60bf0a7"
-	"GUID fb4ae176-442d-4d61-b8ab-fc0595141ac7" "GUID c4e68525-23da-407c-8953-4e2a03efb7c0"
+	"GUID 98f2f8e0-64ba-45c5-826d-904c4fcfea1d" "GUID c4e68525-23da-407c-8953-4e2a03efb7c0"
 	"GUID fb78b107-cb02-4b4d-9315-b3afd60bf0a7" "GUID c4e68525-23da-407c-8953-4e2a03efb7c0"
 	
 }
-- size = 23;
+- size = 27;
 - hElement = { IHandle 
 	- _m2Class = "*";
 	- _id = GUID 997c8302-7592-44c7-bb1c-55d5ea83c8eb;
 }
 - genTime = 4.18.2024::9:43:55;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 96812eee-fb8a-45ae-9c61-13a42d6c209b;
+}
+- genTime = 4.18.2024::9:47:1;
 - hElement = { IHandle 
 	- _m2Class = "IClass";
 	- _filename = ".\\..\\..\\SmartRoomSystem_rpy\\SYSTEM_CONTEXT.sbsx";
@@ -74,7 +79,7 @@ I-Logix-RPY-Archive version 8.15.0 * 202002261110
 	- _name = "SmartRoomSystem";
 	- _id = GUID ed05c565-2ca7-4a6d-a6d2-b362d8dffe68;
 }
-- genTime = 4.18.2024::9:44:36;
+- genTime = 4.18.2024::10:16:4;
 - hElement = { IHandle 
 	- _m2Class = "IClass";
 	- _filename = ".\\..\\..\\SmartRoomSystem_rpy\\SYSTEM_CONTEXT.sbsx";
@@ -90,7 +95,7 @@ I-Logix-RPY-Archive version 8.15.0 * 202002261110
 	- _name = "USER_MODEL";
 	- _id = GUID 697b8bd6-075f-4677-8098-763f81d85e43;
 }
-- genTime = 4.18.2024::9:44:36;
+- genTime = 4.18.2024::10:16:4;
 - hElement = { IHandle 
 	- _m2Class = "*";
 	- _id = GUID cc7599fe-9475-45cd-b6a3-4f6b01a00cbb;
@@ -103,7 +108,7 @@ I-Logix-RPY-Archive version 8.15.0 * 202002261110
 	- _name = "OPERATING_ENVIRONMENT";
 	- _id = GUID 6ff00bc4-a51e-438f-903f-d773225c5ff3;
 }
-- genTime = 4.18.2024::9:44:36;
+- genTime = 4.18.2024::10:16:4;
 - hElement = { IHandle 
 	- _m2Class = "IClass";
 	- _filename = ".\\..\\..\\SmartRoomSystem_rpy\\SYSTEM_CONTEXT.sbsx";
@@ -112,6 +117,19 @@ I-Logix-RPY-Archive version 8.15.0 * 202002261110
 	- _id = GUID ff01491d-4975-4c75-ac9a-369301229d55;
 }
 - genTime = 4.18.2024::9:33:7;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 0c578fca-1f77-4e51-ac0c-430e7a265244;
+}
+- genTime = 4.18.2024::9:47:1;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\SmartRoomSystem_rpy\\ProxyPortInterfaces.sbsx";
+	- _subsystem = "ProxyPortInterfaces";
+	- _name = "int_currentTemp_ProxyFlowPropertyInterface";
+	- _id = GUID b83fe09b-ee82-441c-895c-14f38430c18f;
+}
+- genTime = 4.18.2024::10:16:4;
 - hElement = { IHandle 
 	- _m2Class = "IClass";
 	- _filename = ".\\..\\..\\SmartRoomSystem_rpy\\SYSTEM_CONTEXT.sbsx";
@@ -134,7 +152,7 @@ I-Logix-RPY-Archive version 8.15.0 * 202002261110
 	- _name = "DefaultComponent\\DefaultConfig";
 	- _id = GUID caaa5eb1-eb1b-4836-af7c-8e7772c46f69;
 }
-- genTime = 4.18.2024::9:44:36;
+- genTime = 4.18.2024::10:16:4;
 - hElement = { IHandle 
 	- _m2Class = "ISubsystem";
 	- _filename = ".\\..\\..\\SmartRoomSystem_rpy\\SYSTEM_CONTEXT.sbsx";
@@ -142,7 +160,7 @@ I-Logix-RPY-Archive version 8.15.0 * 202002261110
 	- _name = "SYSTEM_CONTEXT";
 	- _id = GUID 53e664ad-a82b-4332-ac3c-6657b848ed00;
 }
-- genTime = 4.18.2024::9:44:36;
+- genTime = 4.18.2024::10:16:4;
 - hElement = { IHandle 
 	- _m2Class = "*";
 	- _id = GUID 09c3a981-5ea3-4786-b01e-c1623d3431d5;
@@ -157,6 +175,13 @@ I-Logix-RPY-Archive version 8.15.0 * 202002261110
 }
 - genTime = 4.18.2024::9:33:7;
 - hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = ".\\..\\..\\SmartRoomSystem_rpy\\ProxyPortInterfaces.sbsx";
+	- _name = "ProxyPortInterfaces";
+	- _id = GUID 98f2f8e0-64ba-45c5-826d-904c4fcfea1d;
+}
+- genTime = 4.18.2024::10:16:4;
+- hElement = { IHandle 
 	- _m2Class = "*";
 	- _id = GUID ffe21ded-3493-4757-8c41-44364b680ec1;
 }
@@ -168,7 +193,7 @@ I-Logix-RPY-Archive version 8.15.0 * 202002261110
 	- _name = "TemperatureSensor";
 	- _id = GUID 87ef6496-0f97-4f7e-9c91-9cdbab1cb78b;
 }
-- genTime = 4.18.2024::9:33:7;
+- genTime = 4.18.2024::10:16:4;
 - hElement = { IHandle 
 	- _m2Class = "IActor";
 	- _filename = ".\\..\\..\\SmartRoomSystem_rpy\\SYSTEM_CONTEXT.sbsx";
@@ -186,17 +211,12 @@ I-Logix-RPY-Archive version 8.15.0 * 202002261110
 }
 - genTime = 4.18.2024::9:33:7;
 - hElement = { IHandle 
-	- _m2Class = "ISubsystem";
-	- _filename = ".\\..\\..\\SmartRoomSystem_rpy\\ProxyPortInterfaces.sbsx";
-	- _name = "ProxyPortInterfaces";
+	- _m2Class = "*";
 	- _id = GUID fb4ae176-442d-4d61-b8ab-fc0595141ac7;
 }
 - genTime = 4.18.2024::9:44:36;
 - hElement = { IHandle 
-	- _m2Class = "IClass";
-	- _filename = ".\\..\\..\\SmartRoomSystem_rpy\\ProxyPortInterfaces.sbsx";
-	- _subsystem = "ProxyPortInterfaces";
-	- _name = "int_currentTemp_ProxyFlowPropertyInterface";
+	- _m2Class = "*";
 	- _id = GUID 7b1821ea-35fe-456a-accd-90ea9be5f397;
 }
 - genTime = 4.18.2024::9:44:36;
@@ -215,5 +235,5 @@ I-Logix-RPY-Archive version 8.15.0 * 202002261110
 	- _name = "HVAC";
 	- _id = GUID c9816837-fb0c-4699-ab1b-df6b543cefe8;
 }
-- genTime = 4.18.2024::9:33:7;
+- genTime = 4.18.2024::10:16:4;
 
