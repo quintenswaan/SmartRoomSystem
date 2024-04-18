@@ -18,10 +18,6 @@
 #include "SmartRoomSystem.h"
 //#[ ignore
 #define SYSTEM_ANALYSIS_OPERATING_ENVIRONMENT_TemperatureSensor_TemperatureSensor_SERIALIZE OM_NO_OP
-
-#define OMAnim_SYSTEM_ANALYSIS_OPERATING_ENVIRONMENT_TemperatureSensor_setCurrentTemp_int_UNSERIALIZE_ARGS OP_UNSER(OMDestructiveString2X,p_currentTemp)
-
-#define OMAnim_SYSTEM_ANALYSIS_OPERATING_ENVIRONMENT_TemperatureSensor_setCurrentTemp_int_SERIALIZE_RET_VAL
 //#]
 
 //## package SYSTEM_ANALYSIS::OPERATING_ENVIRONMENT
@@ -159,10 +155,6 @@ void OMAnimatedTemperatureSensor::serializeRelations(AOMSRelations* aomsRelation
 //#]
 
 IMPLEMENT_META_P(TemperatureSensor, SYSTEM_ANALYSIS_OPERATING_ENVIRONMENT, SYSTEM_ANALYSIS::OPERATING_ENVIRONMENT, false, OMAnimatedTemperatureSensor)
-
-IMPLEMENT_META_OP(OMAnimatedTemperatureSensor, SYSTEM_ANALYSIS_OPERATING_ENVIRONMENT_TemperatureSensor_setCurrentTemp_int, "setCurrentTemp", FALSE, "setCurrentTemp(int)", 1)
-
-IMPLEMENT_OP_CALL(SYSTEM_ANALYSIS_OPERATING_ENVIRONMENT_TemperatureSensor_setCurrentTemp_int, TemperatureSensor, setCurrentTemp(p_currentTemp), NO_OP())
 #endif // _OMINSTRUMENT
 
 /*********************************************************************

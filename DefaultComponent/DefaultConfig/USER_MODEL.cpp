@@ -45,6 +45,16 @@ void USER_MODEL_initRelations(void) {
         {
             itsHVAC.setShouldDelete(false);
         }
+        {
+            itsSmartRoomSystem.setShouldDelete(false);
+        }
+    }
+    {
+        
+        itsSmartRoomSystem.get_port_SRS()->setItsIB_Power(itsHVAC.get_port_HVAC()->getItsIB_Power());
+        
+        itsSmartRoomSystem.get_port_SRS()->setItsIB_Mode(itsHVAC.get_port_HVAC()->getItsIB_Mode());
+        
     }
     {
         
@@ -62,6 +72,10 @@ bool USER_MODEL_startBehavior(void) {
     if(done == true)
         {
             done = itsHVAC.startBehavior();
+        }
+    if(done == true)
+        {
+            done = itsSmartRoomSystem.startBehavior();
         }
     return done;
 }

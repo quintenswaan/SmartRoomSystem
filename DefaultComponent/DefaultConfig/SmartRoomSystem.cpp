@@ -10,6 +10,8 @@
 
 //#[ ignore
 #define NAMESPACE_PREFIX
+
+#define _OMSTATECHART_ANIMATED
 //#]
 
 //## auto_generated
@@ -36,12 +38,86 @@
 #include "TemperatureSensor.h"
 //#[ ignore
 #define SYSTEM_ANALYSIS_SYSTEM_CONTEXT_SmartRoomSystem_SmartRoomSystem_SERIALIZE OM_NO_OP
+
+#define OMAnim_SYSTEM_ANALYSIS_SYSTEM_CONTEXT_SmartRoomSystem_setDesiredTemp_int_UNSERIALIZE_ARGS OP_UNSER(OMDestructiveString2X,p_desiredTemp)
+
+#define OMAnim_SYSTEM_ANALYSIS_SYSTEM_CONTEXT_SmartRoomSystem_setDesiredTemp_int_SERIALIZE_RET_VAL
 //#]
 
 //## package SYSTEM_ANALYSIS::SYSTEM_CONTEXT
 
 //## class SmartRoomSystem
 //#[ ignore
+SmartRoomSystem::port_SRS_C::port_SRS_C(void) : IB_Power(), IB_Mode(), _p_(0), itsIB_Mode(NULL), itsIB_Power(NULL) {
+}
+
+SmartRoomSystem::port_SRS_C::~port_SRS_C(void) {
+    cleanUpRelations();
+}
+
+IB_Mode* SmartRoomSystem::port_SRS_C::getItsIB_Mode(void) {
+    return this;
+}
+
+IB_Power* SmartRoomSystem::port_SRS_C::getItsIB_Power(void) {
+    return this;
+}
+
+SmartRoomSystem::port_SRS_C* SmartRoomSystem::port_SRS_C::getOutBound(void) {
+    return this;
+}
+
+void SmartRoomSystem::port_SRS_C::modeCool(void) {
+    
+    if (itsIB_Mode != NULL) {
+        itsIB_Mode->modeCool();
+    }
+    
+}
+
+void SmartRoomSystem::port_SRS_C::modeHeat(void) {
+    
+    if (itsIB_Mode != NULL) {
+        itsIB_Mode->modeHeat();
+    }
+    
+}
+
+void SmartRoomSystem::port_SRS_C::startHVAC(void) {
+    
+    if (itsIB_Power != NULL) {
+        itsIB_Power->startHVAC();
+    }
+    
+}
+
+void SmartRoomSystem::port_SRS_C::stopHVAC(void) {
+    
+    if (itsIB_Power != NULL) {
+        itsIB_Power->stopHVAC();
+    }
+    
+}
+
+void SmartRoomSystem::port_SRS_C::setItsIB_Mode(IB_Mode* const p_IB_Mode) {
+    itsIB_Mode = p_IB_Mode;
+}
+
+void SmartRoomSystem::port_SRS_C::setItsIB_Power(IB_Power* const p_IB_Power) {
+    itsIB_Power = p_IB_Power;
+}
+
+void SmartRoomSystem::port_SRS_C::cleanUpRelations(void) {
+    if(itsIB_Mode != NULL)
+        {
+            itsIB_Mode = NULL;
+        }
+    if(itsIB_Power != NULL)
+        {
+            itsIB_Power = NULL;
+        }
+}
+
 SmartRoomSystem::p_SmartRoomSystem_C::p_SmartRoomSystem_C(void) : int_currentTemp_ProxyFlowPropertyInterface(), _p_(0), itsInt_currentTemp_ProxyFlowPropertyInterface(NULL) {
 }
 
@@ -78,14 +154,17 @@ void SmartRoomSystem::p_SmartRoomSystem_C::cleanUpRelations(void) {
 }
 //#]
 
-SmartRoomSystem::SmartRoomSystem(void) : int_currentTemp_ProxyFlowPropertyInterface(), currentTemp(15), desiredTemp(20), itsAirPurifier(NULL), itsFireSprinklerSystem(NULL), itsHVAC(NULL), itsNaturalEnvironment(NULL), itsRoomSchedularSystem(NULL), itsRoomUser(NULL), itsSecurityAndAccesSystem(NULL), itsStakeholders(NULL), itsStandards(NULL), itsTemperatureSensor(NULL) {
-    NOTIFY_CONSTRUCTOR(SmartRoomSystem, SmartRoomSystem(), 0, SYSTEM_ANALYSIS_SYSTEM_CONTEXT_SmartRoomSystem_SmartRoomSystem_SERIALIZE);
+SmartRoomSystem::SmartRoomSystem(IOxfActive* const theActiveContext) : OMReactive(), int_currentTemp_ProxyFlowPropertyInterface(), currentTemp(15), desiredTemp(20), itsAirPurifier(NULL), itsFireSprinklerSystem(NULL), itsHVAC(NULL), itsNaturalEnvironment(NULL), itsRoomSchedularSystem(NULL), itsRoomUser(NULL), itsSecurityAndAccesSystem(NULL), itsStakeholders(NULL), itsStandards(NULL), itsTemperatureSensor(NULL) {
+    NOTIFY_REACTIVE_CONSTRUCTOR(SmartRoomSystem, SmartRoomSystem(), 0, SYSTEM_ANALYSIS_SYSTEM_CONTEXT_SmartRoomSystem_SmartRoomSystem_SERIALIZE);
+    setActiveContext(theActiveContext, false);
     initRelations();
+    initStatechart();
 }
 
 SmartRoomSystem::~SmartRoomSystem(void) {
     NOTIFY_DESTRUCTOR(~SmartRoomSystem, true);
     cleanUpRelations();
+    cancelTimeouts();
 }
 
 //#[ ignore
@@ -97,6 +176,14 @@ void SmartRoomSystem::setCurrentTemp(int p_currentTemp) {
     
 }
 //#]
+
+SmartRoomSystem::port_SRS_C* SmartRoomSystem::getPort_SRS(void) const {
+    return (SmartRoomSystem::port_SRS_C*) &port_SRS;
+}
+
+SmartRoomSystem::port_SRS_C* SmartRoomSystem::get_port_SRS(void) const {
+    return (SmartRoomSystem::port_SRS_C*) &port_SRS;
+}
 
 SmartRoomSystem::p_SmartRoomSystem_C* SmartRoomSystem::getP_SmartRoomSystem(void) const {
     return (SmartRoomSystem::p_SmartRoomSystem_C*) &p_SmartRoomSystem;
@@ -116,6 +203,7 @@ const int SmartRoomSystem::getDesiredTemp(void) const {
 
 void SmartRoomSystem::setDesiredTemp(const int p_desiredTemp) {
     desiredTemp = p_desiredTemp;
+    NOTIFY_SET_OPERATION;
 }
 
 const AirPurifier* SmartRoomSystem::getItsAirPurifier(void) const {
@@ -238,10 +326,39 @@ void SmartRoomSystem::setItsTemperatureSensor(TemperatureSensor* const p_Tempera
     _setItsTemperatureSensor(p_TemperatureSensor);
 }
 
+bool SmartRoomSystem::cancelTimeout(const IOxfTimeout* arg) {
+    bool res = false;
+    if(rootState_timeout == arg)
+        {
+            rootState_timeout = NULL;
+            res = true;
+        }
+    if(Controlling_timeout == arg)
+        {
+            Controlling_timeout = NULL;
+            res = true;
+        }
+    return res;
+}
+
+bool SmartRoomSystem::startBehavior(void) {
+    bool done = false;
+    done = OMReactive::startBehavior();
+    return done;
+}
+
 void SmartRoomSystem::initRelations(void) {
     if (get_p_SmartRoomSystem() != NULL) {
         get_p_SmartRoomSystem()->connectSmartRoomSystem(this);
     }
+}
+
+void SmartRoomSystem::initStatechart(void) {
+    rootState_subState = OMNonState;
+    rootState_active = OMNonState;
+    rootState_timeout = NULL;
+    Controlling_subState = OMNonState;
+    Controlling_timeout = NULL;
 }
 
 void SmartRoomSystem::cleanUpRelations(void) {
@@ -345,6 +462,11 @@ void SmartRoomSystem::cleanUpRelations(void) {
                 }
             itsTemperatureSensor = NULL;
         }
+}
+
+void SmartRoomSystem::cancelTimeouts(void) {
+    cancel(rootState_timeout);
+    cancel(Controlling_timeout);
 }
 
 void SmartRoomSystem::__setItsAirPurifier(AirPurifier* const p_AirPurifier) {
@@ -597,6 +719,310 @@ void SmartRoomSystem::_clearItsTemperatureSensor(void) {
     itsTemperatureSensor = NULL;
 }
 
+void SmartRoomSystem::Controlling_entDef(void) {
+    NOTIFY_STATE_ENTERED("ROOT.Controlling");
+    pushNullTransition();
+    rootState_subState = Controlling;
+    NOTIFY_TRANSITION_STARTED("2");
+    NOTIFY_STATE_ENTERED("ROOT.Controlling.checkTemp");
+    pushNullTransition();
+    Controlling_subState = checkTemp;
+    rootState_active = checkTemp;
+    NOTIFY_TRANSITION_TERMINATED("2");
+}
+
+void SmartRoomSystem::Controlling_exit(void) {
+    popNullTransition();
+    switch (Controlling_subState) {
+        // State Heating
+        case Heating:
+        {
+            popNullTransition();
+            cancel(Controlling_timeout);
+            NOTIFY_STATE_EXITED("ROOT.Controlling.Heating");
+        }
+        break;
+        // State Cooling
+        case Cooling:
+        {
+            popNullTransition();
+            cancel(Controlling_timeout);
+            NOTIFY_STATE_EXITED("ROOT.Controlling.Cooling");
+        }
+        break;
+        // State checkTemp
+        case checkTemp:
+        {
+            popNullTransition();
+            NOTIFY_STATE_EXITED("ROOT.Controlling.checkTemp");
+        }
+        break;
+        default:
+            break;
+    }
+    Controlling_subState = OMNonState;
+    
+    NOTIFY_STATE_EXITED("ROOT.Controlling");
+}
+
+IOxfReactive::TakeEventStatus SmartRoomSystem::Controlling_handleEvent(void) {
+    IOxfReactive::TakeEventStatus res = eventNotConsumed;
+    if(IS_EVENT_TYPE_OF(OMNullEventId) == 1)
+        {
+            //## transition 5 
+            if(currentTemp == desiredTemp)
+                {
+                    NOTIFY_TRANSITION_STARTED("5");
+                    Controlling_exit();
+                    //#[ transition 5 
+                    OUT_PORT(port_SRS)->stopHVAC();
+                    //#]
+                    NOTIFY_STATE_ENTERED("ROOT.Idle");
+                    pushNullTransition();
+                    rootState_subState = Idle;
+                    rootState_active = Idle;
+                    rootState_timeout = scheduleTimeout(100, "ROOT.Idle");
+                    NOTIFY_TRANSITION_TERMINATED("5");
+                    res = eventConsumed;
+                }
+        }
+    
+    return res;
+}
+
+IOxfReactive::TakeEventStatus SmartRoomSystem::Heating_handleEvent(void) {
+    IOxfReactive::TakeEventStatus res = eventNotConsumed;
+    if(IS_EVENT_TYPE_OF(OMTimeoutEventId) == 1)
+        {
+            if(getCurrentEvent() == Controlling_timeout)
+                {
+                    NOTIFY_TRANSITION_STARTED("6");
+                    popNullTransition();
+                    cancel(Controlling_timeout);
+                    NOTIFY_STATE_EXITED("ROOT.Controlling.Heating");
+                    //#[ transition 6 
+                    setCurrentTemp(currentTemp + 1);
+                    //#]
+                    NOTIFY_STATE_ENTERED("ROOT.Controlling.Heating");
+                    pushNullTransition();
+                    Controlling_subState = Heating;
+                    rootState_active = Heating;
+                    Controlling_timeout = scheduleTimeout(1000, "ROOT.Controlling.Heating");
+                    NOTIFY_TRANSITION_TERMINATED("6");
+                    res = eventConsumed;
+                }
+        }
+    else {
+        if(IS_EVENT_TYPE_OF(OMNullEventId) == 1)
+            {
+                //## transition 7 
+                if(currentTemp > desiredTemp)
+                    {
+                        NOTIFY_TRANSITION_STARTED("7");
+                        popNullTransition();
+                        cancel(Controlling_timeout);
+                        NOTIFY_STATE_EXITED("ROOT.Controlling.Heating");
+                        NOTIFY_STATE_ENTERED("ROOT.Controlling.checkTemp");
+                        pushNullTransition();
+                        Controlling_subState = checkTemp;
+                        rootState_active = checkTemp;
+                        NOTIFY_TRANSITION_TERMINATED("7");
+                        res = eventConsumed;
+                    }
+            }
+        }
+        
+    
+    if(res == eventNotConsumed)
+        {
+            res = Controlling_handleEvent();
+        }
+    return res;
+}
+
+IOxfReactive::TakeEventStatus SmartRoomSystem::Cooling_handleEvent(void) {
+    IOxfReactive::TakeEventStatus res = eventNotConsumed;
+    if(IS_EVENT_TYPE_OF(OMTimeoutEventId) == 1)
+        {
+            if(getCurrentEvent() == Controlling_timeout)
+                {
+                    NOTIFY_TRANSITION_STARTED("9");
+                    popNullTransition();
+                    cancel(Controlling_timeout);
+                    NOTIFY_STATE_EXITED("ROOT.Controlling.Cooling");
+                    //#[ transition 9 
+                    setCurrentTemp(currentTemp - 1);
+                    //#]
+                    NOTIFY_STATE_ENTERED("ROOT.Controlling.Cooling");
+                    pushNullTransition();
+                    Controlling_subState = Cooling;
+                    rootState_active = Cooling;
+                    Controlling_timeout = scheduleTimeout(1000, "ROOT.Controlling.Cooling");
+                    NOTIFY_TRANSITION_TERMINATED("9");
+                    res = eventConsumed;
+                }
+        }
+    else {
+        if(IS_EVENT_TYPE_OF(OMNullEventId) == 1)
+            {
+                //## transition 8 
+                if(desiredTemp > currentTemp)
+                    {
+                        NOTIFY_TRANSITION_STARTED("8");
+                        popNullTransition();
+                        cancel(Controlling_timeout);
+                        NOTIFY_STATE_EXITED("ROOT.Controlling.Cooling");
+                        NOTIFY_STATE_ENTERED("ROOT.Controlling.checkTemp");
+                        pushNullTransition();
+                        Controlling_subState = checkTemp;
+                        rootState_active = checkTemp;
+                        NOTIFY_TRANSITION_TERMINATED("8");
+                        res = eventConsumed;
+                    }
+            }
+        }
+        
+    
+    if(res == eventNotConsumed)
+        {
+            res = Controlling_handleEvent();
+        }
+    return res;
+}
+
+IOxfReactive::TakeEventStatus SmartRoomSystem::checkTemp_handleEvent(void) {
+    IOxfReactive::TakeEventStatus res = eventNotConsumed;
+    if(IS_EVENT_TYPE_OF(OMNullEventId) == 1)
+        {
+            //## transition 3 
+            if(desiredTemp > currentTemp)
+                {
+                    NOTIFY_TRANSITION_STARTED("3");
+                    popNullTransition();
+                    NOTIFY_STATE_EXITED("ROOT.Controlling.checkTemp");
+                    //#[ transition 3 
+                    OUT_PORT(port_SRS)->modeHeat();
+                    //#]
+                    NOTIFY_STATE_ENTERED("ROOT.Controlling.Heating");
+                    pushNullTransition();
+                    Controlling_subState = Heating;
+                    rootState_active = Heating;
+                    Controlling_timeout = scheduleTimeout(1000, "ROOT.Controlling.Heating");
+                    NOTIFY_TRANSITION_TERMINATED("3");
+                    res = eventConsumed;
+                }
+            else
+                {
+                    //## transition 4 
+                    if(currentTemp > desiredTemp)
+                        {
+                            NOTIFY_TRANSITION_STARTED("4");
+                            popNullTransition();
+                            NOTIFY_STATE_EXITED("ROOT.Controlling.checkTemp");
+                            //#[ transition 4 
+                            OUT_PORT(port_SRS)->modeCool();
+                            //#]
+                            NOTIFY_STATE_ENTERED("ROOT.Controlling.Cooling");
+                            pushNullTransition();
+                            Controlling_subState = Cooling;
+                            rootState_active = Cooling;
+                            Controlling_timeout = scheduleTimeout(1000, "ROOT.Controlling.Cooling");
+                            NOTIFY_TRANSITION_TERMINATED("4");
+                            res = eventConsumed;
+                        }
+                }
+        }
+    
+    if(res == eventNotConsumed)
+        {
+            res = Controlling_handleEvent();
+        }
+    return res;
+}
+
+void SmartRoomSystem::rootState_entDef(void) {
+    {
+        NOTIFY_STATE_ENTERED("ROOT");
+        NOTIFY_TRANSITION_STARTED("0");
+        NOTIFY_STATE_ENTERED("ROOT.Idle");
+        pushNullTransition();
+        rootState_subState = Idle;
+        rootState_active = Idle;
+        rootState_timeout = scheduleTimeout(100, "ROOT.Idle");
+        NOTIFY_TRANSITION_TERMINATED("0");
+    }
+}
+
+IOxfReactive::TakeEventStatus SmartRoomSystem::rootState_processEvent(void) {
+    IOxfReactive::TakeEventStatus res = eventNotConsumed;
+    switch (rootState_active) {
+        // State Idle
+        case Idle:
+        {
+            if(IS_EVENT_TYPE_OF(OMTimeoutEventId) == 1)
+                {
+                    if(getCurrentEvent() == rootState_timeout)
+                        {
+                            NOTIFY_TRANSITION_STARTED("10");
+                            popNullTransition();
+                            cancel(rootState_timeout);
+                            NOTIFY_STATE_EXITED("ROOT.Idle");
+                            NOTIFY_STATE_ENTERED("ROOT.Idle");
+                            pushNullTransition();
+                            rootState_subState = Idle;
+                            rootState_active = Idle;
+                            rootState_timeout = scheduleTimeout(100, "ROOT.Idle");
+                            NOTIFY_TRANSITION_TERMINATED("10");
+                            res = eventConsumed;
+                        }
+                }
+            else {
+                if(IS_EVENT_TYPE_OF(OMNullEventId) == 1)
+                    {
+                        //## transition 1 
+                        if(currentTemp != desiredTemp)
+                            {
+                                NOTIFY_TRANSITION_STARTED("1");
+                                popNullTransition();
+                                cancel(rootState_timeout);
+                                NOTIFY_STATE_EXITED("ROOT.Idle");
+                                //#[ transition 1 
+                                OUT_PORT(port_SRS)->startHVAC();
+                                //#]
+                                Controlling_entDef();
+                                NOTIFY_TRANSITION_TERMINATED("1");
+                                res = eventConsumed;
+                            }
+                    }
+                }
+                
+            
+        }
+        break;
+        // State Heating
+        case Heating:
+        {
+            res = Heating_handleEvent();
+        }
+        break;
+        // State Cooling
+        case Cooling:
+        {
+            res = Cooling_handleEvent();
+        }
+        break;
+        // State checkTemp
+        case checkTemp:
+        {
+            res = checkTemp_handleEvent();
+        }
+        break;
+        default:
+            break;
+    }
+    return res;
+}
+
 #ifdef _OMINSTRUMENT
 //#[ ignore
 void OMAnimatedSmartRoomSystem::serializeAttributes(AOMSAttributes* aomsAttributes) const {
@@ -656,9 +1082,70 @@ void OMAnimatedSmartRoomSystem::serializeRelations(AOMSRelations* aomsRelations)
             aomsRelations->ADD_ITEM(myReal->itsTemperatureSensor);
         }
 }
+
+void OMAnimatedSmartRoomSystem::rootState_serializeStates(AOMSState* aomsState) const {
+    aomsState->addState("ROOT");
+    switch (myReal->rootState_subState) {
+        case SmartRoomSystem::Idle:
+        {
+            Idle_serializeStates(aomsState);
+        }
+        break;
+        case SmartRoomSystem::Controlling:
+        {
+            Controlling_serializeStates(aomsState);
+        }
+        break;
+        default:
+            break;
+    }
+}
+
+void OMAnimatedSmartRoomSystem::Idle_serializeStates(AOMSState* aomsState) const {
+    aomsState->addState("ROOT.Idle");
+}
+
+void OMAnimatedSmartRoomSystem::Controlling_serializeStates(AOMSState* aomsState) const {
+    aomsState->addState("ROOT.Controlling");
+    switch (myReal->Controlling_subState) {
+        case SmartRoomSystem::Heating:
+        {
+            Heating_serializeStates(aomsState);
+        }
+        break;
+        case SmartRoomSystem::Cooling:
+        {
+            Cooling_serializeStates(aomsState);
+        }
+        break;
+        case SmartRoomSystem::checkTemp:
+        {
+            checkTemp_serializeStates(aomsState);
+        }
+        break;
+        default:
+            break;
+    }
+}
+
+void OMAnimatedSmartRoomSystem::Heating_serializeStates(AOMSState* aomsState) const {
+    aomsState->addState("ROOT.Controlling.Heating");
+}
+
+void OMAnimatedSmartRoomSystem::Cooling_serializeStates(AOMSState* aomsState) const {
+    aomsState->addState("ROOT.Controlling.Cooling");
+}
+
+void OMAnimatedSmartRoomSystem::checkTemp_serializeStates(AOMSState* aomsState) const {
+    aomsState->addState("ROOT.Controlling.checkTemp");
+}
 //#]
 
-IMPLEMENT_META_P(SmartRoomSystem, SYSTEM_ANALYSIS_SYSTEM_CONTEXT, SYSTEM_ANALYSIS::SYSTEM_CONTEXT, false, OMAnimatedSmartRoomSystem)
+IMPLEMENT_REACTIVE_META_P(SmartRoomSystem, SYSTEM_ANALYSIS_SYSTEM_CONTEXT, SYSTEM_ANALYSIS::SYSTEM_CONTEXT, false, OMAnimatedSmartRoomSystem)
+
+IMPLEMENT_META_OP(OMAnimatedSmartRoomSystem, SYSTEM_ANALYSIS_SYSTEM_CONTEXT_SmartRoomSystem_setDesiredTemp_int, "setDesiredTemp", FALSE, "setDesiredTemp(int)", 1)
+
+IMPLEMENT_OP_CALL(SYSTEM_ANALYSIS_SYSTEM_CONTEXT_SmartRoomSystem_setDesiredTemp_int, SmartRoomSystem, setDesiredTemp(p_desiredTemp), NO_OP())
 #endif // _OMINSTRUMENT
 
 /*********************************************************************

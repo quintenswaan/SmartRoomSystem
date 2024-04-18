@@ -21,6 +21,10 @@
 //## auto_generated
 #include "HVAC.h"
 //## auto_generated
+#include "IB_Mode.h"
+//## auto_generated
+#include "IB_Power.h"
+//## auto_generated
 #include "NaturalEnvironment.h"
 //## auto_generated
 #include "RoomSchedularSystem.h"

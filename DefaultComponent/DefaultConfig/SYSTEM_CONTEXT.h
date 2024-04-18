@@ -27,6 +27,12 @@ class FireSprinklerSystem;
 class HVAC;
 
 //## auto_generated
+class IB_Mode;
+
+//## auto_generated
+class IB_Power;
+
+//## auto_generated
 class NaturalEnvironment;
 
 //## auto_generated

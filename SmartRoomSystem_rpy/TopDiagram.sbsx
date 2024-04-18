@@ -41,17 +41,17 @@
 			</IPropertyContainer>
 			</_properties>
 			<_name type="a">TopDiagram</_name>
-			<_modifiedTimeWeak type="a">4.18.2024::7:37:3</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.18.2024::13:20:9</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID 314563b1-7780-4b32-b7ef-96d080762537</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">4.17.2024::13:6:46</_modifiedTime>
+			<_modifiedTime type="a">4.18.2024::12:56:2</_modifiedTime>
 			<_lastID type="a">2</_lastID>
-			<weakCGTime type="a">4.18.2024::7:37:3</weakCGTime>
-			<strongCGTime type="a">4.17.2024::12:43:26</strongCGTime>
+			<weakCGTime type="a">4.18.2024::13:20:9</weakCGTime>
+			<strongCGTime type="a">4.18.2024::13:20:9</strongCGTime>
 			<_defaultComposite type="s">GUID 6f228f9d-15e3-47a2-85d4-2414c9f5a352</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
 			<_configurationRelatedTime type="a">4.17.2024::11:50:9</_configurationRelatedTime>
@@ -353,6 +353,44 @@
 										</Properties>
 									</IPropertyMetaclass>
 									
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Transition</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">Font.Font</_Name>
+													<_Value type="a">Tahoma</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.FontColor</_Name>
+													<_Value type="a">0,0,0</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Size</_Name>
+													<_Value type="a">8</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineColor</_Name>
+													<_Value type="a">128,128,128</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineWidth</_Name>
+													<_Value type="a">1</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
 								</IRPYRawContainer>
 							</Metaclasses>
 						</IPropertySubject>
@@ -376,8 +414,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::12:45:54</_modifiedTime>
-			<_lastModifiedTime type="a">4.17.2024::12:45:54</_lastModifiedTime>
+			<_modifiedTime type="a">4.18.2024::11:35:25</_modifiedTime>
+			<_lastModifiedTime type="a">4.18.2024::11:35:25</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -1680,6 +1718,44 @@
 										</Properties>
 									</IPropertyMetaclass>
 									
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Transition</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">Font.Font</_Name>
+													<_Value type="a">Tahoma</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.FontColor</_Name>
+													<_Value type="a">0,0,0</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Size</_Name>
+													<_Value type="a">8</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineColor</_Name>
+													<_Value type="a">128,128,128</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineWidth</_Name>
+													<_Value type="a">1</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
 								</IRPYRawContainer>
 							</Metaclasses>
 						</IPropertySubject>
@@ -1703,8 +1779,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.17.2024::13:6:53</_modifiedTime>
-			<_lastModifiedTime type="a">4.17.2024::13:6:53</_lastModifiedTime>
+			<_modifiedTime type="a">4.18.2024::12:56:2</_modifiedTime>
+			<_lastModifiedTime type="a">4.18.2024::12:56:2</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -1958,7 +2034,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.177632 0 0 0.13119 43 314 </m_transform>
+			<m_transform type="a">0.177632 0 0 0.13119 43 329 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -2359,10 +2435,10 @@
 			<_id type="a">GUID 6f228f9d-15e3-47a2-85d4-2414c9f5a352</_id>
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
-			<_modifiedTimeWeak type="a">4.16.2024::15:5:18</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.18.2024::13:20:9</_modifiedTimeWeak>
 			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<weakCGTime type="a">4.16.2024::15:5:18</weakCGTime>
-			<strongCGTime type="a">4.16.2024::15:5:18</strongCGTime>
+			<weakCGTime type="a">4.18.2024::13:20:9</weakCGTime>
+			<strongCGTime type="a">4.18.2024::13:20:9</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>

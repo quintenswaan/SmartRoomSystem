@@ -25,17 +25,84 @@
 #include <state.h>
 //## auto_generated
 #include <event.h>
+//## class HVAC
+#include "IB_Mode.h"
+//## class HVAC
+#include "IB_Power.h"
 //## link itsSmartRoomSystem
 class SmartRoomSystem;
 
 //## package SYSTEM_ANALYSIS::SYSTEM_CONTEXT
 
 //## class HVAC
-class HVAC : public OMReactive {
-    ////    Friends    ////
-    
+class HVAC : public OMReactive, public IB_Power, public IB_Mode {
 public :
 
+//#[ ignore
+    //## package SYSTEM_ANALYSIS::SYSTEM_CONTEXT
+    class port_HVAC_C : public IB_Power, public IB_Mode {
+        ////    Constructors and destructors    ////
+        
+    public :
+    
+        //## auto_generated
+        port_HVAC_C(void);
+        
+        //## auto_generated
+        virtual ~port_HVAC_C(void);
+        
+        ////    Operations    ////
+        
+        //## auto_generated
+        void connectHVAC(HVAC* part);
+        
+        //## auto_generated
+        IB_Mode* getItsIB_Mode(void);
+        
+        //## auto_generated
+        IB_Power* getItsIB_Power(void);
+        
+        //## auto_generated
+        virtual void modeCool(void);
+        
+        //## auto_generated
+        virtual void modeHeat(void);
+        
+        //## auto_generated
+        virtual void startHVAC(void);
+        
+        //## auto_generated
+        virtual void stopHVAC(void);
+        
+        ////    Additional operations    ////
+        
+        //## auto_generated
+        void setItsIB_Mode(IB_Mode* const p_IB_Mode);
+        
+        //## auto_generated
+        void setItsIB_Power(IB_Power* const p_IB_Power);
+    
+    protected :
+    
+        //## auto_generated
+        void cleanUpRelations(void);
+        
+        ////    Attributes    ////
+    
+    private :
+    
+        RhpInteger _p_;		//## attribute _p_
+        
+        ////    Relations and components    ////
+        
+        IB_Mode* itsIB_Mode;		//## link itsIB_Mode
+        
+        IB_Power* itsIB_Power;		//## link itsIB_Power
+    };
+//#]
+
+    ////    Friends    ////
+    
 #ifdef _OMINSTRUMENT
     friend class OMAnimatedHVAC;
 #endif // _OMINSTRUMENT
@@ -46,9 +113,41 @@ public :
     explicit HVAC(IOxfActive* const theActiveContext = NULL);
     
     //## auto_generated
-    ~HVAC(void);
+    virtual ~HVAC(void);
+    
+    ////    Operations    ////
+    
+    //## operation modeCool()
+    virtual void modeCool(void);
+    
+    //## operation modeHeat()
+    virtual void modeHeat(void);
+    
+    //## operation startHVAC()
+    virtual void startHVAC(void);
+    
+    //## operation stopHVAC()
+    virtual void stopHVAC(void);
     
     ////    Additional operations    ////
+    
+    //## auto_generated
+    port_HVAC_C* getPort_HVAC(void) const;
+    
+    //## auto_generated
+    port_HVAC_C* get_port_HVAC(void) const;
+    
+    //## auto_generated
+    const bool getModeHVAC(void) const;
+    
+    //## auto_generated
+    void setModeHVAC(const bool p_modeHVAC);
+    
+    //## auto_generated
+    const bool getPowerHVAC(void) const;
+    
+    //## auto_generated
+    void setPowerHVAC(const bool p_powerHVAC);
     
     //## auto_generated
     const SmartRoomSystem* getItsSmartRoomSystem(void) const;
@@ -57,19 +156,38 @@ public :
     void setItsSmartRoomSystem(SmartRoomSystem* const p_SmartRoomSystem);
     
     //## auto_generated
+    virtual bool cancelTimeout(const IOxfTimeout* arg);
+    
+    //## auto_generated
     virtual bool startBehavior(void);
 
 protected :
 
+    //## auto_generated
+    void initRelations(void);
+    
     //## auto_generated
     void initStatechart(void);
     
     //## auto_generated
     void cleanUpRelations(void);
     
-    ////    Relations and components    ////
+    //## auto_generated
+    void cancelTimeouts(void);
+    
+    ////    Attributes    ////
 
 private :
+
+    bool modeHVAC;		//## attribute modeHVAC
+    
+    bool powerHVAC;		//## attribute powerHVAC
+    
+    ////    Relations and components    ////
+    
+//#[ ignore
+    port_HVAC_C port_HVAC;
+//#]
 
     SmartRoomSystem* itsSmartRoomSystem;		//## link itsSmartRoomSystem
     
@@ -110,13 +228,22 @@ public :
     //## statechart_method
     inline RhpBoolean Heating_IN(void) const;
     
+    //## statechart_method
+    IOxfReactive::TakeEventStatus Heating_handleEvent(void);
+    
     // Cooling:
     //## statechart_method
     inline RhpBoolean Cooling_IN(void) const;
     
+    //## statechart_method
+    IOxfReactive::TakeEventStatus Cooling_handleEvent(void);
+    
     // Off:
     //## statechart_method
     inline RhpBoolean Off_IN(void) const;
+    
+    //## statechart_method
+    IOxfReactive::TakeEventStatus Off_handleEvent(void);
 
 protected :
 
@@ -148,18 +275,24 @@ private :
     HVAC_Enum On_subState;
     
     HVAC_Enum On_lastState;
+    
+    IOxfTimeout* On_timeout;
+    
+    IOxfTimeout* rootState_timeout;
 //#]
 };
 
 #ifdef _OMINSTRUMENT
 //#[ ignore
-class OMAnimatedHVAC : virtual public AOMInstance {
+class OMAnimatedHVAC : public OMAnimatedIB_Power, public OMAnimatedIB_Mode {
     DECLARE_REACTIVE_META(HVAC, OMAnimatedHVAC)
     
     ////    Framework operations    ////
     
 public :
 
+    virtual void serializeAttributes(AOMSAttributes* aomsAttributes) const;
+    
     virtual void serializeRelations(AOMSRelations* aomsRelations) const;
     
     //## statechart_method

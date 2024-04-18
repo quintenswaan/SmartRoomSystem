@@ -17,8 +17,20 @@
 #include <aom.h>
 //## auto_generated
 #include "SYSTEM_CONTEXT.h"
+//## auto_generated
+#include <omthread.h>
+//## auto_generated
+#include <omreactive.h>
+//## auto_generated
+#include <state.h>
+//## auto_generated
+#include <event.h>
 //## class SmartRoomSystem
 #include "int_currentTemp_ProxyFlowPropertyInterface.h"
+//## class port_SRS_C
+#include "IB_Mode.h"
+//## class port_SRS_C
+#include "IB_Power.h"
 //## link itsAirPurifier
 class AirPurifier;
 
@@ -49,13 +61,78 @@ class Standards;
 //## link itsTemperatureSensor
 class TemperatureSensor;
 
+//#[ ignore
+#define OMAnim_SYSTEM_ANALYSIS_SYSTEM_CONTEXT_SmartRoomSystem_setDesiredTemp_int_ARGS_DECLARATION int p_desiredTemp;
+//#]
+
 //## package SYSTEM_ANALYSIS::SYSTEM_CONTEXT
 
 //## class SmartRoomSystem
-class SmartRoomSystem : public int_currentTemp_ProxyFlowPropertyInterface {
+class SmartRoomSystem : public OMReactive, public int_currentTemp_ProxyFlowPropertyInterface {
 public :
 
 //#[ ignore
+    //## package SYSTEM_ANALYSIS::SYSTEM_CONTEXT
+    class port_SRS_C : public IB_Power, public IB_Mode {
+        ////    Constructors and destructors    ////
+        
+    public :
+    
+        //## auto_generated
+        port_SRS_C(void);
+        
+        //## auto_generated
+        virtual ~port_SRS_C(void);
+        
+        ////    Operations    ////
+        
+        //## auto_generated
+        IB_Mode* getItsIB_Mode(void);
+        
+        //## auto_generated
+        IB_Power* getItsIB_Power(void);
+        
+        //## auto_generated
+        SmartRoomSystem::port_SRS_C* getOutBound(void);
+        
+        //## auto_generated
+        virtual void modeCool(void);
+        
+        //## auto_generated
+        virtual void modeHeat(void);
+        
+        //## auto_generated
+        virtual void startHVAC(void);
+        
+        //## auto_generated
+        virtual void stopHVAC(void);
+        
+        ////    Additional operations    ////
+        
+        //## auto_generated
+        void setItsIB_Mode(IB_Mode* const p_IB_Mode);
+        
+        //## auto_generated
+        void setItsIB_Power(IB_Power* const p_IB_Power);
+    
+    protected :
+    
+        //## auto_generated
+        void cleanUpRelations(void);
+        
+        ////    Attributes    ////
+    
+    private :
+    
+        RhpInteger _p_;		//## attribute _p_
+        
+        ////    Relations and components    ////
+        
+        IB_Mode* itsIB_Mode;		//## link itsIB_Mode
+        
+        IB_Power* itsIB_Power;		//## link itsIB_Power
+    };
+    
     //## package SYSTEM_ANALYSIS::SYSTEM_CONTEXT
     class p_SmartRoomSystem_C : public int_currentTemp_ProxyFlowPropertyInterface {
         ////    Constructors and destructors    ////
@@ -110,7 +187,7 @@ public :
     ////    Constructors and destructors    ////
     
     //## auto_generated
-    SmartRoomSystem(void);
+    explicit SmartRoomSystem(IOxfActive* const theActiveContext = NULL);
     
     //## auto_generated
     ~SmartRoomSystem(void);
@@ -122,6 +199,12 @@ public :
 //#]
 
     ////    Additional operations    ////
+    
+    //## auto_generated
+    port_SRS_C* getPort_SRS(void) const;
+    
+    //## auto_generated
+    port_SRS_C* get_port_SRS(void) const;
     
     //## auto_generated
     p_SmartRoomSystem_C* getP_SmartRoomSystem(void) const;
@@ -197,6 +280,12 @@ public :
     
     //## auto_generated
     void setItsTemperatureSensor(TemperatureSensor* const p_TemperatureSensor);
+    
+    //## auto_generated
+    virtual bool cancelTimeout(const IOxfTimeout* arg);
+    
+    //## auto_generated
+    virtual bool startBehavior(void);
 
 protected :
 
@@ -204,7 +293,13 @@ protected :
     void initRelations(void);
     
     //## auto_generated
+    void initStatechart(void);
+    
+    //## auto_generated
     void cleanUpRelations(void);
+    
+    //## auto_generated
+    void cancelTimeouts(void);
     
     ////    Attributes    ////
 
@@ -217,6 +312,8 @@ private :
     ////    Relations and components    ////
     
 //#[ ignore
+    port_SRS_C port_SRS;
+    
     p_SmartRoomSystem_C p_SmartRoomSystem;
 //#]
 
@@ -333,12 +430,93 @@ public :
     
     //## auto_generated
     void _clearItsTemperatureSensor(void);
+    
+    // rootState:
+    //## statechart_method
+    inline RhpBoolean rootState_IN(void) const;
+    
+    // Idle:
+    //## statechart_method
+    inline RhpBoolean Idle_IN(void) const;
+    
+    // Controlling:
+    //## statechart_method
+    inline RhpBoolean Controlling_IN(void) const;
+    
+    //## statechart_method
+    void Controlling_entDef(void);
+    
+    //## statechart_method
+    void Controlling_exit(void);
+    
+    //## statechart_method
+    IOxfReactive::TakeEventStatus Controlling_handleEvent(void);
+    
+    // Heating:
+    //## statechart_method
+    inline RhpBoolean Heating_IN(void) const;
+    
+    //## statechart_method
+    IOxfReactive::TakeEventStatus Heating_handleEvent(void);
+    
+    // Cooling:
+    //## statechart_method
+    inline RhpBoolean Cooling_IN(void) const;
+    
+    //## statechart_method
+    IOxfReactive::TakeEventStatus Cooling_handleEvent(void);
+    
+    // checkTemp:
+    //## statechart_method
+    inline RhpBoolean checkTemp_IN(void) const;
+    
+    //## statechart_method
+    IOxfReactive::TakeEventStatus checkTemp_handleEvent(void);
+
+protected :
+
+    //## statechart_method
+    virtual void rootState_entDef(void);
+    
+    //## statechart_method
+    virtual IOxfReactive::TakeEventStatus rootState_processEvent(void);
+    
+    ////    Framework    ////
+    
+//#[ ignore
+    enum SmartRoomSystem_Enum {
+        OMNonState = 0,
+        Idle = 1,
+        Controlling = 2,
+        Heating = 3,
+        Cooling = 4,
+        checkTemp = 5
+    };
+//#]
+
+private :
+
+//#[ ignore
+    SmartRoomSystem_Enum rootState_subState;
+    
+    SmartRoomSystem_Enum rootState_active;
+    
+    IOxfTimeout* rootState_timeout;
+    
+    SmartRoomSystem_Enum Controlling_subState;
+    
+    IOxfTimeout* Controlling_timeout;
+//#]
 };
 
 #ifdef _OMINSTRUMENT
+DECLARE_OPERATION_CLASS(SYSTEM_ANALYSIS_SYSTEM_CONTEXT_SmartRoomSystem_setDesiredTemp_int)
+
 //#[ ignore
 class OMAnimatedSmartRoomSystem : virtual public AOMInstance {
-    DECLARE_META(SmartRoomSystem, OMAnimatedSmartRoomSystem)
+    DECLARE_REACTIVE_META(SmartRoomSystem, OMAnimatedSmartRoomSystem)
+    
+    DECLARE_META_OP(SYSTEM_ANALYSIS_SYSTEM_CONTEXT_SmartRoomSystem_setDesiredTemp_int)
     
     ////    Framework operations    ////
     
@@ -347,9 +525,51 @@ public :
     virtual void serializeAttributes(AOMSAttributes* aomsAttributes) const;
     
     virtual void serializeRelations(AOMSRelations* aomsRelations) const;
+    
+    //## statechart_method
+    void rootState_serializeStates(AOMSState* aomsState) const;
+    
+    //## statechart_method
+    void Idle_serializeStates(AOMSState* aomsState) const;
+    
+    //## statechart_method
+    void Controlling_serializeStates(AOMSState* aomsState) const;
+    
+    //## statechart_method
+    void Heating_serializeStates(AOMSState* aomsState) const;
+    
+    //## statechart_method
+    void Cooling_serializeStates(AOMSState* aomsState) const;
+    
+    //## statechart_method
+    void checkTemp_serializeStates(AOMSState* aomsState) const;
 };
 //#]
 #endif // _OMINSTRUMENT
+
+inline RhpBoolean SmartRoomSystem::rootState_IN(void) const {
+    return true;
+}
+
+inline RhpBoolean SmartRoomSystem::Idle_IN(void) const {
+    return rootState_subState == Idle;
+}
+
+inline RhpBoolean SmartRoomSystem::Controlling_IN(void) const {
+    return rootState_subState == Controlling;
+}
+
+inline RhpBoolean SmartRoomSystem::Heating_IN(void) const {
+    return Controlling_subState == Heating;
+}
+
+inline RhpBoolean SmartRoomSystem::Cooling_IN(void) const {
+    return Controlling_subState == Cooling;
+}
+
+inline RhpBoolean SmartRoomSystem::checkTemp_IN(void) const {
+    return Controlling_subState == checkTemp;
+}
 
 #endif
 /*********************************************************************

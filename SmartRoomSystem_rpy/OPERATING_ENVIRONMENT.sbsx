@@ -12,11 +12,11 @@
 			<_id type="a">GUID 6ff00bc4-a51e-438f-903f-d773225c5ff3</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">OPERATING_ENVIRONMENT</_name>
-			<_modifiedTimeWeak type="a">4.18.2024::10:15:42</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.18.2024::10:15:42</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.18.2024::13:22:2</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::13:22:2</_modifiedTime>
 			<_lastID type="a">5</_lastID>
-			<weakCGTime type="a">4.18.2024::10:15:42</weakCGTime>
-			<strongCGTime type="a">4.17.2024::13:49:56</strongCGTime>
+			<weakCGTime type="a">4.18.2024::13:22:2</weakCGTime>
+			<strongCGTime type="a">4.18.2024::13:20:9</strongCGTime>
 			<_defaultComposite type="s">GUID ba6c1f45-ddb1-4de0-ae77-a27fee83e456</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
 			<_configurationRelatedTime type="a">4.18.2024::9:21:16</_configurationRelatedTime>
@@ -509,6 +509,44 @@
 										</Properties>
 									</IPropertyMetaclass>
 									
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Transition</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">Font.Font</_Name>
+													<_Value type="a">Tahoma</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.FontColor</_Name>
+													<_Value type="a">0,0,0</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Size</_Name>
+													<_Value type="a">8</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineColor</_Name>
+													<_Value type="a">128,128,128</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineWidth</_Name>
+													<_Value type="a">1</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
 								</IRPYRawContainer>
 							</Metaclasses>
 						</IPropertySubject>
@@ -606,8 +644,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.18.2024::10:15:55</_modifiedTime>
-			<_lastModifiedTime type="a">4.18.2024::10:15:55</_lastModifiedTime>
+			<_modifiedTime type="a">4.18.2024::12:8:7</_modifiedTime>
+			<_lastModifiedTime type="a">4.18.2024::12:8:7</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -1323,6 +1361,9 @@
 			<m_displayOption type="a">All</m_displayOption>
 			<m_bShowInherited type="a">0</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
+			<_itemValueOfFontPropertiesMapCount type="a">2</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
 		<CGICompartment type="e">
 			<_id type="a">GUID 2e88fae0-b78a-4b40-8168-b2c572fd6c89</_id>
@@ -1330,6 +1371,11 @@
 			<m_displayOption type="a">All</m_displayOption>
 			<m_bShowInherited type="a">0</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
+			<_itemValueOfFontPropertiesMapCount type="a">4</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
 		<CGIAssociationEnd type="e">
 			<_id type="a">GUID 6d56187e-e6ee-4eae-a5b5-e37a74dce0e5</_id>
@@ -1815,10 +1861,10 @@
 			<_id type="a">GUID ba6c1f45-ddb1-4de0-ae77-a27fee83e456</_id>
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
-			<_modifiedTimeWeak type="a">4.17.2024::13:49:56</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.18.2024::13:20:9</_modifiedTimeWeak>
 			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<weakCGTime type="a">4.17.2024::13:49:56</weakCGTime>
-			<strongCGTime type="a">4.17.2024::13:49:56</strongCGTime>
+			<weakCGTime type="a">4.18.2024::13:20:9</weakCGTime>
+			<strongCGTime type="a">4.18.2024::13:20:9</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -1842,17 +1888,17 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.18.2024::10:6:14</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.18.2024::13:23:47</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID 782b43f9-420f-485f-a524-93ede20e6d63</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">4.18.2024::10:6:14</_modifiedTime>
+			<_modifiedTime type="a">4.18.2024::13:23:47</_modifiedTime>
 			<_lastID type="a">2</_lastID>
-			<weakCGTime type="a">4.18.2024::10:6:14</weakCGTime>
-			<strongCGTime type="a">4.17.2024::13:49:56</strongCGTime>
+			<weakCGTime type="a">4.18.2024::13:23:47</weakCGTime>
+			<strongCGTime type="a">4.18.2024::13:20:9</strongCGTime>
 			<Operations type="c">
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
@@ -1867,6 +1913,7 @@
 				<value>GUID 4a4d9495-ca3b-4f59-9e78-9436c10f4b2a</value>
 				<value>GUID e069dbc2-38d4-49f7-ad3d-da96a6936fd4</value>
 				<value>GUID 32165f27-19c8-4d52-9332-867eeb8b0f3d</value>
+				<value>GUID 4adf8041-5492-4a12-b47d-44e26686da41</value>
 			</AggregatesList>
 		</IClass>
 		<IInformationFlow type="e">
@@ -1930,7 +1977,7 @@
 		<IInstanceValue type="e">
 			<_id type="a">GUID d9e672a1-4148-4c17-9e7e-8d7bee30727f</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_value type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IPort</_hm2Class>
@@ -1942,7 +1989,7 @@
 			<_id type="a">GUID 393cdca1-8b91-48b5-aab6-f561abf2d3bc</_id>
 			<_myState type="a">8192</_myState>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_declaration type="a">Object</_declaration>
 			<_kind type="a">Language</_kind>
 		</IType>
@@ -1995,8 +2042,8 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.18.2024::10:6:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.18.2024::10:6:14</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.18.2024::13:22:2</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::13:22:2</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -2086,6 +2133,35 @@
 			<_linkType type="a">Assoc</_linkType>
 			<_navigability type="a">Navigable</_navigability>
 		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 4adf8041-5492-4a12-b47d-44e26686da41</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsControlHVAC</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::13:23:47</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\USE_CASES.sbsx</_hfilename>
+					<_hsubsystem type="a">SYSTEM_ANALYSIS::USE_CASES</_hsubsystem>
+					<_hname type="a">ControlHVAC</_hname>
+					<_hid type="a">GUID 1f648b30-4fa6-44e8-96b5-c477335fe67e</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\USE_CASES.sbsx</_hfilename>
+					<_hsubsystem type="a">SYSTEM_ANALYSIS::USE_CASES</_hsubsystem>
+					<_hclass type="a">ControlHVAC</_hclass>
+					<_hname type="a">itsTemperatureSensor</_hname>
+					<_hid type="a">GUID d23fe6c4-27cb-484a-94b1-fe9f7c4af3a6</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
 		<IClass type="e">
 			<_id type="a">GUID efb6dcf5-9252-44d5-9d71-d7fc463005c0</_id>
 			<_myState type="a">8192</_myState>
@@ -2103,7 +2179,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.17.2024::11:46:17</_modifiedTimeWeak>
 			<_modifiedTime type="a">4.18.2024::9:26:29</_modifiedTime>
 			<weakCGTime type="a">4.17.2024::11:46:17</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>

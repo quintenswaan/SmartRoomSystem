@@ -22,10 +22,6 @@
 //## link itsSmartRoomSystem
 class SmartRoomSystem;
 
-//#[ ignore
-#define OMAnim_SYSTEM_ANALYSIS_OPERATING_ENVIRONMENT_TemperatureSensor_setCurrentTemp_int_ARGS_DECLARATION int p_currentTemp;
-//#]
-
 //## package SYSTEM_ANALYSIS::OPERATING_ENVIRONMENT
 
 //## class TemperatureSensor
@@ -149,13 +145,9 @@ public :
 };
 
 #ifdef _OMINSTRUMENT
-DECLARE_OPERATION_CLASS(SYSTEM_ANALYSIS_OPERATING_ENVIRONMENT_TemperatureSensor_setCurrentTemp_int)
-
 //#[ ignore
 class OMAnimatedTemperatureSensor : virtual public AOMInstance {
     DECLARE_META(TemperatureSensor, OMAnimatedTemperatureSensor)
-    
-    DECLARE_META_OP(SYSTEM_ANALYSIS_OPERATING_ENVIRONMENT_TemperatureSensor_setCurrentTemp_int)
     
     ////    Framework operations    ////
     
