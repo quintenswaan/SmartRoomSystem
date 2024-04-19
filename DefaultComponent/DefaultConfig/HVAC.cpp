@@ -1,6 +1,6 @@
 /********************************************************************
 	Rhapsody	: 9.0 
-	Login		: 20235614
+	Login		: 20174215
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: HVAC
@@ -33,6 +33,14 @@
 //## package SYSTEM_ANALYSIS::SYSTEM_CONTEXT
 
 //## class HVAC
+#ifdef _OMINSTRUMENT
+//#[ ignore
+static AOMClass* _HVACSuper[2] = {
+OMAnimatedIB_Power::staticGetClass(),
+OMAnimatedIB_Mode::staticGetClass()};
+//#]
+#endif // _OMINSTRUMENT
+
 //#[ ignore
 HVAC::port_HVAC_C::port_HVAC_C(void) : IB_Power(), IB_Mode(), _p_(0), itsIB_Mode(NULL), itsIB_Power(NULL) {
 }
@@ -608,10 +616,6 @@ void OMAnimatedHVAC::Cooling_serializeStates(AOMSState* aomsState) const {
 void OMAnimatedHVAC::Off_serializeStates(AOMSState* aomsState) const {
     aomsState->addState("ROOT.Off");
 }
-
-static AOMClass* _HVACSuper[2] = {
-OMAnimatedIB_Power::staticGetClass(),
-OMAnimatedIB_Mode::staticGetClass()};
 //#]
 
 IMPLEMENT_REACTIVE_META_M_P(HVAC, SYSTEM_ANALYSIS::SYSTEM_CONTEXT, false, _HVACSuper, 2, OMAnimatedHVAC)

@@ -12,22 +12,13 @@
 			<_id type="a">GUID 46ff2c44-3e09-425c-bfd5-5652c96ec3ee</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">PROBLEM_DEFINITION</_name>
-			<_modifiedTimeWeak type="a">4.18.2024::13:20:9</_modifiedTimeWeak>
-			<_theMainDiagram type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IDiagram</_hm2Class>
-					<_hfilename type="a">.\SYSTEM_ANALYSIS.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS</_hsubsystem>
-					<_hname type="a">package diagram_3</_hname>
-					<_hid type="a">GUID 33e99764-4536-461d-a806-e4269e4c7519</_hid>
-				</IHandle>
-			</_theMainDiagram>
+			<_modifiedTimeWeak type="a">4.19.2024::10:7:37</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_text type="a">Main Problem: How to create a model of smart room system to represent its structure and behaviour (services)</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">4.17.2024::12:53:6</_modifiedTime>
-			<weakCGTime type="a">4.18.2024::13:20:9</weakCGTime>
+			<_modifiedTime type="a">4.19.2024::10:7:37</_modifiedTime>
+			<weakCGTime type="a">4.19.2024::10:7:37</weakCGTime>
 			<strongCGTime type="a">4.18.2024::13:20:9</strongCGTime>
 			<_defaultComposite type="s">GUID 1c5ec5c1-857a-4170-b77a-411ce180aa7a</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>

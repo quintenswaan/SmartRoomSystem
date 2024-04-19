@@ -1,6 +1,6 @@
 /*********************************************************************
 	Rhapsody	: 9.0 
-	Login		: 20235614
+	Login		: 20174215
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: TemperatureSensor
@@ -90,10 +90,6 @@ public :
     
     ////    Operations    ////
     
-//#[ ignore
-    void setCurrentTemp(int p_currentTemp);
-//#]
-
     ////    Additional operations    ////
     
     //## auto_generated
@@ -124,10 +120,6 @@ private :
     
     ////    Relations and components    ////
     
-//#[ ignore
-    p_TemperatureSensor_C p_TemperatureSensor;
-//#]
-
     SmartRoomSystem* itsSmartRoomSystem;		//## link itsSmartRoomSystem
     
     ////    Framework operations    ////
@@ -142,6 +134,16 @@ public :
     
     //## auto_generated
     void _clearItsSmartRoomSystem(void);
+    
+//#[ ignore
+    void setCurrentTemp(int p_currentTemp);
+//#]
+
+private :
+
+//#[ ignore
+    p_TemperatureSensor_C p_TemperatureSensor;
+//#]
 };
 
 #ifdef _OMINSTRUMENT

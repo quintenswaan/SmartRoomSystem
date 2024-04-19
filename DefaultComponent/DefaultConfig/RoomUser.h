@@ -1,6 +1,6 @@
 /*********************************************************************
 	Rhapsody	: 9.0 
-	Login		: 20235614
+	Login		: 20174215
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: RoomUser
@@ -34,13 +34,17 @@ public :
 
     ////    Constructors and destructors    ////
     
+    ////    Additional operations    ////
+    
+    ////    Relations and components    ////
+    
+    ////    Framework operations    ////
+    
     //## auto_generated
     RoomUser(void);
     
     //## auto_generated
     ~RoomUser(void);
-    
-    ////    Additional operations    ////
     
     //## auto_generated
     const SmartRoomSystem* getItsSmartRoomSystem(void) const;
@@ -52,14 +56,10 @@ protected :
 
     //## auto_generated
     void cleanUpRelations(void);
-    
-    ////    Relations and components    ////
 
 private :
 
     SmartRoomSystem* itsSmartRoomSystem;		//## link itsSmartRoomSystem
-    
-    ////    Framework operations    ////
 
 public :
 

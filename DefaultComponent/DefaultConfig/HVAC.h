@@ -1,6 +1,6 @@
 /*********************************************************************
 	Rhapsody	: 9.0 
-	Login		: 20235614
+	Login		: 20174215
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: HVAC
@@ -185,10 +185,6 @@ private :
     
     ////    Relations and components    ////
     
-//#[ ignore
-    port_HVAC_C port_HVAC;
-//#]
-
     SmartRoomSystem* itsSmartRoomSystem;		//## link itsSmartRoomSystem
     
     ////    Framework operations    ////
@@ -204,6 +200,16 @@ public :
     //## auto_generated
     void _clearItsSmartRoomSystem(void);
     
+    ////    Framework    ////
+
+private :
+
+//#[ ignore
+    port_HVAC_C port_HVAC;
+//#]
+
+public :
+
     // rootState:
     //## statechart_method
     inline RhpBoolean rootState_IN(void) const;
@@ -252,8 +258,6 @@ protected :
     
     //## statechart_method
     virtual IOxfReactive::TakeEventStatus rootState_processEvent(void);
-    
-    ////    Framework    ////
     
 //#[ ignore
     enum HVAC_Enum {

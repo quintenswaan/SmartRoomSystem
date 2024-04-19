@@ -12,17 +12,18 @@
 			<_id type="a">GUID 6ff00bc4-a51e-438f-903f-d773225c5ff3</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">OPERATING_ENVIRONMENT</_name>
-			<_modifiedTimeWeak type="a">4.19.2024::9:37:9</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.19.2024::9:45:20</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.19.2024::10:1:30</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::10:1:30</_modifiedTime>
 			<_lastID type="a">5</_lastID>
-			<weakCGTime type="a">4.19.2024::9:37:9</weakCGTime>
+			<weakCGTime type="a">4.19.2024::10:1:30</weakCGTime>
 			<strongCGTime type="a">4.19.2024::9:37:9</strongCGTime>
 			<_defaultComposite type="s">GUID ba6c1f45-ddb1-4de0-ae77-a27fee83e456</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
-			<_configurationRelatedTime type="a">4.18.2024::9:21:16</_configurationRelatedTime>
+			<_configurationRelatedTime type="a">4.19.2024::10:1:30</_configurationRelatedTime>
 			<AggregatesList type="e">
 				<value>GUID 782b43f9-420f-485f-a524-93ede20e6d63</value>
-				<value>GUID 9b3ccb3e-4eff-47c4-894c-775a6b1628d5</value>
+				<value>GUID ceac1f29-b6da-4d0d-a782-c9466fac40e8</value>
+				<value>GUID 234823ea-df9b-4554-90f1-46f79d4623b6</value>
 				<value>GUID ba6c1f45-ddb1-4de0-ae77-a27fee83e456</value>
 				<value>GUID 87ef6496-0f97-4f7e-9c91-9cdbab1cb78b</value>
 				<value>GUID efb6dcf5-9252-44d5-9d71-d7fc463005c0</value>
@@ -553,6 +554,28 @@
 						</IPropertySubject>
 						
 						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">SmartRouting</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+						<IPropertySubject type="e">
 							<_Name type="a">ObjectModelGe</_Name>
 							<Metaclasses type="c">
 								<IRPYRawContainer type="e">
@@ -645,8 +668,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.18.2024::19:28:19</_modifiedTime>
-			<_lastModifiedTime type="a">4.18.2024::19:28:19</_lastModifiedTime>
+			<_modifiedTime type="a">4.19.2024::10:2:5</_modifiedTime>
+			<_lastModifiedTime type="a">4.19.2024::10:2:5</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -689,7 +712,7 @@
 			</m_name>
 			<m_drawBehavior type="a">0</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
-			<elementList type="a">7</elementList>
+			<elementList type="a">11</elementList>
 			
 			<m_access type="a">'Z'</m_access>
 			<m_modified type="a">'N'</m_modified>
@@ -704,11 +727,15 @@
 			<AggregatesList type="e">
 				<value>GUID 1dadadf6-325c-4ca5-9f14-9881c9730ca7</value>
 				<value>GUID 622da6a0-cbbe-417d-a370-41f7ec9f13d3</value>
-				<value>GUID 14860d4b-fe1d-4ffd-8e70-0df0f3052119</value>
 				<value>GUID 77b8be4c-f7f0-4c46-ab9f-6986b968416e</value>
 				<value>GUID 6d56187e-e6ee-4eae-a5b5-e37a74dce0e5</value>
 				<value>GUID 5c6771a0-99da-47fe-8056-3fe02290e9be</value>
 				<value>GUID ece7a46d-26d6-4bd5-ade0-764fe1a6b39b</value>
+				<value>GUID 64486a9a-0ada-4f66-91a7-02f84f936e03</value>
+				<value>GUID 6d80e499-e6e5-4079-95ec-56cd247e7ead</value>
+				<value>GUID b9a2f6be-9508-402d-9852-6769eda83f8c</value>
+				<value>GUID 14860d4b-fe1d-4ffd-8e70-0df0f3052119</value>
+				<value>GUID 462f2518-bedc-4e25-a1cf-8731856173b8</value>
 			</AggregatesList>
 		</CGIClassChart>
 		<CGIClass type="e">
@@ -793,7 +820,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_transform type="a">4.19444 0 0 4.2197 20 20 </m_transform>
+			<m_transform type="a">6.81944 0 0 5.26515 -27 20 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -815,288 +842,6 @@
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
 		</CGIDiagramFrame>
-		<CGIClass type="e">
-			<_id type="a">GUID 14860d4b-fe1d-4ffd-8e70-0df0f3052119</_id>
-			<_properties type="p"><IPropertyContainer type="e">
-				<Subjects type="c">
-					<IRPYRawContainer type="e">
-						<IPropertySubject type="e">
-							<_Name type="a">Format</_Name>
-							<Metaclasses type="c">
-								<IRPYRawContainer type="e">
-									<IPropertyMetaclass type="e">
-										<_Name type="a">Block</_Name>
-										<Properties type="c">
-											<IRPYRawContainer type="e">
-												<IProperty type="e">
-													<_Name type="a">DefaultSize</_Name>
-													<_Value type="a">0,34,84,148</_Value>
-													<_Type type="a">String</_Type>
-												</IProperty>
-												
-												<IProperty type="e">
-													<_Name type="a">Fill.FillColor</_Name>
-													<_Value type="a">255,255,255</_Value>
-													<_Type type="a">Color</_Type>
-												</IProperty>
-												
-												<IProperty type="e">
-													<_Name type="a">Font.Font</_Name>
-													<_Value type="a">Tahoma</_Value>
-													<_Type type="a">String</_Type>
-												</IProperty>
-												
-												<IProperty type="e">
-													<_Name type="a">Font.Font@Child.AttributeListCompartment</_Name>
-													<_Value type="a">Tahoma</_Value>
-													<_Type type="a">String</_Type>
-												</IProperty>
-												
-												<IProperty type="e">
-													<_Name type="a">Font.Font@Child.OperationListCompartment</_Name>
-													<_Value type="a">Tahoma</_Value>
-													<_Type type="a">String</_Type>
-												</IProperty>
-												
-												<IProperty type="e">
-													<_Name type="a">Font.Font@Child.Template</_Name>
-													<_Value type="a">Tahoma</_Value>
-													<_Type type="a">Unknown</_Type>
-												</IProperty>
-												
-												<IProperty type="e">
-													<_Name type="a">Font.Italic@Child.AttributeListCompartment</_Name>
-													<_Value type="a">0</_Value>
-													<_Type type="a">Int</_Type>
-												</IProperty>
-												
-												<IProperty type="e">
-													<_Name type="a">Font.Italic@Child.OperationListCompartment</_Name>
-													<_Value type="a">0</_Value>
-													<_Type type="a">Int</_Type>
-												</IProperty>
-												
-												<IProperty type="e">
-													<_Name type="a">Font.Italic@Child.Template</_Name>
-													<_Value type="a">0</_Value>
-													<_Type type="a">Unknown</_Type>
-												</IProperty>
-												
-												<IProperty type="e">
-													<_Name type="a">Font.Size</_Name>
-													<_Value type="a">8</_Value>
-													<_Type type="a">Int</_Type>
-												</IProperty>
-												
-												<IProperty type="e">
-													<_Name type="a">Font.Size@Child.AttributeListCompartment</_Name>
-													<_Value type="a">8</_Value>
-													<_Type type="a">Int</_Type>
-												</IProperty>
-												
-												<IProperty type="e">
-													<_Name type="a">Font.Size@Child.NameCompartment@Stereotype</_Name>
-													<_Value type="a">7</_Value>
-													<_Type type="a">Int</_Type>
-												</IProperty>
-												
-												<IProperty type="e">
-													<_Name type="a">Font.Size@Child.OperationListCompartment</_Name>
-													<_Value type="a">8</_Value>
-													<_Type type="a">Int</_Type>
-												</IProperty>
-												
-												<IProperty type="e">
-													<_Name type="a">Font.Size@Child.Template</_Name>
-													<_Value type="a">8</_Value>
-													<_Type type="a">Unknown</_Type>
-												</IProperty>
-												
-												<IProperty type="e">
-													<_Name type="a">Font.Weight@Child.AttributeListCompartment</_Name>
-													<_Value type="a">400</_Value>
-													<_Type type="a">Int</_Type>
-												</IProperty>
-												
-												<IProperty type="e">
-													<_Name type="a">Font.Weight@Child.NameCompartment@Name</_Name>
-													<_Value type="a">700</_Value>
-													<_Type type="a">Int</_Type>
-												</IProperty>
-												
-												<IProperty type="e">
-													<_Name type="a">Font.Weight@Child.OperationListCompartment</_Name>
-													<_Value type="a">400</_Value>
-													<_Type type="a">Int</_Type>
-												</IProperty>
-												
-												<IProperty type="e">
-													<_Name type="a">Font.Weight@Child.Template</_Name>
-													<_Value type="a">400</_Value>
-													<_Type type="a">Unknown</_Type>
-												</IProperty>
-												
-												<IProperty type="e">
-													<_Name type="a">Line.LineColor</_Name>
-													<_Value type="a">109,163,217</_Value>
-													<_Type type="a">Color</_Type>
-												</IProperty>
-												
-												<IProperty type="e">
-													<_Name type="a">Line.LineStyle</_Name>
-													<_Value type="a">0</_Value>
-													<_Type type="a">Int</_Type>
-												</IProperty>
-												
-												<IProperty type="e">
-													<_Name type="a">Line.LineWidth</_Name>
-													<_Value type="a">1</_Value>
-													<_Type type="a">Int</_Type>
-												</IProperty>
-												
-											</IRPYRawContainer>
-										</Properties>
-									</IPropertyMetaclass>
-									
-								</IRPYRawContainer>
-							</Metaclasses>
-						</IPropertySubject>
-						
-						<IPropertySubject type="e">
-							<_Name type="a">General</_Name>
-							<Metaclasses type="c">
-								<IRPYRawContainer type="e">
-									<IPropertyMetaclass type="e">
-										<_Name type="a">Graphics</_Name>
-										<Properties type="c">
-											<IRPYRawContainer type="e">
-												<IProperty type="e">
-													<_Name type="a">FitBoxToItsTextuals</_Name>
-													<_Value type="a">False</_Value>
-													<_Type type="a">Bool</_Type>
-												</IProperty>
-												
-											</IRPYRawContainer>
-										</Properties>
-									</IPropertyMetaclass>
-									
-								</IRPYRawContainer>
-							</Metaclasses>
-						</IPropertySubject>
-						
-						<IPropertySubject type="e">
-							<_Name type="a">ObjectModelGe</_Name>
-							<Metaclasses type="c">
-								<IRPYRawContainer type="e">
-									<IPropertyMetaclass type="e">
-										<_Name type="a">Block</_Name>
-										<Properties type="c">
-											<IRPYRawContainer type="e">
-												<IProperty type="e">
-													<_Name type="a">Compartments</_Name>
-													<_Value type="a">Attribute,Operation</_Value>
-													<_Type type="a">MultiLine</_Type>
-												</IProperty>
-												
-											</IRPYRawContainer>
-										</Properties>
-									</IPropertyMetaclass>
-									
-								</IRPYRawContainer>
-							</Metaclasses>
-						</IPropertySubject>
-						
-					</IRPYRawContainer>
-				</Subjects>
-			</IPropertyContainer>
-			</_properties>
-			<m_type type="a">87</m_type>
-			<m_pModelObject type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\SYSTEM_CONTEXT.sbsx</_hfilename>
-					<_hsubsystem type="a">SYSTEM_ANALYSIS::SYSTEM_CONTEXT</_hsubsystem>
-					<_hname type="a">SmartRoomSystem</_hname>
-					<_hid type="a">GUID ed05c565-2ca7-4a6d-a6d2-b362d8dffe68</_hid>
-				</IHandle>
-			</m_pModelObject>
-			<m_pParent type="s">GUID 1dadadf6-325c-4ca5-9f14-9881c9730ca7</m_pParent>
-			<m_name type="p">
-				<CGIText type="e">
-					<m_str type="a">SmartRoomSystem</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_name>
-			<m_drawBehavior type="a">4200</m_drawBehavior>
-			<m_transform type="a">0.273844 0 0 0.202317 64.452 2.43761 </m_transform>
-			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
-			<m_AdditionalLabel type="p">
-				<CGIText type="e">
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_AdditionalLabel>
-			<m_bFramesetModified type="a">1</m_bFramesetModified>
-			<m_polygon type="a">4 2 329  2 1451  1061 1451  1061 329  </m_polygon>
-			<m_nNameFormat type="a">0</m_nNameFormat>
-			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<frameset type="a">&lt;frameset rows=67%25,33%25&gt;
-&lt;frame name=AttributeListCompartment&gt;
-&lt;frame name=OperationListCompartment&gt;</frameset>
-			<Attrs type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Attrs>
-			<Operations type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Operations>
-			<AggregatesList type="e">
-				<value>GUID de55a5e1-982c-4662-8994-9c53ee4b60f5</value>
-				<value>GUID 3b2190d6-34b9-4493-bdaa-81cf817a730d</value>
-			</AggregatesList>
-		</CGIClass>
-		<CGICompartment type="e">
-			<_id type="a">GUID de55a5e1-982c-4662-8994-9c53ee4b60f5</_id>
-			<m_name type="a">Attribute</m_name>
-			<m_displayOption type="a">All</m_displayOption>
-			<m_bShowInherited type="a">0</m_bShowInherited>
-			<m_bOrdered type="a">0</m_bOrdered>
-			<_itemValueOfFontPropertiesMapCount type="a">3</_itemValueOfFontPropertiesMapCount>
-			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
-			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
-			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
-		</CGICompartment>
-		<CGICompartment type="e">
-			<_id type="a">GUID 3b2190d6-34b9-4493-bdaa-81cf817a730d</_id>
-			<m_name type="a">Operation</m_name>
-			<m_displayOption type="a">All</m_displayOption>
-			<m_bShowInherited type="a">0</m_bShowInherited>
-			<m_bOrdered type="a">0</m_bOrdered>
-			<_itemValueOfFontPropertiesMapCount type="a">1</_itemValueOfFontPropertiesMapCount>
-			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
-		</CGICompartment>
 		<CGIClass type="e">
 			<_id type="a">GUID 77b8be4c-f7f0-4c46-ab9f-6986b968416e</_id>
 			<_properties type="p"><IPropertyContainer type="e">
@@ -1321,7 +1066,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4200</m_drawBehavior>
-			<m_transform type="a">0.261567 0 0 0.26025 638.477 -38.6221 </m_transform>
+			<m_transform type="a">0.261567 0 0 0.26025 1158.48 -20.6221 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -1343,7 +1088,7 @@
 			<m_polygon type="a">4 2 329  2 1451  1061 1451  1061 329  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<frameset type="a">&lt;frameset rows=34%25,66%25&gt;
+			<frameset type="a">&lt;frameset rows=41%25,59%25&gt;
 &lt;frame name=AttributeListCompartment&gt;
 &lt;frame name=OperationListCompartment&gt;</frameset>
 			<Attrs type="c">
@@ -1625,7 +1370,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4200</m_drawBehavior>
-			<m_transform type="a">0.288008 0 0 0.156863 64.424 339.392 </m_transform>
+			<m_transform type="a">0.288008 0 0 0.156863 577.424 461.392 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -1734,7 +1479,7 @@
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">586 1451 </m_SourcePort>
+			<m_SourcePort type="a">561 1451 </m_SourcePort>
 			<m_TargetPort type="a">558 329 </m_TargetPort>
 			<m_pInverseModelObject type="r">
 				<IAssociationEndHandle type="e">
@@ -1861,17 +1606,1062 @@
 			</m_targetQualifier>
 			<m_specificType type="a">symmetric_type</m_specificType>
 		</CGIAssociationEnd>
-		<ISubsystem type="e">
-			<fileName type="a">SRS_OE_AP</fileName>
-			<_id type="a">GUID 9b3ccb3e-4eff-47c4-894c-775a6b1628d5</_id>
-		</ISubsystem>
+		<CGIAssociationEnd type="e">
+			<_id type="a">GUID 64486a9a-0ada-4f66-91a7-02f84f936e03</_id>
+			<m_type type="a">92</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\SYSTEM_CONTEXT_AIR_PURIFIER.sbsx</_hfilename>
+					<_hsubsystem type="a">SYSTEM_ANALYSIS::SYSTEM_CONTEXT::SYSTEM_CONTEXT_AIR_PURIFIER</_hsubsystem>
+					<_hclass type="a">AirQualitySensor</_hclass>
+					<_hname type="a">itsAirPurifier</_hname>
+					<_hid type="a">GUID 1b662aaa-8d63-4eee-a0f4-da9da3e46949</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s"></m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_pSource type="s">GUID 6d80e499-e6e5-4079-95ec-56cd247e7ead</m_pSource>
+			<m_sourceType type="a">'F'</m_sourceType>
+			<m_pTarget type="s">GUID b9a2f6be-9508-402d-9852-6769eda83f8c</m_pTarget>
+			<m_targetType type="a">'T'</m_targetType>
+			<m_direction type="a">' '</m_direction>
+			<m_rpn type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">7</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_rpn>
+			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
+			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
+			<m_line_style type="a">2</m_line_style>
+			<m_SourcePort type="a">652 329 </m_SourcePort>
+			<m_TargetPort type="a">727 1451 </m_TargetPort>
+			<m_pInverseModelObject type="r">
+				<IAssociationEndHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\SYSTEM_CONTEXT_AIR_PURIFIER.sbsx</_hfilename>
+					<_hsubsystem type="a">SYSTEM_ANALYSIS::SYSTEM_CONTEXT::SYSTEM_CONTEXT_AIR_PURIFIER</_hsubsystem>
+					<_hclass type="a">AirPurifier</_hclass>
+					<_hname type="a">itsAirQualitySensor</_hname>
+					<_hid type="a">GUID 4f4f8477-8651-4354-9366-6ec1ed6d2395</_hid>
+				</IAssociationEndHandle>
+			</m_pInverseModelObject>
+			<m_pInstance type="r">
+				<IObjectLinkHandle type="e">
+				</IObjectLinkHandle>
+			</m_pInstance>
+			<m_pInverseInstance type="r">
+				<IObjectLinkHandle type="e">
+				</IObjectLinkHandle>
+			</m_pInverseInstance>
+			<m_bShowSourceMultiplicity type="a">1</m_bShowSourceMultiplicity>
+			<m_bShowSourceRole type="a">1</m_bShowSourceRole>
+			<m_bShowTargetMultiplicity type="a">1</m_bShowTargetMultiplicity>
+			<m_bShowTargetRole type="a">1</m_bShowTargetRole>
+			<m_bShowLinkName type="a">1</m_bShowLinkName>
+			<m_bShowSpecificType type="a">0</m_bShowSpecificType>
+			<m_bInstance type="a">0</m_bInstance>
+			<m_bShowQualifier1 type="a">1</m_bShowQualifier1>
+			<m_bShowQualifier2 type="a">1</m_bShowQualifier2>
+			<m_sourceRole type="p">
+				<CGIText type="e">
+					<m_str type="a">itsAirQualitySensor</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">2</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">4</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_sourceRole>
+			<m_targetRole type="p">
+				<CGIText type="e">
+					<m_str type="a">itsAirPurifier</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">3</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">2</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_targetRole>
+			<m_sourceMultiplicity type="p">
+				<CGIText type="e">
+					<m_str type="a">1</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">4 -6 -9  10 -9  10 5  -6 5  </m_position>
+					<m_nIdent type="a">4</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_transform type="a">1 0 0 1 107 661 </m_transform>
+					<m_nOrientationCtrlPt type="a">6</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_sourceMultiplicity>
+			<m_targetMultiplicity type="p">
+				<CGIText type="e">
+					<m_str type="a">1</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">5</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_targetMultiplicity>
+			<m_sourceQualifier type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">6</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_sourceQualifier>
+			<m_targetQualifier type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">7</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_targetQualifier>
+			<m_specificType type="a">symmetric_type</m_specificType>
+		</CGIAssociationEnd>
+		<CGIClass type="e">
+			<_id type="a">GUID 6d80e499-e6e5-4079-95ec-56cd247e7ead</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">FitBoxToItsTextuals</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+						<IPropertySubject type="e">
+							<_Name type="a">ObjectModelGe</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Block</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">Compartments</_Name>
+													<_Value type="a">Attribute,Operation,</_Value>
+													<_Type type="a">MultiLine</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<m_type type="a">87</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\SYSTEM_CONTEXT_AIR_PURIFIER.sbsx</_hfilename>
+					<_hsubsystem type="a">SYSTEM_ANALYSIS::SYSTEM_CONTEXT::SYSTEM_CONTEXT_AIR_PURIFIER</_hsubsystem>
+					<_hname type="a">AirQualitySensor</_hname>
+					<_hid type="a">GUID c921f3d2-00ce-47bd-96a5-e480d0802dfd</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID 1dadadf6-325c-4ca5-9f14-9881c9730ca7</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">AirQualitySensor</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 -0.50063545049386 -0.00050001936699573  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4200</m_drawBehavior>
+			<m_transform type="a">0.303116 0 0 0.185383 19.394 436.009 </m_transform>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_AdditionalLabel type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_AdditionalLabel>
+			<m_polygon type="a">4 2 329  2 1451  1061 1451  1061 329  </m_polygon>
+			<m_nNameFormat type="a">0</m_nNameFormat>
+			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+			<frameset type="a">&lt;frameset rows=50%25,50%25&gt;
+&lt;frame name=AttributeListCompartment&gt;
+&lt;frame name=OperationListCompartment&gt;</frameset>
+			<Attrs type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Attrs>
+			<Operations type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Operations>
+			<AggregatesList type="e">
+				<value>GUID aa3e911d-a1f8-43e4-b7a1-eab984c3ede2</value>
+				<value>GUID b8f9431d-e2b3-4259-9c86-f41759f27151</value>
+			</AggregatesList>
+		</CGIClass>
+		<CGICompartment type="e">
+			<_id type="a">GUID aa3e911d-a1f8-43e4-b7a1-eab984c3ede2</_id>
+			<m_name type="a">Attribute</m_name>
+			<m_displayOption type="a">All</m_displayOption>
+			<m_bShowInherited type="a">0</m_bShowInherited>
+			<m_bOrdered type="a">0</m_bOrdered>
+			<_itemValueOfFontPropertiesMapCount type="a">1</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+		</CGICompartment>
+		<CGICompartment type="e">
+			<_id type="a">GUID b8f9431d-e2b3-4259-9c86-f41759f27151</_id>
+			<m_name type="a">Operation</m_name>
+			<m_displayOption type="a">All</m_displayOption>
+			<m_bShowInherited type="a">0</m_bShowInherited>
+			<m_bOrdered type="a">0</m_bOrdered>
+		</CGICompartment>
+		<CGIClass type="e">
+			<_id type="a">GUID b9a2f6be-9508-402d-9852-6769eda83f8c</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">FitBoxToItsTextuals</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<m_type type="a">87</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\SYSTEM_CONTEXT_AIR_PURIFIER.sbsx</_hfilename>
+					<_hsubsystem type="a">SYSTEM_ANALYSIS::SYSTEM_CONTEXT::SYSTEM_CONTEXT_AIR_PURIFIER</_hsubsystem>
+					<_hname type="a">AirPurifier</_hname>
+					<_hid type="a">GUID 912a3a15-30ce-4b53-9d77-db0d6dfcdecf</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID 1dadadf6-325c-4ca5-9f14-9881c9730ca7</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">AirPurifier</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 8.40568137618902e-05 -0.499999652221049  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4200</m_drawBehavior>
+			<m_transform type="a">0.322946 0 0 0.270945 -17.6459 -2.14082 </m_transform>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_AdditionalLabel type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_AdditionalLabel>
+			<m_bFramesetModified type="a">1</m_bFramesetModified>
+			<m_polygon type="a">4 2 329  2 1451  1061 1451  1061 329  </m_polygon>
+			<m_nNameFormat type="a">0</m_nNameFormat>
+			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+			<frameset type="a">&lt;frameset rows=40%25,60%25&gt;
+&lt;frame name=AttributeListCompartment&gt;
+&lt;frame name=OperationListCompartment&gt;</frameset>
+			<Attrs type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Attrs>
+			<Operations type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Operations>
+			<AggregatesList type="e">
+				<value>GUID b1270fae-ee25-4a39-ad86-ee496c847cfc</value>
+				<value>GUID 032fea56-471f-47bf-ab34-b606ec841a5a</value>
+			</AggregatesList>
+		</CGIClass>
+		<CGICompartment type="e">
+			<_id type="a">GUID b1270fae-ee25-4a39-ad86-ee496c847cfc</_id>
+			<m_name type="a">Attribute</m_name>
+			<m_displayOption type="a">All</m_displayOption>
+			<m_bShowInherited type="a">0</m_bShowInherited>
+			<m_bOrdered type="a">0</m_bOrdered>
+			<_itemValueOfFontPropertiesMapCount type="a">4</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+		</CGICompartment>
+		<CGICompartment type="e">
+			<_id type="a">GUID 032fea56-471f-47bf-ab34-b606ec841a5a</_id>
+			<m_name type="a">Operation</m_name>
+			<m_displayOption type="a">All</m_displayOption>
+			<m_bShowInherited type="a">0</m_bShowInherited>
+			<m_bOrdered type="a">0</m_bOrdered>
+			<_itemValueOfFontPropertiesMapCount type="a">6</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+		</CGICompartment>
+		<CGIClass type="e">
+			<_id type="a">GUID 14860d4b-fe1d-4ffd-8e70-0df0f3052119</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">Format</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Block</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">DefaultSize</_Name>
+													<_Value type="a">0,34,84,148</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Fill.FillColor</_Name>
+													<_Value type="a">255,255,255</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Font</_Name>
+													<_Value type="a">Tahoma</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Font@Child.AttributeListCompartment</_Name>
+													<_Value type="a">Tahoma</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Font@Child.OperationListCompartment</_Name>
+													<_Value type="a">Tahoma</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Font@Child.Template</_Name>
+													<_Value type="a">Tahoma</_Value>
+													<_Type type="a">Unknown</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Italic@Child.AttributeListCompartment</_Name>
+													<_Value type="a">0</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Italic@Child.OperationListCompartment</_Name>
+													<_Value type="a">0</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Italic@Child.Template</_Name>
+													<_Value type="a">0</_Value>
+													<_Type type="a">Unknown</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Size</_Name>
+													<_Value type="a">8</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Size@Child.AttributeListCompartment</_Name>
+													<_Value type="a">8</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Size@Child.NameCompartment@Stereotype</_Name>
+													<_Value type="a">7</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Size@Child.OperationListCompartment</_Name>
+													<_Value type="a">8</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Size@Child.Template</_Name>
+													<_Value type="a">8</_Value>
+													<_Type type="a">Unknown</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Weight@Child.AttributeListCompartment</_Name>
+													<_Value type="a">400</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Weight@Child.NameCompartment@Name</_Name>
+													<_Value type="a">700</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Weight@Child.OperationListCompartment</_Name>
+													<_Value type="a">400</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Weight@Child.Template</_Name>
+													<_Value type="a">400</_Value>
+													<_Type type="a">Unknown</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineColor</_Name>
+													<_Value type="a">109,163,217</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineStyle</_Name>
+													<_Value type="a">0</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineWidth</_Name>
+													<_Value type="a">1</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">FitBoxToItsTextuals</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+						<IPropertySubject type="e">
+							<_Name type="a">ObjectModelGe</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Block</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">Compartments</_Name>
+													<_Value type="a">Attribute,Operation</_Value>
+													<_Type type="a">MultiLine</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<m_type type="a">87</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\SYSTEM_CONTEXT.sbsx</_hfilename>
+					<_hsubsystem type="a">SYSTEM_ANALYSIS::SYSTEM_CONTEXT</_hsubsystem>
+					<_hname type="a">SmartRoomSystem</_hname>
+					<_hid type="a">GUID ed05c565-2ca7-4a6d-a6d2-b362d8dffe68</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID 1dadadf6-325c-4ca5-9f14-9881c9730ca7</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">SmartRoomSystem</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4200</m_drawBehavior>
+			<m_transform type="a">0.273844 0 0 0.202317 584.452 20.4376 </m_transform>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_AdditionalLabel type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_AdditionalLabel>
+			<m_bFramesetModified type="a">1</m_bFramesetModified>
+			<m_polygon type="a">4 2 329  2 1451  1061 1451  1061 329  </m_polygon>
+			<m_nNameFormat type="a">0</m_nNameFormat>
+			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+			<frameset type="a">&lt;frameset rows=67%25,33%25&gt;
+&lt;frame name=AttributeListCompartment&gt;
+&lt;frame name=OperationListCompartment&gt;</frameset>
+			<Attrs type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Attrs>
+			<Operations type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Operations>
+			<AggregatesList type="e">
+				<value>GUID de55a5e1-982c-4662-8994-9c53ee4b60f5</value>
+				<value>GUID 3b2190d6-34b9-4493-bdaa-81cf817a730d</value>
+			</AggregatesList>
+		</CGIClass>
+		<CGICompartment type="e">
+			<_id type="a">GUID de55a5e1-982c-4662-8994-9c53ee4b60f5</_id>
+			<m_name type="a">Attribute</m_name>
+			<m_displayOption type="a">All</m_displayOption>
+			<m_bShowInherited type="a">0</m_bShowInherited>
+			<m_bOrdered type="a">0</m_bOrdered>
+			<_itemValueOfFontPropertiesMapCount type="a">3</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+		</CGICompartment>
+		<CGICompartment type="e">
+			<_id type="a">GUID 3b2190d6-34b9-4493-bdaa-81cf817a730d</_id>
+			<m_name type="a">Operation</m_name>
+			<m_displayOption type="a">All</m_displayOption>
+			<m_bShowInherited type="a">0</m_bShowInherited>
+			<m_bOrdered type="a">0</m_bOrdered>
+			<_itemValueOfFontPropertiesMapCount type="a">1</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+		</CGICompartment>
+		<CGIAssociationEnd type="e">
+			<_id type="a">GUID 462f2518-bedc-4e25-a1cf-8731856173b8</_id>
+			<m_type type="a">92</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\SYSTEM_CONTEXT_AIR_PURIFIER.sbsx</_hfilename>
+					<_hsubsystem type="a">SYSTEM_ANALYSIS::SYSTEM_CONTEXT::SYSTEM_CONTEXT_AIR_PURIFIER</_hsubsystem>
+					<_hclass type="a">AirPurifier</_hclass>
+					<_hname type="a">itsSmartRoomSystem</_hname>
+					<_hid type="a">GUID f64f9930-af7f-471c-809c-f7470680014c</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s"></m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_pSource type="s">GUID b9a2f6be-9508-402d-9852-6769eda83f8c</m_pSource>
+			<m_sourceType type="a">'F'</m_sourceType>
+			<m_pTarget type="s">GUID 14860d4b-fe1d-4ffd-8e70-0df0f3052119</m_pTarget>
+			<m_targetType type="a">'T'</m_targetType>
+			<m_direction type="a">' '</m_direction>
+			<m_rpn type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">7</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_rpn>
+			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
+			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
+			<m_line_style type="a">2</m_line_style>
+			<m_SourcePort type="a">1061 562 </m_SourcePort>
+			<m_TargetPort type="a">2 640 </m_TargetPort>
+			<m_pInverseModelObject type="r">
+				<IAssociationEndHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\SYSTEM_CONTEXT.sbsx</_hfilename>
+					<_hsubsystem type="a">SYSTEM_ANALYSIS::SYSTEM_CONTEXT</_hsubsystem>
+					<_hclass type="a">SmartRoomSystem</_hclass>
+					<_hname type="a">itsAirPurifier_1</_hname>
+					<_hid type="a">GUID 94e62082-27f5-45ed-9f78-6c73f47d1840</_hid>
+				</IAssociationEndHandle>
+			</m_pInverseModelObject>
+			<m_pInstance type="r">
+				<IObjectLinkHandle type="e">
+				</IObjectLinkHandle>
+			</m_pInstance>
+			<m_pInverseInstance type="r">
+				<IObjectLinkHandle type="e">
+				</IObjectLinkHandle>
+			</m_pInverseInstance>
+			<m_bShowSourceMultiplicity type="a">1</m_bShowSourceMultiplicity>
+			<m_bShowSourceRole type="a">1</m_bShowSourceRole>
+			<m_bShowTargetMultiplicity type="a">1</m_bShowTargetMultiplicity>
+			<m_bShowTargetRole type="a">1</m_bShowTargetRole>
+			<m_bShowLinkName type="a">1</m_bShowLinkName>
+			<m_bShowSpecificType type="a">0</m_bShowSpecificType>
+			<m_bInstance type="a">0</m_bInstance>
+			<m_bShowQualifier1 type="a">1</m_bShowQualifier1>
+			<m_bShowQualifier2 type="a">1</m_bShowQualifier2>
+			<m_sourceRole type="p">
+				<CGIText type="e">
+					<m_str type="a">itsAirPurifier_1</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">2</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_sourceRole>
+			<m_targetRole type="p">
+				<CGIText type="e">
+					<m_str type="a">itsSmartRoomSystem</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">3</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">2</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_targetRole>
+			<m_sourceMultiplicity type="p">
+				<CGIText type="e">
+					<m_str type="a">1</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">4</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">6</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_sourceMultiplicity>
+			<m_targetMultiplicity type="p">
+				<CGIText type="e">
+					<m_str type="a">1</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">5</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">4</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_targetMultiplicity>
+			<m_sourceQualifier type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">6</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_sourceQualifier>
+			<m_targetQualifier type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">7</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_targetQualifier>
+			<m_specificType type="a">symmetric_type</m_specificType>
+		</CGIAssociationEnd>
+		<IFile type="e">
+			<_id type="a">GUID ceac1f29-b6da-4d0d-a782-c9466fac40e8</_id>
+			<_myState type="a">139264</_myState>
+			<_name type="a">OPERATING_ENVIRONMENT</_name>
+			<OwnedDependencies type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</OwnedDependencies>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:49:55</_modifiedTime>
+			<m_type type="a">implFile</m_type>
+			<AggregatesList type="e">
+				<value>GUID 75ae3726-06c8-4df7-8cc4-56155122262a</value>
+				<value>GUID 4a5dfc78-b252-46ee-a015-7ae0217ae87d</value>
+			</AggregatesList>
+		</IFile>
+		<IFileFragment type="e">
+			<_id type="a">GUID 75ae3726-06c8-4df7-8cc4-56155122262a</_id>
+			<_name type="a">OPERATING_ENVIRONMENT:spec</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:49:55</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">//## auto:dependency OPERATING_ENVIRONMENT:spec</m_text>
+			<m_startRow type="a">16</m_startRow>
+			<m_startCol_Short type="a">1</m_startCol_Short>
+			<m_endRow type="a">16</m_endRow>
+			<m_endCol_Short type="a">35</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+		</IFileFragment>
+		<IFileFragment type="e">
+			<_id type="a">GUID 4a5dfc78-b252-46ee-a015-7ae0217ae87d</_id>
+			<_name type="a">TemperatureSensor:spec</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:49:55</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">//## auto:dependency TemperatureSensor:spec</m_text>
+			<m_startRow type="a">18</m_startRow>
+			<m_startCol_Short type="a">1</m_startCol_Short>
+			<m_endRow type="a">18</m_endRow>
+			<m_endCol_Short type="a">31</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+		</IFileFragment>
+		<IFile type="e">
+			<_id type="a">GUID 234823ea-df9b-4554-90f1-46f79d4623b6</_id>
+			<_myState type="a">139264</_myState>
+			<_name type="a">OPERATING_ENVIRONMENT</_name>
+			<OwnedDependencies type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</OwnedDependencies>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:49:55</_modifiedTime>
+			<m_type type="a">specFile</m_type>
+			<AggregatesList type="e">
+				<value>GUID 942ad60d-46e8-4dc4-a403-d8261af1cb12</value>
+				<value>GUID bf7551ff-f4cc-4da1-96ea-5217f3d0a919</value>
+				<value>GUID c9c894dc-42e7-4e63-89cd-a30a9e7ec1e7</value>
+			</AggregatesList>
+		</IFile>
+		<IFileFragment type="e">
+			<_id type="a">GUID 942ad60d-46e8-4dc4-a403-d8261af1cb12</_id>
+			<_name type="a">oxf:spec</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:49:55</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">//## auto:dependency oxf:spec</m_text>
+			<m_startRow type="a">15</m_startRow>
+			<m_startCol_Short type="a">1</m_startCol_Short>
+			<m_endRow type="a">15</m_endRow>
+			<m_endCol_Short type="a">17</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+		</IFileFragment>
+		<IFileFragment type="e">
+			<_id type="a">GUID bf7551ff-f4cc-4da1-96ea-5217f3d0a919</_id>
+			<_name type="a">aom:spec</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:49:55</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">//## auto:dependency aom:spec</m_text>
+			<m_startRow type="a">17</m_startRow>
+			<m_startCol_Short type="a">1</m_startCol_Short>
+			<m_endRow type="a">17</m_endRow>
+			<m_endCol_Short type="a">17</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+		</IFileFragment>
+		<IFileFragment type="e">
+			<_id type="a">GUID c9c894dc-42e7-4e63-89cd-a30a9e7ec1e7</_id>
+			<_name type="a">TemperatureSensor:spec</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:49:55</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">//## auto:dependency TemperatureSensor:spec</m_text>
+			<m_startRow type="a">19</m_startRow>
+			<m_startCol_Short type="a">1</m_startCol_Short>
+			<m_endRow type="a">19</m_endRow>
+			<m_endCol_Short type="a">24</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+		</IFileFragment>
 		<IClass type="e">
 			<_id type="a">GUID ba6c1f45-ddb1-4de0-ae77-a27fee83e456</_id>
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
-			<_modifiedTimeWeak type="a">4.19.2024::9:37:9</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<weakCGTime type="a">4.19.2024::9:37:9</weakCGTime>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:49:55</_modifiedTime>
+			<weakCGTime type="a">4.19.2024::9:49:55</weakCGTime>
 			<strongCGTime type="a">4.19.2024::9:37:9</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -1896,16 +2686,16 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.19.2024::9:37:9</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:56</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID 782b43f9-420f-485f-a524-93ede20e6d63</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">4.18.2024::13:23:47</_modifiedTime>
+			<_modifiedTime type="a">4.19.2024::9:49:56</_modifiedTime>
 			<_lastID type="a">2</_lastID>
-			<weakCGTime type="a">4.19.2024::9:37:9</weakCGTime>
+			<weakCGTime type="a">4.19.2024::9:49:56</weakCGTime>
 			<strongCGTime type="a">4.19.2024::9:37:9</strongCGTime>
 			<Operations type="c">
 				<IRPYRawContainer type="e">
@@ -1920,6 +2710,8 @@
 				<value>GUID 9206116e-cdab-4b61-a6a1-eb55f15b202c</value>
 				<value>GUID 4a4d9495-ca3b-4f59-9e78-9436c10f4b2a</value>
 				<value>GUID e069dbc2-38d4-49f7-ad3d-da96a6936fd4</value>
+				<value>GUID 91a54e7d-7d97-4ac9-a90a-f1e9291e589b</value>
+				<value>GUID 883dd84c-57f9-4082-b1a1-8e56f6823ce0</value>
 				<value>GUID 32165f27-19c8-4d52-9332-867eeb8b0f3d</value>
 				<value>GUID 4adf8041-5492-4a12-b47d-44e26686da41</value>
 			</AggregatesList>
@@ -2111,6 +2903,1527 @@
 			<_modifiedTimeWeak type="a">4.17.2024::11:46:17</_modifiedTimeWeak>
 			<_modifiedTime type="a">4.17.2024::11:46:17</_modifiedTime>
 			<_value type="a">15</_value>
+		</ILiteralSpecification>
+		<IFile type="e">
+			<_id type="a">GUID 91a54e7d-7d97-4ac9-a90a-f1e9291e589b</_id>
+			<_myState type="a">139264</_myState>
+			<_name type="a">TemperatureSensor</_name>
+			<OwnedDependencies type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</OwnedDependencies>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:49:55</_modifiedTime>
+			<m_type type="a">specFile</m_type>
+			<AggregatesList type="e">
+				<value>GUID 3c11c5ca-8053-41cb-bf52-d7701d371d2d</value>
+				<value>GUID dac59290-80b5-427c-91d0-96d9f1f2d68c</value>
+				<value>GUID be1254d9-f073-485a-adf0-3b56df320339</value>
+				<value>GUID 9659fbaf-aef9-4b5d-944c-4e78b57dd17b</value>
+				<value>GUID 8ae16c5c-c2cd-4d6a-97c3-9ff78d0746bd</value>
+				<value>GUID afe3bf10-c6e9-4041-9e60-6406aed1ad04</value>
+			</AggregatesList>
+		</IFile>
+		<IFileFragment type="e">
+			<_id type="a">GUID 3c11c5ca-8053-41cb-bf52-d7701d371d2d</_id>
+			<_name type="a">oxf:spec</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:49:55</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">//## auto:dependency oxf:spec</m_text>
+			<m_startRow type="a">15</m_startRow>
+			<m_startCol_Short type="a">1</m_startCol_Short>
+			<m_endRow type="a">15</m_endRow>
+			<m_endCol_Short type="a">17</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+		</IFileFragment>
+		<IFileFragment type="e">
+			<_id type="a">GUID dac59290-80b5-427c-91d0-96d9f1f2d68c</_id>
+			<_name type="a">aom:spec</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:49:55</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">//## auto:dependency aom:spec</m_text>
+			<m_startRow type="a">17</m_startRow>
+			<m_startCol_Short type="a">1</m_startCol_Short>
+			<m_endRow type="a">17</m_endRow>
+			<m_endCol_Short type="a">17</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+		</IFileFragment>
+		<IFileFragment type="e">
+			<_id type="a">GUID be1254d9-f073-485a-adf0-3b56df320339</_id>
+			<_name type="a">OPERATING_ENVIRONMENT:spec</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:49:55</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">//## auto:dependency OPERATING_ENVIRONMENT:spec</m_text>
+			<m_startRow type="a">19</m_startRow>
+			<m_startCol_Short type="a">1</m_startCol_Short>
+			<m_endRow type="a">19</m_endRow>
+			<m_endCol_Short type="a">35</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+		</IFileFragment>
+		<IFileFragment type="e">
+			<_id type="a">GUID 9659fbaf-aef9-4b5d-944c-4e78b57dd17b</_id>
+			<_name type="a">int_currentTemp_ProxyFlowPropertyInterface:spec</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:49:55</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">//## auto:dependency int_currentTemp_ProxyFlowPropertyInterface:spec</m_text>
+			<m_startRow type="a">21</m_startRow>
+			<m_startCol_Short type="a">1</m_startCol_Short>
+			<m_endRow type="a">21</m_endRow>
+			<m_endCol_Short type="a">56</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+		</IFileFragment>
+		<IFileFragment type="e">
+			<_id type="a">GUID 8ae16c5c-c2cd-4d6a-97c3-9ff78d0746bd</_id>
+			<_name type="a">SmartRoomSystem:spec</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:49:55</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">//## auto:dependency SmartRoomSystem:spec</m_text>
+			<m_startRow type="a">23</m_startRow>
+			<m_startCol_Short type="a">1</m_startCol_Short>
+			<m_endRow type="a">23</m_endRow>
+			<m_endCol_Short type="a">22</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+		</IFileFragment>
+		<IFileFragment type="e">
+			<_id type="a">GUID afe3bf10-c6e9-4041-9e60-6406aed1ad04</_id>
+			<_name type="a">TemperatureSensor</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:49:55</_modifiedTime>
+			<m_type type="a">specFragment</m_type>
+			<m_startRow type="a">28</m_startRow>
+			<m_startCol_Short type="a">1</m_startCol_Short>
+			<m_endRow type="a">145</m_endRow>
+			<m_endCol_Short type="a">1</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 87ef6496-0f97-4f7e-9c91-9cdbab1cb78b</_hid>
+				</INObjectHandle>
+			</m_subject>
+			<AggregatesList type="e">
+				<value>GUID 1ffa5e49-cccf-4815-ac5e-2b3f88665dca</value>
+				<value>GUID 59f281ac-a20c-43c2-ad14-14118d4ef4ef</value>
+				<value>GUID 0b1b07ca-a7bb-4d9d-97c3-8bcaace5a46b</value>
+				<value>GUID c5cec052-a064-4061-8c36-45a1111f08d3</value>
+				<value>GUID 92225837-e4e2-4559-8069-80a0e4264d09</value>
+				<value>GUID 14a47255-7240-4702-8bb7-471d9149f89d</value>
+				<value>GUID 3b68f313-0aba-4d7b-b6c4-ebf42edd8629</value>
+				<value>GUID 1ec4868c-b806-4c8c-830c-0c162ebab866</value>
+				<value>GUID 66cb0142-3d4f-45e9-ac44-1aba9506e69d</value>
+				<value>GUID a99ae2a4-fb58-42e3-957c-64f375e21b81</value>
+				<value>GUID 3f111c8b-12d0-4d58-82d3-a9ab3361a421</value>
+				<value>GUID 4e7edfaa-2281-4323-870a-691484061f12</value>
+				<value>GUID 59d8b52b-4bf2-4def-8f77-d97a877be011</value>
+				<value>GUID dd16ad45-3d57-44cb-a4c5-ba97e7350253</value>
+				<value>GUID c04d687b-20f7-44b6-85f5-3abc7f02cfb3</value>
+				<value>GUID f08ac29f-de7e-4281-9df2-4543f4dc257c</value>
+				<value>GUID 1ca8783d-ec6a-47ee-b43b-199c81f5d257</value>
+				<value>GUID 3944319f-be7b-46c8-b52a-f4dbad4d917a</value>
+				<value>GUID 57920ba4-0e1e-47ec-ba1b-d8e9ab0e07d2</value>
+				<value>GUID cb452682-ac2e-4528-8566-8c2a3a880fff</value>
+				<value>GUID ea1f816d-fc54-451b-b42e-0efee0b7827b</value>
+				<value>GUID 58d2e01b-1be2-42e8-9962-1ab12f7f0ff4</value>
+			</AggregatesList>
+		</IFileFragment>
+		<ITag type="e">
+			<_id type="a">GUID 1ffa5e49-cccf-4815-ac5e-2b3f88665dca</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">BodyStartLine</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID 510533bd-27f6-4e67-a574-e82066b64bdf</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 510533bd-27f6-4e67-a574-e82066b64bdf</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_value type="a">28</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID 59f281ac-a20c-43c2-ad14-14118d4ef4ef</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">BodyStartCol</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID 53d7d479-7b19-4240-82e7-bc70d5a8dfcb</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 53d7d479-7b19-4240-82e7-bc70d5a8dfcb</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_value type="a">25</_value>
+		</ILiteralSpecification>
+		<IFileFragment type="e">
+			<_id type="a">GUID 0b1b07ca-a7bb-4d9d-97c3-8bcaace5a46b</_id>
+			<_name type="a">////    Friends    ////</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">////    Friends    ////
+</m_text>
+			<m_startRow type="a">77</m_startRow>
+			<m_startCol_Short type="a">5</m_startCol_Short>
+			<m_endRow type="a">77</m_endRow>
+			<m_endCol_Short type="a">28</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+		</IFileFragment>
+		<IFileFragment type="e">
+			<_id type="a">GUID c5cec052-a064-4061-8c36-45a1111f08d3</_id>
+			<_name type="a">////    Constructors and destructors    ////</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">////    Constructors and destructors    ////
+</m_text>
+			<m_startRow type="a">83</m_startRow>
+			<m_startCol_Short type="a">5</m_startCol_Short>
+			<m_endRow type="a">83</m_endRow>
+			<m_endCol_Short type="a">49</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+		</IFileFragment>
+		<IFileFragment type="e">
+			<_id type="a">GUID 92225837-e4e2-4559-8069-80a0e4264d09</_id>
+			<_name type="a">TemperatureSensor:spec</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:49:55</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">//## auto:operation TemperatureSensor():spec</m_text>
+			<m_startRow type="a">86</m_startRow>
+			<m_startCol_Short type="a">5</m_startCol_Short>
+			<m_endRow type="a">86</m_endRow>
+			<m_endCol_Short type="a">28</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+		</IFileFragment>
+		<IFileFragment type="e">
+			<_id type="a">GUID 14a47255-7240-4702-8bb7-471d9149f89d</_id>
+			<_name type="a">~TemperatureSensor:spec</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:49:55</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">//## auto:operation ~TemperatureSensor():spec</m_text>
+			<m_startRow type="a">89</m_startRow>
+			<m_startCol_Short type="a">6</m_startCol_Short>
+			<m_endRow type="a">89</m_endRow>
+			<m_endCol_Short type="a">29</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+		</IFileFragment>
+		<IFileFragment type="e">
+			<_id type="a">GUID 3b68f313-0aba-4d7b-b6c4-ebf42edd8629</_id>
+			<_name type="a">////    Operations    ////</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">////    Operations    ////
+</m_text>
+			<m_startRow type="a">91</m_startRow>
+			<m_startCol_Short type="a">5</m_startCol_Short>
+			<m_endRow type="a">91</m_endRow>
+			<m_endCol_Short type="a">31</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+		</IFileFragment>
+		<IFileFragment type="e">
+			<_id type="a">GUID 1ec4868c-b806-4c8c-830c-0c162ebab866</_id>
+			<_name type="a">////    Additional operations    ////</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">////    Additional operations    ////
+</m_text>
+			<m_startRow type="a">97</m_startRow>
+			<m_startCol_Short type="a">5</m_startCol_Short>
+			<m_endRow type="a">97</m_endRow>
+			<m_endCol_Short type="a">42</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+		</IFileFragment>
+		<IFileFragment type="e">
+			<_id type="a">GUID 66cb0142-3d4f-45e9-ac44-1aba9506e69d</_id>
+			<_name type="a">getP_TemperatureSensor:spec</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:49:55</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">//## auto:operation getP_TemperatureSensor() const:spec</m_text>
+			<m_startRow type="a">100</m_startRow>
+			<m_startCol_Short type="a">28</m_startCol_Short>
+			<m_endRow type="a">100</m_endRow>
+			<m_endCol_Short type="a">62</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+		</IFileFragment>
+		<IFileFragment type="e">
+			<_id type="a">GUID a99ae2a4-fb58-42e3-957c-64f375e21b81</_id>
+			<_name type="a">get_p_TemperatureSensor:spec</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:49:55</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">//## auto:operation get_p_TemperatureSensor() const:spec</m_text>
+			<m_startRow type="a">103</m_startRow>
+			<m_startCol_Short type="a">28</m_startCol_Short>
+			<m_endRow type="a">103</m_endRow>
+			<m_endCol_Short type="a">63</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+		</IFileFragment>
+		<IFileFragment type="e">
+			<_id type="a">GUID 3f111c8b-12d0-4d58-82d3-a9ab3361a421</_id>
+			<_name type="a">getCurrentTemp:spec</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:49:55</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">//## auto:operation getCurrentTemp() const:spec</m_text>
+			<m_startRow type="a">106</m_startRow>
+			<m_startCol_Short type="a">15</m_startCol_Short>
+			<m_endRow type="a">106</m_endRow>
+			<m_endCol_Short type="a">41</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+		</IFileFragment>
+		<IFileFragment type="e">
+			<_id type="a">GUID 4e7edfaa-2281-4323-870a-691484061f12</_id>
+			<_name type="a">getItsSmartRoomSystem:spec</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:49:55</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">//## auto:operation getItsSmartRoomSystem() const:spec</m_text>
+			<m_startRow type="a">109</m_startRow>
+			<m_startCol_Short type="a">28</m_startCol_Short>
+			<m_endRow type="a">109</m_endRow>
+			<m_endCol_Short type="a">61</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+		</IFileFragment>
+		<IFileFragment type="e">
+			<_id type="a">GUID 59d8b52b-4bf2-4def-8f77-d97a877be011</_id>
+			<_name type="a">setItsSmartRoomSystem:spec</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:49:55</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">//## auto:operation setItsSmartRoomSystem(SmartRoomSystem * const):spec</m_text>
+			<m_startRow type="a">112</m_startRow>
+			<m_startCol_Short type="a">10</m_startCol_Short>
+			<m_endRow type="a">112</m_endRow>
+			<m_endCol_Short type="a">73</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+		</IFileFragment>
+		<IFileFragment type="e">
+			<_id type="a">GUID dd16ad45-3d57-44cb-a4c5-ba97e7350253</_id>
+			<_name type="a">cleanUpRelations:spec</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:49:55</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">//## auto:operation cleanUpRelations():spec</m_text>
+			<m_startRow type="a">117</m_startRow>
+			<m_startCol_Short type="a">10</m_startCol_Short>
+			<m_endRow type="a">117</m_endRow>
+			<m_endCol_Short type="a">32</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+		</IFileFragment>
+		<IFileFragment type="e">
+			<_id type="a">GUID c04d687b-20f7-44b6-85f5-3abc7f02cfb3</_id>
+			<_name type="a">////    Attributes    ////</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">////    Attributes    ////
+</m_text>
+			<m_startRow type="a">119</m_startRow>
+			<m_startCol_Short type="a">5</m_startCol_Short>
+			<m_endRow type="a">119</m_endRow>
+			<m_endCol_Short type="a">31</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+		</IFileFragment>
+		<IFileFragment type="e">
+			<_id type="a">GUID f08ac29f-de7e-4281-9df2-4543f4dc257c</_id>
+			<_name type="a">currentTemp</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:49:55</_modifiedTime>
+			<m_type type="a">specFragment</m_type>
+			<m_startRow type="a">123</m_startRow>
+			<m_startCol_Short type="a">9</m_startCol_Short>
+			<m_endRow type="a">123</m_endRow>
+			<m_endCol_Short type="a">20</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IAttribute</_hm2Class>
+					<_hid type="a">GUID e069dbc2-38d4-49f7-ad3d-da96a6936fd4</_hid>
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+		</IFileFragment>
+		<IFileFragment type="e">
+			<_id type="a">GUID 1ca8783d-ec6a-47ee-b43b-199c81f5d257</_id>
+			<_name type="a">////    Relations and components    ////</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">////    Relations and components    ////
+</m_text>
+			<m_startRow type="a">125</m_startRow>
+			<m_startCol_Short type="a">5</m_startCol_Short>
+			<m_endRow type="a">125</m_endRow>
+			<m_endCol_Short type="a">45</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+		</IFileFragment>
+		<IFileFragment type="e">
+			<_id type="a">GUID 3944319f-be7b-46c8-b52a-f4dbad4d917a</_id>
+			<_name type="a">itsSmartRoomSystem</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:49:55</_modifiedTime>
+			<m_type type="a">specFragment</m_type>
+			<m_startRow type="a">131</m_startRow>
+			<m_startCol_Short type="a">22</m_startCol_Short>
+			<m_endRow type="a">131</m_endRow>
+			<m_endCol_Short type="a">40</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID 32165f27-19c8-4d52-9332-867eeb8b0f3d</_hid>
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+		</IFileFragment>
+		<IFileFragment type="e">
+			<_id type="a">GUID 57920ba4-0e1e-47ec-ba1b-d8e9ab0e07d2</_id>
+			<_name type="a">////    Framework operations    ////</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">////    Framework operations    ////
+</m_text>
+			<m_startRow type="a">133</m_startRow>
+			<m_startCol_Short type="a">5</m_startCol_Short>
+			<m_endRow type="a">133</m_endRow>
+			<m_endCol_Short type="a">41</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+		</IFileFragment>
+		<IFileFragment type="e">
+			<_id type="a">GUID cb452682-ac2e-4528-8566-8c2a3a880fff</_id>
+			<_name type="a">__setItsSmartRoomSystem:spec</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:49:55</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">//## auto:operation __setItsSmartRoomSystem(SmartRoomSystem * const):spec</m_text>
+			<m_startRow type="a">138</m_startRow>
+			<m_startCol_Short type="a">10</m_startCol_Short>
+			<m_endRow type="a">138</m_endRow>
+			<m_endCol_Short type="a">75</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+		</IFileFragment>
+		<IFileFragment type="e">
+			<_id type="a">GUID ea1f816d-fc54-451b-b42e-0efee0b7827b</_id>
+			<_name type="a">_setItsSmartRoomSystem:spec</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:49:55</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">//## auto:operation _setItsSmartRoomSystem(SmartRoomSystem * const):spec</m_text>
+			<m_startRow type="a">141</m_startRow>
+			<m_startCol_Short type="a">10</m_startCol_Short>
+			<m_endRow type="a">141</m_endRow>
+			<m_endCol_Short type="a">74</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+		</IFileFragment>
+		<IFileFragment type="e">
+			<_id type="a">GUID 58d2e01b-1be2-42e8-9962-1ab12f7f0ff4</_id>
+			<_name type="a">_clearItsSmartRoomSystem:spec</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:49:55</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">//## auto:operation _clearItsSmartRoomSystem():spec</m_text>
+			<m_startRow type="a">144</m_startRow>
+			<m_startCol_Short type="a">10</m_startCol_Short>
+			<m_endRow type="a">144</m_endRow>
+			<m_endCol_Short type="a">40</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+		</IFileFragment>
+		<IFile type="e">
+			<_id type="a">GUID 883dd84c-57f9-4082-b1a1-8e56f6823ce0</_id>
+			<_myState type="a">139264</_myState>
+			<_name type="a">TemperatureSensor</_name>
+			<OwnedDependencies type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</OwnedDependencies>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:49:55</_modifiedTime>
+			<m_type type="a">implFile</m_type>
+			<AggregatesList type="e">
+				<value>GUID be047440-91b6-43f5-8e4e-45fe11fa7f35</value>
+				<value>GUID 693ca1b7-063b-46a4-965d-41aac8cf7773</value>
+				<value>GUID 26249cb2-38b3-4c06-89a0-bc075fa0e9bc</value>
+			</AggregatesList>
+		</IFile>
+		<IFileFragment type="e">
+			<_id type="a">GUID be047440-91b6-43f5-8e4e-45fe11fa7f35</_id>
+			<_name type="a">TemperatureSensor:spec</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:49:55</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">//## auto:dependency TemperatureSensor:spec</m_text>
+			<m_startRow type="a">16</m_startRow>
+			<m_startCol_Short type="a">1</m_startCol_Short>
+			<m_endRow type="a">16</m_endRow>
+			<m_endCol_Short type="a">31</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+		</IFileFragment>
+		<IFileFragment type="e">
+			<_id type="a">GUID 693ca1b7-063b-46a4-965d-41aac8cf7773</_id>
+			<_name type="a">SmartRoomSystem:spec</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:49:55</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">//## auto:dependency SmartRoomSystem:spec</m_text>
+			<m_startRow type="a">18</m_startRow>
+			<m_startCol_Short type="a">1</m_startCol_Short>
+			<m_endRow type="a">18</m_endRow>
+			<m_endCol_Short type="a">29</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+		</IFileFragment>
+		<IFileFragment type="e">
+			<_id type="a">GUID 26249cb2-38b3-4c06-89a0-bc075fa0e9bc</_id>
+			<_name type="a">TemperatureSensor</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:49:55</_modifiedTime>
+			<m_type type="a">implFragment</m_type>
+			<m_startRow type="a">62</m_startRow>
+			<m_startCol_Short type="a">20</m_startCol_Short>
+			<m_endRow type="a">62</m_endRow>
+			<m_endCol_Short type="a">20</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 87ef6496-0f97-4f7e-9c91-9cdbab1cb78b</_hid>
+				</INObjectHandle>
+			</m_subject>
+			<AggregatesList type="e">
+				<value>GUID 93c988ce-2399-4b39-b3dd-ff88929477e0</value>
+				<value>GUID 414ddbec-de59-4587-8d3c-8973ba74f011</value>
+				<value>GUID 647b43fc-ae03-4cbf-859d-f75b30654e42</value>
+				<value>GUID 0fee01e4-becf-4d12-ada6-5e5791427cfb</value>
+				<value>GUID d4baec51-9b47-47d8-b6b6-931ab782ee94</value>
+				<value>GUID 9cfc4f0c-e3c1-4d57-ba2b-4abe8370cef1</value>
+				<value>GUID 0450aaea-3f6b-45fd-8494-fb405670d72c</value>
+				<value>GUID 90e23d8e-67e6-4741-b0a9-9ed1e9de4a9d</value>
+				<value>GUID 7bd93fdb-ad39-45dc-bae2-7c8e6a2e5ff4</value>
+				<value>GUID 1b4cebca-6f11-4f94-b7ab-ab0d10dc18de</value>
+				<value>GUID b05cfaac-14d8-460f-99f7-e40f8f7fe91c</value>
+			</AggregatesList>
+		</IFileFragment>
+		<IFileFragment type="e">
+			<_id type="a">GUID 93c988ce-2399-4b39-b3dd-ff88929477e0</_id>
+			<_name type="a">TemperatureSensor:impl</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:49:55</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">//## auto:operation TemperatureSensor():impl</m_text>
+			<m_startRow type="a">62</m_startRow>
+			<m_startCol_Short type="a">20</m_startCol_Short>
+			<m_endRow type="a">64</m_endRow>
+			<m_endCol_Short type="a">1</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+			<AggregatesList type="e">
+				<value>GUID a26b82fe-a745-4ec8-9ab6-c2383256ba78</value>
+				<value>GUID 33459dab-67ad-41df-b8fd-7c48c64b1680</value>
+			</AggregatesList>
+		</IFileFragment>
+		<ITag type="e">
+			<_id type="a">GUID a26b82fe-a745-4ec8-9ab6-c2383256ba78</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">BodyStartLine</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID 9ad80823-4db0-42a2-816c-2599c5e96a84</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 9ad80823-4db0-42a2-816c-2599c5e96a84</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_value type="a">62</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID 33459dab-67ad-41df-b8fd-7c48c64b1680</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">BodyStartCol</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID 0165068b-7293-4547-9580-e0221a16c6c3</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 0165068b-7293-4547-9580-e0221a16c6c3</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_value type="a">88</_value>
+		</ILiteralSpecification>
+		<IFileFragment type="e">
+			<_id type="a">GUID 414ddbec-de59-4587-8d3c-8973ba74f011</_id>
+			<_name type="a">~TemperatureSensor:impl</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:49:55</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">//## auto:operation ~TemperatureSensor():impl</m_text>
+			<m_startRow type="a">66</m_startRow>
+			<m_startCol_Short type="a">21</m_startCol_Short>
+			<m_endRow type="a">69</m_endRow>
+			<m_endCol_Short type="a">1</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+			<AggregatesList type="e">
+				<value>GUID 53a2bc6a-058a-4ddf-af56-674afb8cce87</value>
+				<value>GUID 963231d0-fac7-479f-a8df-6d39184b101f</value>
+			</AggregatesList>
+		</IFileFragment>
+		<ITag type="e">
+			<_id type="a">GUID 53a2bc6a-058a-4ddf-af56-674afb8cce87</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">BodyStartLine</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID c6d65c56-edd3-4a56-99b6-098908bb6641</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID c6d65c56-edd3-4a56-99b6-098908bb6641</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_value type="a">66</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID 963231d0-fac7-479f-a8df-6d39184b101f</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">BodyStartCol</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID c8544889-2892-42d0-9776-88de042d4a9c</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID c8544889-2892-42d0-9776-88de042d4a9c</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_value type="a">45</_value>
+		</ILiteralSpecification>
+		<IFileFragment type="e">
+			<_id type="a">GUID 647b43fc-ae03-4cbf-859d-f75b30654e42</_id>
+			<_name type="a">getP_TemperatureSensor:impl</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:49:55</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">//## auto:operation getP_TemperatureSensor() const:impl</m_text>
+			<m_startRow type="a">80</m_startRow>
+			<m_startCol_Short type="a">97</m_startCol_Short>
+			<m_endRow type="a">82</m_endRow>
+			<m_endCol_Short type="a">1</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+			<AggregatesList type="e">
+				<value>GUID 28f88e8e-7f02-4371-a9f2-0b46fba447cd</value>
+				<value>GUID 7bc7cd94-0b94-4fa7-8cec-58816b06da6e</value>
+			</AggregatesList>
+		</IFileFragment>
+		<ITag type="e">
+			<_id type="a">GUID 28f88e8e-7f02-4371-a9f2-0b46fba447cd</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">BodyStartLine</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID b72575f2-0460-4261-9121-0bf336e41f2a</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID b72575f2-0460-4261-9121-0bf336e41f2a</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_value type="a">80</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID 7bc7cd94-0b94-4fa7-8cec-58816b06da6e</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">BodyStartCol</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID ded2d6dd-2713-497b-a753-7ba3a152166a</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID ded2d6dd-2713-497b-a753-7ba3a152166a</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_value type="a">97</_value>
+		</ILiteralSpecification>
+		<IFileFragment type="e">
+			<_id type="a">GUID 0fee01e4-becf-4d12-ada6-5e5791427cfb</_id>
+			<_name type="a">get_p_TemperatureSensor:impl</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:49:55</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">//## auto:operation get_p_TemperatureSensor() const:impl</m_text>
+			<m_startRow type="a">84</m_startRow>
+			<m_startCol_Short type="a">98</m_startCol_Short>
+			<m_endRow type="a">86</m_endRow>
+			<m_endCol_Short type="a">1</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+			<AggregatesList type="e">
+				<value>GUID f3c7a82b-ad8a-458a-8bc1-e98badc07613</value>
+				<value>GUID 5a1b1dd3-b01a-4fcc-a24d-e20086a5a018</value>
+			</AggregatesList>
+		</IFileFragment>
+		<ITag type="e">
+			<_id type="a">GUID f3c7a82b-ad8a-458a-8bc1-e98badc07613</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">BodyStartLine</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID bb11ec18-a3c7-43fe-b78e-4b25b1196939</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID bb11ec18-a3c7-43fe-b78e-4b25b1196939</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_value type="a">84</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID 5a1b1dd3-b01a-4fcc-a24d-e20086a5a018</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">BodyStartCol</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID 45815787-5b4e-4a95-a5fb-b5ee515ddbb0</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 45815787-5b4e-4a95-a5fb-b5ee515ddbb0</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_value type="a">98</_value>
+		</ILiteralSpecification>
+		<IFileFragment type="e">
+			<_id type="a">GUID d4baec51-9b47-47d8-b6b6-931ab782ee94</_id>
+			<_name type="a">getCurrentTemp:impl</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:49:55</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">//## auto:operation getCurrentTemp() const:impl</m_text>
+			<m_startRow type="a">88</m_startRow>
+			<m_startCol_Short type="a">57</m_startCol_Short>
+			<m_endRow type="a">90</m_endRow>
+			<m_endCol_Short type="a">1</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+			<AggregatesList type="e">
+				<value>GUID e25b749b-5aa6-4eb8-8d0c-9990b7916835</value>
+				<value>GUID 42a1124a-8ad7-4bb9-8803-f32221165e85</value>
+			</AggregatesList>
+		</IFileFragment>
+		<ITag type="e">
+			<_id type="a">GUID e25b749b-5aa6-4eb8-8d0c-9990b7916835</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">BodyStartLine</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID 49278d03-cecc-41c5-86a2-7fc687412680</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 49278d03-cecc-41c5-86a2-7fc687412680</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_value type="a">88</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID 42a1124a-8ad7-4bb9-8803-f32221165e85</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">BodyStartCol</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID bb27e21a-42c2-444d-8066-2d3c68c25c42</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID bb27e21a-42c2-444d-8066-2d3c68c25c42</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_value type="a">57</_value>
+		</ILiteralSpecification>
+		<IFileFragment type="e">
+			<_id type="a">GUID 9cfc4f0c-e3c1-4d57-ba2b-4abe8370cef1</_id>
+			<_name type="a">getItsSmartRoomSystem:impl</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:49:55</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">//## auto:operation getItsSmartRoomSystem() const:impl</m_text>
+			<m_startRow type="a">92</m_startRow>
+			<m_startCol_Short type="a">77</m_startCol_Short>
+			<m_endRow type="a">94</m_endRow>
+			<m_endCol_Short type="a">1</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+			<AggregatesList type="e">
+				<value>GUID 5391007b-67d1-4ee9-89a6-57338b627302</value>
+				<value>GUID f60522cf-00ec-42fe-abac-decbce5d7eff</value>
+			</AggregatesList>
+		</IFileFragment>
+		<ITag type="e">
+			<_id type="a">GUID 5391007b-67d1-4ee9-89a6-57338b627302</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">BodyStartLine</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID 1a07672c-2ffa-41fd-9e44-e750fea481df</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 1a07672c-2ffa-41fd-9e44-e750fea481df</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_value type="a">92</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID f60522cf-00ec-42fe-abac-decbce5d7eff</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">BodyStartCol</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID ad6e89f0-eeb4-4356-b8a7-54a4956089de</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID ad6e89f0-eeb4-4356-b8a7-54a4956089de</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_value type="a">77</_value>
+		</ILiteralSpecification>
+		<IFileFragment type="e">
+			<_id type="a">GUID 0450aaea-3f6b-45fd-8494-fb405670d72c</_id>
+			<_name type="a">setItsSmartRoomSystem:impl</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:49:55</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">//## auto:operation setItsSmartRoomSystem(SmartRoomSystem * const):impl</m_text>
+			<m_startRow type="a">96</m_startRow>
+			<m_startCol_Short type="a">89</m_startCol_Short>
+			<m_endRow type="a">102</m_endRow>
+			<m_endCol_Short type="a">1</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+			<AggregatesList type="e">
+				<value>GUID cb133209-eb92-4a83-888c-c7e2420eb8ab</value>
+				<value>GUID c589a62b-003a-4a93-919c-18e86f854b37</value>
+			</AggregatesList>
+		</IFileFragment>
+		<ITag type="e">
+			<_id type="a">GUID cb133209-eb92-4a83-888c-c7e2420eb8ab</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">BodyStartLine</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID 1d82eee8-1ad2-44f5-abc0-e2c069dc818a</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 1d82eee8-1ad2-44f5-abc0-e2c069dc818a</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_value type="a">96</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID c589a62b-003a-4a93-919c-18e86f854b37</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">BodyStartCol</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID b41847e3-8d25-4daa-9b1d-1a0cfbfbc028</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID b41847e3-8d25-4daa-9b1d-1a0cfbfbc028</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_value type="a">89</_value>
+		</ILiteralSpecification>
+		<IFileFragment type="e">
+			<_id type="a">GUID 90e23d8e-67e6-4741-b0a9-9ed1e9de4a9d</_id>
+			<_name type="a">cleanUpRelations:impl</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:49:55</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">//## auto:operation cleanUpRelations():impl</m_text>
+			<m_startRow type="a">104</m_startRow>
+			<m_startCol_Short type="a">48</m_startCol_Short>
+			<m_endRow type="a">115</m_endRow>
+			<m_endCol_Short type="a">1</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+			<AggregatesList type="e">
+				<value>GUID 87c5a216-eea4-4bec-855d-447bd4038f72</value>
+				<value>GUID be3b6f6d-c61d-4e11-8b9a-2ee1c05bcc08</value>
+			</AggregatesList>
+		</IFileFragment>
+		<ITag type="e">
+			<_id type="a">GUID 87c5a216-eea4-4bec-855d-447bd4038f72</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">BodyStartLine</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID c947efc1-6705-4fc6-9380-bd9f9be08dd5</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID c947efc1-6705-4fc6-9380-bd9f9be08dd5</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_value type="a">104</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID be3b6f6d-c61d-4e11-8b9a-2ee1c05bcc08</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">BodyStartCol</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID cd9b42cc-c047-4e10-b02b-304a3ec4c679</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID cd9b42cc-c047-4e10-b02b-304a3ec4c679</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_value type="a">48</_value>
+		</ILiteralSpecification>
+		<IFileFragment type="e">
+			<_id type="a">GUID 7bd93fdb-ad39-45dc-bae2-7c8e6a2e5ff4</_id>
+			<_name type="a">__setItsSmartRoomSystem:impl</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:49:55</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">//## auto:operation __setItsSmartRoomSystem(SmartRoomSystem * const):impl</m_text>
+			<m_startRow type="a">117</m_startRow>
+			<m_startCol_Short type="a">91</m_startCol_Short>
+			<m_endRow type="a">127</m_endRow>
+			<m_endCol_Short type="a">1</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+			<AggregatesList type="e">
+				<value>GUID 5eaf74bd-19b4-4de5-b45d-07334105f366</value>
+				<value>GUID 9c079390-a819-467d-8d54-e954b0d9a3ef</value>
+			</AggregatesList>
+		</IFileFragment>
+		<ITag type="e">
+			<_id type="a">GUID 5eaf74bd-19b4-4de5-b45d-07334105f366</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">BodyStartLine</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID 1184bf3a-7d4f-41f2-808f-01d9e96fad34</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 1184bf3a-7d4f-41f2-808f-01d9e96fad34</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_value type="a">117</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID 9c079390-a819-467d-8d54-e954b0d9a3ef</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">BodyStartCol</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID 1aa5b2ec-cf72-455c-bba5-44fc273a69ff</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 1aa5b2ec-cf72-455c-bba5-44fc273a69ff</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_value type="a">91</_value>
+		</ILiteralSpecification>
+		<IFileFragment type="e">
+			<_id type="a">GUID 1b4cebca-6f11-4f94-b7ab-ab0d10dc18de</_id>
+			<_name type="a">_setItsSmartRoomSystem:impl</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:49:55</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">//## auto:operation _setItsSmartRoomSystem(SmartRoomSystem * const):impl</m_text>
+			<m_startRow type="a">129</m_startRow>
+			<m_startCol_Short type="a">90</m_startCol_Short>
+			<m_endRow type="a">135</m_endRow>
+			<m_endCol_Short type="a">1</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+			<AggregatesList type="e">
+				<value>GUID 9765aeb8-afb6-4af4-9c19-af09f1017f16</value>
+				<value>GUID 951bee51-5be3-4f5d-ba62-67033d058a2f</value>
+			</AggregatesList>
+		</IFileFragment>
+		<ITag type="e">
+			<_id type="a">GUID 9765aeb8-afb6-4af4-9c19-af09f1017f16</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">BodyStartLine</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID 5ca6a7ca-ff10-42eb-b320-c4600173b1e3</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 5ca6a7ca-ff10-42eb-b320-c4600173b1e3</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_value type="a">129</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID 951bee51-5be3-4f5d-ba62-67033d058a2f</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">BodyStartCol</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID 473a86db-d0fb-46a2-9f30-63288cef0e2e</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 473a86db-d0fb-46a2-9f30-63288cef0e2e</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_value type="a">90</_value>
+		</ILiteralSpecification>
+		<IFileFragment type="e">
+			<_id type="a">GUID b05cfaac-14d8-460f-99f7-e40f8f7fe91c</_id>
+			<_name type="a">_clearItsSmartRoomSystem:impl</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::9:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::9:49:55</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">//## auto:operation _clearItsSmartRoomSystem():impl</m_text>
+			<m_startRow type="a">137</m_startRow>
+			<m_startCol_Short type="a">56</m_startCol_Short>
+			<m_endRow type="a">140</m_endRow>
+			<m_endCol_Short type="a">1</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+			<AggregatesList type="e">
+				<value>GUID 67c35281-cc55-45a7-a1c4-f609312c006b</value>
+				<value>GUID 4f6db2e5-f0f4-4dd9-a71b-be5537781afe</value>
+			</AggregatesList>
+		</IFileFragment>
+		<ITag type="e">
+			<_id type="a">GUID 67c35281-cc55-45a7-a1c4-f609312c006b</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">BodyStartLine</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID 4a02105f-935b-45ad-b9a2-865432c1fba5</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 4a02105f-935b-45ad-b9a2-865432c1fba5</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_value type="a">137</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID 4f6db2e5-f0f4-4dd9-a71b-be5537781afe</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">BodyStartCol</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID a495b4e5-b4b1-46be-a67b-bc56de1149d6</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID a495b4e5-b4b1-46be-a67b-bc56de1149d6</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_value type="a">56</_value>
 		</ILiteralSpecification>
 		<IAssociationEnd type="e">
 			<_id type="a">GUID 32165f27-19c8-4d52-9332-867eeb8b0f3d</_id>

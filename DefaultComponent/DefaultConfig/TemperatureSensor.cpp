@@ -1,6 +1,6 @@
 /********************************************************************
 	Rhapsody	: 9.0 
-	Login		: 20235614
+	Login		: 20174215
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: TemperatureSensor
@@ -68,15 +68,6 @@ TemperatureSensor::~TemperatureSensor(void) {
     cleanUpRelations();
 }
 
-//#[ ignore
-void TemperatureSensor::setCurrentTemp(int p_currentTemp) {
-    if (currentTemp != p_currentTemp)  {
-        currentTemp = p_currentTemp;
-        FLOW_DATA_SEND(currentTemp, p_TemperatureSensor, setCurrentTemp, x2String);
-    }
-}
-//#]
-
 TemperatureSensor::p_TemperatureSensor_C* TemperatureSensor::getP_TemperatureSensor(void) const {
     return (TemperatureSensor::p_TemperatureSensor_C*) &p_TemperatureSensor;
 }
@@ -138,6 +129,15 @@ void TemperatureSensor::_clearItsSmartRoomSystem(void) {
     NOTIFY_RELATION_CLEARED("itsSmartRoomSystem");
     itsSmartRoomSystem = NULL;
 }
+
+//#[ ignore
+void TemperatureSensor::setCurrentTemp(int p_currentTemp) {
+    if (currentTemp != p_currentTemp)  {
+        currentTemp = p_currentTemp;
+        FLOW_DATA_SEND(currentTemp, p_TemperatureSensor, setCurrentTemp, x2String);
+    }
+}
+//#]
 
 #ifdef _OMINSTRUMENT
 //#[ ignore

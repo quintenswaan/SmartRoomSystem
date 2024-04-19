@@ -1,0 +1,14 @@
+2024-04-19 11:56:06.809+02:00 TUE037733.campus.tue.nl CRRHP0010I File fake 
+ Error (line 2) - Attempt to read a token past end of file
+
+
+2024-04-19 11:56:06.810+02:00 TUE037733.campus.tue.nl CRRHP0010I File fake 
+ Error (line 2) - Attempt to read a token past end of file
+
+
+2024-04-19 11:56:06.810+02:00 TUE037733.campus.tue.nl CRRHP0010I File fake 
+ Error (line 2) - Missing start object token ({)
+
+
+2024-04-19 12:06:31.657+02:00 TUE037733.campus.tue.nl CRRHP0010I Block named AirPurifier already exists in Package SYSTEM_ANALYSIS::SYSTEM_CONTEXT::SYSTEM_CONTEXT_AIR_PURIFIER. Set the name anyway?
+

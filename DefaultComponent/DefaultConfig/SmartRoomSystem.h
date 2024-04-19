@@ -1,6 +1,6 @@
 /*********************************************************************
 	Rhapsody	: 9.0 
-	Login		: 20235614
+	Login		: 20174215
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: SmartRoomSystem
@@ -62,12 +62,12 @@ class Stakeholders;
 //## link itsStandards
 class Standards;
 
-//## link itsTemperatureSensor
-class TemperatureSensor;
-
 //#[ ignore
 #define OMAnim_SYSTEM_ANALYSIS_SYSTEM_CONTEXT_SmartRoomSystem_setDesiredTemp_int_ARGS_DECLARATION int p_desiredTemp;
 //#]
+
+//## link itsTemperatureSensor
+class TemperatureSensor;
 
 //## package SYSTEM_ANALYSIS::SYSTEM_CONTEXT
 
@@ -358,12 +358,6 @@ public :
     
     ////    Operations    ////
     
-//#[ ignore
-    void setAirQualityPPM(double p_airQualityPPM);
-    
-    void setCurrentTemp(int p_currentTemp);
-//#]
-
     ////    Additional operations    ////
     
     //## auto_generated
@@ -488,14 +482,6 @@ private :
     
     ////    Relations and components    ////
     
-//#[ ignore
-    port_SRS_C port_SRS;
-    
-    p_SmartRoomSystem_C p_SmartRoomSystem;
-    
-    p_AirPurifier_C p_AirPurifier;
-//#]
-
     AirPurifier* itsAirPurifier;		//## link itsAirPurifier
     
     FireSprinklerSystem* itsFireSprinklerSystem;		//## link itsFireSprinklerSystem
@@ -505,8 +491,6 @@ private :
     NaturalEnvironment* itsNaturalEnvironment;		//## link itsNaturalEnvironment
     
     RoomSchedularSystem* itsRoomSchedularSystem;		//## link itsRoomSchedularSystem
-    
-    RoomUser* itsRoomUser;		//## link itsRoomUser
     
     SecurityAndAccesSystem* itsSecurityAndAccesSystem;		//## link itsSecurityAndAccesSystem
     
@@ -520,15 +504,6 @@ private :
 
 public :
 
-    //## auto_generated
-    void __setItsAirPurifier(AirPurifier* const p_AirPurifier);
-    
-    //## auto_generated
-    void _setItsAirPurifier(AirPurifier* const p_AirPurifier);
-    
-    //## auto_generated
-    void _clearItsAirPurifier(void);
-    
     //## auto_generated
     void __setItsFireSprinklerSystem(FireSprinklerSystem* const p_FireSprinklerSystem);
     
@@ -610,6 +585,45 @@ public :
     //## auto_generated
     void _clearItsTemperatureSensor(void);
     
+    ////    Framework    ////
+    
+//#[ ignore
+    void setAirQualityPPM(double p_airQualityPPM);
+    
+    void setCurrentTemp(int p_currentTemp);
+//#]
+
+    //## auto_generated
+    const AirPurifier* getItsAirPurifier_1(void) const;
+    
+    //## auto_generated
+    void setItsAirPurifier_1(AirPurifier* const p_AirPurifier);
+
+private :
+
+//#[ ignore
+    port_SRS_C port_SRS;
+    
+    p_SmartRoomSystem_C p_SmartRoomSystem;
+    
+    p_AirPurifier_C p_AirPurifier;
+//#]
+
+    AirPurifier* itsAirPurifier_1;		//## link itsAirPurifier_1
+    
+    RoomUser* itsRoomUser;		//## link itsRoomUser
+
+public :
+
+    //## auto_generated
+    void __setItsAirPurifier_1(AirPurifier* const p_AirPurifier);
+    
+    //## auto_generated
+    void _setItsAirPurifier_1(AirPurifier* const p_AirPurifier);
+    
+    //## auto_generated
+    void _clearItsAirPurifier_1(void);
+    
     // rootState:
     //## statechart_method
     inline RhpBoolean rootState_IN(void) const;
@@ -659,8 +673,6 @@ protected :
     
     //## statechart_method
     virtual IOxfReactive::TakeEventStatus rootState_processEvent(void);
-    
-    ////    Framework    ////
     
 //#[ ignore
     enum SmartRoomSystem_Enum {

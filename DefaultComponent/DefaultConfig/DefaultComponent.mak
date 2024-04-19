@@ -187,7 +187,7 @@ SOCK_LIB=
 
 
 
-SmartRoomSystem.obj : SmartRoomSystem.cpp SmartRoomSystem.h    SYSTEM_CONTEXT.h RoomUser.h Stakeholders.h Standards.h NaturalEnvironment.h HVAC.h FireSprinklerSystem.h RoomSchedularSystem.h SecurityAndAccesSystem.h TemperatureSensor.h AirPurifier.h IB_Power.h IB_Mode.h 
+SmartRoomSystem.obj : SmartRoomSystem.cpp SmartRoomSystem.h    SYSTEM_CONTEXT.h RoomUser.h Stakeholders.h Standards.h NaturalEnvironment.h HVAC.h FireSprinklerSystem.h RoomSchedularSystem.h SecurityAndAccesSystem.h TemperatureSensor.h AirPurifier.h IB_Power.h IB_Mode.h evHumanPresence_ProxyReceptionInterface.h int_currentTemp_ProxyFlowPropertyInterface.h double_airQualityPPM_ProxyFlowPropertyInterface.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"SmartRoomSystem.obj" "SmartRoomSystem.cpp" 
 
@@ -253,19 +253,19 @@ RoomUser.obj : RoomUser.cpp RoomUser.h    SYSTEM_CONTEXT.h SmartRoomSystem.h
 
 
 
-AirPurifier.obj : AirPurifier.cpp AirPurifier.h    SYSTEM_CONTEXT_AIR_PURIFIER.h AirQualitySensor.h SmartRoomSystem.h SYSTEM_CONTEXT.h 
+AirPurifier.obj : AirPurifier.cpp AirPurifier.h    SYSTEM_CONTEXT_AIR_PURIFIER.h AirQualitySensor.h SmartRoomSystem.h double_airQualityPPM_ProxyFlowPropertyInterface.h SYSTEM_CONTEXT.h evHumanPresence_ProxyReceptionInterface.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"AirPurifier.obj" "AirPurifier.cpp" 
 
 
 
-AirQualitySensor.obj : AirQualitySensor.cpp AirQualitySensor.h    SYSTEM_CONTEXT_AIR_PURIFIER.h AirPurifier.h 
+AirQualitySensor.obj : AirQualitySensor.cpp AirQualitySensor.h    SYSTEM_CONTEXT_AIR_PURIFIER.h AirPurifier.h double_airQualityPPM_ProxyFlowPropertyInterface.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"AirQualitySensor.obj" "AirQualitySensor.cpp" 
 
 
 
-TemperatureSensor.obj : TemperatureSensor.cpp TemperatureSensor.h    OPERATING_ENVIRONMENT.h SmartRoomSystem.h 
+TemperatureSensor.obj : TemperatureSensor.cpp TemperatureSensor.h    OPERATING_ENVIRONMENT.h SmartRoomSystem.h int_currentTemp_ProxyFlowPropertyInterface.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"TemperatureSensor.obj" "TemperatureSensor.cpp" 
 
@@ -301,7 +301,7 @@ USER_MODEL.obj : USER_MODEL.cpp USER_MODEL.h    HVAC.h TemperatureSensor.h Smart
 
 
 
-ProxyPortInterfaces.obj : ProxyPortInterfaces.cpp ProxyPortInterfaces.h    
+ProxyPortInterfaces.obj : ProxyPortInterfaces.cpp ProxyPortInterfaces.h    int_currentTemp_ProxyFlowPropertyInterface.h evHumanPresence_ProxyReceptionInterface.h double_airQualityPPM_ProxyFlowPropertyInterface.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"ProxyPortInterfaces.obj" "ProxyPortInterfaces.cpp" 
 

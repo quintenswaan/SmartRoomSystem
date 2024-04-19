@@ -1,6 +1,6 @@
 /********************************************************************
 	Rhapsody	: 9.0 
-	Login		: 20235614
+	Login		: 20174215
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: AirQualitySensor
@@ -72,15 +72,6 @@ AirQualitySensor::~AirQualitySensor(void) {
     cleanUpRelations();
 }
 
-//#[ ignore
-void AirQualitySensor::setAirQualityPPM(double p_airQualityPPM) {
-    if (airQualityPPM != p_airQualityPPM)  {
-        airQualityPPM = p_airQualityPPM;
-        FLOW_DATA_SEND(airQualityPPM, p_AirQualitySensor, setAirQualityPPM, x2String);
-    }
-}
-//#]
-
 AirQualitySensor::p_AirQualitySensor_C* AirQualitySensor::getP_AirQualitySensor(void) const {
     return (AirQualitySensor::p_AirQualitySensor_C*) &p_AirQualitySensor;
 }
@@ -142,6 +133,15 @@ void AirQualitySensor::_clearItsAirPurifier(void) {
     NOTIFY_RELATION_CLEARED("itsAirPurifier");
     itsAirPurifier = NULL;
 }
+
+//#[ ignore
+void AirQualitySensor::setAirQualityPPM(double p_airQualityPPM) {
+    if (airQualityPPM != p_airQualityPPM)  {
+        airQualityPPM = p_airQualityPPM;
+        FLOW_DATA_SEND(airQualityPPM, p_AirQualitySensor, setAirQualityPPM, x2String);
+    }
+}
+//#]
 
 #ifdef _OMINSTRUMENT
 //#[ ignore

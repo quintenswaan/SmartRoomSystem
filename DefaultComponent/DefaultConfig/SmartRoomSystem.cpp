@@ -1,6 +1,6 @@
 /********************************************************************
 	Rhapsody	: 9.0 
-	Login		: 20235614
+	Login		: 20174215
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: SmartRoomSystem
@@ -26,8 +26,6 @@
 #include "NaturalEnvironment.h"
 //## link itsRoomSchedularSystem
 #include "RoomSchedularSystem.h"
-//## link itsRoomUser
-#include "RoomUser.h"
 //## link itsSecurityAndAccesSystem
 #include "SecurityAndAccesSystem.h"
 //## link itsStakeholders
@@ -36,6 +34,8 @@
 #include "Standards.h"
 //## link itsTemperatureSensor
 #include "TemperatureSensor.h"
+//## link itsRoomUser
+#include "RoomUser.h"
 //#[ ignore
 #define SYSTEM_ANALYSIS_SYSTEM_CONTEXT_SmartRoomSystem_SmartRoomSystem_SERIALIZE OM_NO_OP
 
@@ -292,7 +292,7 @@ void SmartRoomSystem::p_AirPurifier_C::destroy(void) {
 }
 //#]
 
-SmartRoomSystem::SmartRoomSystem(IOxfActive* const theActiveContext) : OMReactive(), int_currentTemp_ProxyFlowPropertyInterface(), double_airQualityPPM_ProxyFlowPropertyInterface(), airQualityPPM(900), currentTemp(15), desiredTemp(20), itsAirPurifier(NULL), itsFireSprinklerSystem(NULL), itsHVAC(NULL), itsNaturalEnvironment(NULL), itsRoomSchedularSystem(NULL), itsRoomUser(NULL), itsSecurityAndAccesSystem(NULL), itsStakeholders(NULL), itsStandards(NULL), itsTemperatureSensor(NULL) {
+SmartRoomSystem::SmartRoomSystem(IOxfActive* const theActiveContext) : OMReactive(), int_currentTemp_ProxyFlowPropertyInterface(), double_airQualityPPM_ProxyFlowPropertyInterface(), airQualityPPM(900), currentTemp(15), desiredTemp(20), itsAirPurifier(NULL), itsFireSprinklerSystem(NULL), itsHVAC(NULL), itsNaturalEnvironment(NULL), itsRoomSchedularSystem(NULL), itsSecurityAndAccesSystem(NULL), itsStakeholders(NULL), itsStandards(NULL), itsTemperatureSensor(NULL), itsAirPurifier_1(NULL), itsRoomUser(NULL) {
     NOTIFY_REACTIVE_CONSTRUCTOR(SmartRoomSystem, SmartRoomSystem(), 0, SYSTEM_ANALYSIS_SYSTEM_CONTEXT_SmartRoomSystem_SmartRoomSystem_SERIALIZE);
     setActiveContext(theActiveContext, false);
     initRelations();
@@ -304,24 +304,6 @@ SmartRoomSystem::~SmartRoomSystem(void) {
     cleanUpRelations();
     cancelTimeouts();
 }
-
-//#[ ignore
-void SmartRoomSystem::setAirQualityPPM(double p_airQualityPPM) {
-    if (airQualityPPM != p_airQualityPPM) {
-        airQualityPPM = p_airQualityPPM;
-        FLOW_DATA_RECEIVE("airQualityPPM", airQualityPPM, x2String);
-    }
-    
-}
-
-void SmartRoomSystem::setCurrentTemp(int p_currentTemp) {
-    if (currentTemp != p_currentTemp) {
-        currentTemp = p_currentTemp;
-        FLOW_DATA_RECEIVE("currentTemp", currentTemp, x2String);
-    }
-    
-}
-//#]
 
 SmartRoomSystem::port_SRS_C* SmartRoomSystem::getPort_SRS(void) const {
     return (SmartRoomSystem::port_SRS_C*) &port_SRS;
@@ -369,11 +351,15 @@ const AirPurifier* SmartRoomSystem::getItsAirPurifier(void) const {
 }
 
 void SmartRoomSystem::setItsAirPurifier(AirPurifier* const p_AirPurifier) {
+    itsAirPurifier = p_AirPurifier;
     if(p_AirPurifier != NULL)
         {
-            p_AirPurifier->_setItsSmartRoomSystem(this);
+            NOTIFY_RELATION_ITEM_ADDED("itsAirPurifier", p_AirPurifier, false, true);
         }
-    _setItsAirPurifier(p_AirPurifier);
+    else
+        {
+            NOTIFY_RELATION_CLEARED("itsAirPurifier");
+        }
 }
 
 const FireSprinklerSystem* SmartRoomSystem::getItsFireSprinklerSystem(void) const {
@@ -526,12 +512,17 @@ void SmartRoomSystem::cleanUpRelations(void) {
     if(itsAirPurifier != NULL)
         {
             NOTIFY_RELATION_CLEARED("itsAirPurifier");
-            const SmartRoomSystem* p_SmartRoomSystem = itsAirPurifier->getItsSmartRoomSystem();
+            itsAirPurifier = NULL;
+        }
+    if(itsAirPurifier_1 != NULL)
+        {
+            NOTIFY_RELATION_CLEARED("itsAirPurifier_1");
+            const SmartRoomSystem* p_SmartRoomSystem = itsAirPurifier_1->getItsSmartRoomSystem();
             if(p_SmartRoomSystem != NULL)
                 {
-                    itsAirPurifier->__setItsSmartRoomSystem(NULL);
+                    itsAirPurifier_1->__setItsSmartRoomSystem(NULL);
                 }
-            itsAirPurifier = NULL;
+            itsAirPurifier_1 = NULL;
         }
     if(itsFireSprinklerSystem != NULL)
         {
@@ -628,31 +619,6 @@ void SmartRoomSystem::cleanUpRelations(void) {
 void SmartRoomSystem::cancelTimeouts(void) {
     cancel(rootState_timeout);
     cancel(Controlling_timeout);
-}
-
-void SmartRoomSystem::__setItsAirPurifier(AirPurifier* const p_AirPurifier) {
-    itsAirPurifier = p_AirPurifier;
-    if(p_AirPurifier != NULL)
-        {
-            NOTIFY_RELATION_ITEM_ADDED("itsAirPurifier", p_AirPurifier, false, true);
-        }
-    else
-        {
-            NOTIFY_RELATION_CLEARED("itsAirPurifier");
-        }
-}
-
-void SmartRoomSystem::_setItsAirPurifier(AirPurifier* const p_AirPurifier) {
-    if(itsAirPurifier != NULL)
-        {
-            itsAirPurifier->__setItsSmartRoomSystem(NULL);
-        }
-    __setItsAirPurifier(p_AirPurifier);
-}
-
-void SmartRoomSystem::_clearItsAirPurifier(void) {
-    NOTIFY_RELATION_CLEARED("itsAirPurifier");
-    itsAirPurifier = NULL;
 }
 
 void SmartRoomSystem::__setItsFireSprinklerSystem(FireSprinklerSystem* const p_FireSprinklerSystem) {
@@ -878,6 +844,61 @@ void SmartRoomSystem::_setItsTemperatureSensor(TemperatureSensor* const p_Temper
 void SmartRoomSystem::_clearItsTemperatureSensor(void) {
     NOTIFY_RELATION_CLEARED("itsTemperatureSensor");
     itsTemperatureSensor = NULL;
+}
+
+//#[ ignore
+void SmartRoomSystem::setAirQualityPPM(double p_airQualityPPM) {
+    if (airQualityPPM != p_airQualityPPM) {
+        airQualityPPM = p_airQualityPPM;
+        FLOW_DATA_RECEIVE("airQualityPPM", airQualityPPM, x2String);
+    }
+    
+}
+
+void SmartRoomSystem::setCurrentTemp(int p_currentTemp) {
+    if (currentTemp != p_currentTemp) {
+        currentTemp = p_currentTemp;
+        FLOW_DATA_RECEIVE("currentTemp", currentTemp, x2String);
+    }
+    
+}
+//#]
+
+const AirPurifier* SmartRoomSystem::getItsAirPurifier_1(void) const {
+    return itsAirPurifier_1;
+}
+
+void SmartRoomSystem::setItsAirPurifier_1(AirPurifier* const p_AirPurifier) {
+    if(p_AirPurifier != NULL)
+        {
+            p_AirPurifier->_setItsSmartRoomSystem(this);
+        }
+    _setItsAirPurifier_1(p_AirPurifier);
+}
+
+void SmartRoomSystem::__setItsAirPurifier_1(AirPurifier* const p_AirPurifier) {
+    itsAirPurifier_1 = p_AirPurifier;
+    if(p_AirPurifier != NULL)
+        {
+            NOTIFY_RELATION_ITEM_ADDED("itsAirPurifier_1", p_AirPurifier, false, true);
+        }
+    else
+        {
+            NOTIFY_RELATION_CLEARED("itsAirPurifier_1");
+        }
+}
+
+void SmartRoomSystem::_setItsAirPurifier_1(AirPurifier* const p_AirPurifier) {
+    if(itsAirPurifier_1 != NULL)
+        {
+            itsAirPurifier_1->__setItsSmartRoomSystem(NULL);
+        }
+    __setItsAirPurifier_1(p_AirPurifier);
+}
+
+void SmartRoomSystem::_clearItsAirPurifier_1(void) {
+    NOTIFY_RELATION_CLEARED("itsAirPurifier_1");
+    itsAirPurifier_1 = NULL;
 }
 
 void SmartRoomSystem::Controlling_entDef(void) {
@@ -1237,6 +1258,11 @@ void OMAnimatedSmartRoomSystem::serializeRelations(AOMSRelations* aomsRelations)
     if(myReal->itsAirPurifier)
         {
             aomsRelations->ADD_ITEM(myReal->itsAirPurifier);
+        }
+    aomsRelations->addRelation("itsAirPurifier_1", false, true);
+    if(myReal->itsAirPurifier_1)
+        {
+            aomsRelations->ADD_ITEM(myReal->itsAirPurifier_1);
         }
 }
 

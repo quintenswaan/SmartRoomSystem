@@ -1,0 +1,45 @@
+
+Reverse Engineering Done.
+
+Source Artifacts have been added to the model to ensure that the generated code reflects details from the original code, such as global comments, preprocessor directives, and the order of elements. See the log file for more details.
+To view the Source Artifacts in the Rhapsody browser, open the View menu and select Browser Display Options > Show Source Artifacts.
+Source Artifacts were added for the following files:
+Adding File 'AirPurifier:impl' to Class 'AirPurifier'.
+Adding File 'AirPurifier:spec' to Class 'AirPurifier'.
+Adding File 'AirQualitySensor:impl' to Class 'AirQualitySensor'.
+Adding File 'AirQualitySensor:spec' to Class 'AirQualitySensor'.
+Adding File 'FireSprinklerSystem:impl' to Class 'FireSprinklerSystem'.
+Adding File 'FireSprinklerSystem:spec' to Class 'FireSprinklerSystem'.
+Adding File 'HVAC:impl' to Class 'HVAC'.
+Adding File 'HVAC:spec' to Class 'HVAC'.
+Adding File 'IB_Mode:impl' to Class 'IB_Mode'.
+Adding File 'IB_Mode:spec' to Class 'IB_Mode'.
+Adding File 'IB_Power:impl' to Class 'IB_Power'.
+Adding File 'IB_Power:spec' to Class 'IB_Power'.
+Adding File 'NaturalEnvironment:impl' to Class 'NaturalEnvironment'.
+Adding File 'NaturalEnvironment:spec' to Class 'NaturalEnvironment'.
+Adding File 'OPERATING_ENVIRONMENT:impl' to Package 'OPERATING_ENVIRONMENT'.
+Adding File 'OPERATING_ENVIRONMENT:spec' to Package 'OPERATING_ENVIRONMENT'.
+Adding File 'RoomSchedularSystem:impl' to Class 'RoomSchedularSystem'.
+Adding File 'RoomSchedularSystem:spec' to Class 'RoomSchedularSystem'.
+Adding File 'RoomUser:impl' to Actor 'RoomUser'.
+Adding File 'RoomUser:spec' to Actor 'RoomUser'.
+Adding File 'SecurityAndAccesSystem:impl' to Class 'SecurityAndAccesSystem'.
+Adding File 'SecurityAndAccesSystem:spec' to Class 'SecurityAndAccesSystem'.
+Adding File 'SmartRoomSystem:impl' to Class 'SmartRoomSystem'.
+Adding File 'SmartRoomSystem:spec' to Class 'SmartRoomSystem'.
+Adding File 'Stakeholders:impl' to Class 'Stakeholders'.
+Adding File 'Stakeholders:spec' to Class 'Stakeholders'.
+Adding File 'Standards:impl' to Class 'Standards'.
+Adding File 'Standards:spec' to Class 'Standards'.
+Adding File 'SYSTEM_CONTEXT:impl' to Package 'SYSTEM_CONTEXT'.
+Adding File 'SYSTEM_CONTEXT:spec' to Package 'SYSTEM_CONTEXT'.
+Adding File 'SYSTEM_CONTEXT_AIR_PURIFIER:impl' to Package 'SYSTEM_CONTEXT_AIR_PURIFIER'.
+Adding File 'SYSTEM_CONTEXT_AIR_PURIFIER:spec' to Package 'SYSTEM_CONTEXT_AIR_PURIFIER'.
+Adding File 'TemperatureSensor:impl' to Class 'TemperatureSensor'.
+Adding File 'TemperatureSensor:spec' to Class 'TemperatureSensor'.
+Adding File 'USE_CASES:impl' to Package 'USE_CASES'.
+Adding File 'USE_CASES:spec' to Package 'USE_CASES'.
+Adding File 'USER_MODEL:impl' to Package 'USER_MODEL'.
+Adding File 'USER_MODEL:spec' to Package 'USER_MODEL'.
+

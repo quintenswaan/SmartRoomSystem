@@ -1,6 +1,6 @@
 /*********************************************************************
 	Rhapsody	: 9.0 
-	Login		: 20235614
+	Login		: 20174215
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: AirQualitySensor
@@ -94,10 +94,6 @@ public :
     
     ////    Operations    ////
     
-//#[ ignore
-    void setAirQualityPPM(double p_airQualityPPM);
-//#]
-
     ////    Additional operations    ////
     
     //## auto_generated
@@ -128,10 +124,6 @@ private :
     
     ////    Relations and components    ////
     
-//#[ ignore
-    p_AirQualitySensor_C p_AirQualitySensor;
-//#]
-
     AirPurifier* itsAirPurifier;		//## link itsAirPurifier
     
     ////    Framework operations    ////
@@ -146,6 +138,16 @@ public :
     
     //## auto_generated
     void _clearItsAirPurifier(void);
+    
+//#[ ignore
+    void setAirQualityPPM(double p_airQualityPPM);
+//#]
+
+private :
+
+//#[ ignore
+    p_AirQualitySensor_C p_AirQualitySensor;
+//#]
 };
 
 #ifdef _OMINSTRUMENT

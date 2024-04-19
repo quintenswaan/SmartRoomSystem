@@ -1,6 +1,6 @@
 /*********************************************************************
 	Rhapsody	: 9.0 
-	Login		: 20235614
+	Login		: 20174215
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: AirPurifier
@@ -264,10 +264,6 @@ public :
     //## operation purifyAir()
     virtual void purifyAir(void);
     
-//#[ ignore
-    void setAirQualityPPM(double p_airQualityPPM);
-//#]
-
     //## operation systemCheck()
     virtual void systemCheck(void);
     
@@ -352,15 +348,7 @@ private :
     
     ////    Relations and components    ////
     
-//#[ ignore
-    p_AirQualitySensor_C p_AirQualitySensor;
-    
-    p_AirPurifier_C p_AirPurifier;
-//#]
-
     AirQualitySensor* itsAirQualitySensor;		//## link itsAirQualitySensor
-    
-    SmartRoomSystem* itsSmartRoomSystem;		//## link itsSmartRoomSystem
     
     ////    Framework operations    ////
 
@@ -384,6 +372,24 @@ public :
     //## auto_generated
     void _clearItsSmartRoomSystem(void);
     
+    ////    Framework    ////
+    
+//#[ ignore
+    void setAirQualityPPM(double p_airQualityPPM);
+//#]
+
+private :
+
+//#[ ignore
+    p_AirQualitySensor_C p_AirQualitySensor;
+    
+    p_AirPurifier_C p_AirPurifier;
+//#]
+
+    SmartRoomSystem* itsSmartRoomSystem;		//## link itsSmartRoomSystem
+
+public :
+
     // rootState:
     //## statechart_method
     inline RhpBoolean rootState_IN(void) const;
@@ -433,8 +439,6 @@ protected :
     
     //## statechart_method
     virtual IOxfReactive::TakeEventStatus rootState_processEvent(void);
-    
-    ////    Framework    ////
     
 //#[ ignore
     enum AirPurifier_Enum {

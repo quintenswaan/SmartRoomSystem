@@ -1,6 +1,6 @@
 /********************************************************************
 	Rhapsody	: 9.0 
-	Login		: 20235614
+	Login		: 20174215
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: USER_MODEL
@@ -27,6 +27,25 @@
 //## package SYSTEM_ANALYSIS::USER_MODEL
 
 
+#ifdef _OMINSTRUMENT
+static void serializeGlobalVars(AOMSAttributes* /* aomsAttributes */);
+
+static void RenameGlobalInstances(void);
+
+IMPLEMENT_META_PACKAGE(SYSTEM_ANALYSIS_USER_MODEL, SYSTEM_ANALYSIS::USER_MODEL)
+
+static void serializeGlobalVars(AOMSAttributes* /* aomsAttributes */) {
+}
+
+static void RenameGlobalInstances(void) {
+    OM_SET_INSTANCE_NAME(&itsHVAC, HVAC, "itsHVAC", AOMNoMultiplicity);
+    OM_SET_INSTANCE_NAME(&itsTemperatureSensor, TemperatureSensor, "itsTemperatureSensor", AOMNoMultiplicity);
+    OM_SET_INSTANCE_NAME(&itsSmartRoomSystem, SmartRoomSystem, "itsSmartRoomSystem", AOMNoMultiplicity);
+    OM_SET_INSTANCE_NAME(&itsAirPurifier, AirPurifier, "itsAirPurifier", AOMNoMultiplicity);
+    OM_SET_INSTANCE_NAME(&itsAirQualitySensor, AirQualitySensor, "itsAirQualitySensor", AOMNoMultiplicity);
+}
+#endif // _OMINSTRUMENT
+
 //## classInstance itsAirPurifier
 AirPurifier itsAirPurifier;
 
@@ -41,14 +60,6 @@ SmartRoomSystem itsSmartRoomSystem;
 
 //## classInstance itsTemperatureSensor
 TemperatureSensor itsTemperatureSensor;
-
-#ifdef _OMINSTRUMENT
-static void serializeGlobalVars(AOMSAttributes* /* aomsAttributes */);
-
-static void RenameGlobalInstances(void);
-
-IMPLEMENT_META_PACKAGE(SYSTEM_ANALYSIS_USER_MODEL, SYSTEM_ANALYSIS::USER_MODEL)
-#endif // _OMINSTRUMENT
 
 void USER_MODEL_initRelations(void) {
     {
@@ -71,16 +82,16 @@ void USER_MODEL_initRelations(void) {
     }
     {
         
+        itsAirQualitySensor.get_p_AirQualitySensor()->setItsDouble_airQualityPPM_ProxyFlowPropertyInterface(itsAirPurifier.get_p_AirQualitySensor()->getItsDouble_airQualityPPM_ProxyFlowPropertyInterface());
+        
+    }
+    {
+        
         itsSmartRoomSystem.get_p_AirPurifier()->setItsEvHumanPresence_ProxyReceptionInterface(itsAirPurifier.get_p_AirPurifier()->getItsEvHumanPresence_ProxyReceptionInterface());
         
     }{
         
         itsAirPurifier.get_p_AirPurifier()->setItsDouble_airQualityPPM_ProxyFlowPropertyInterface(itsSmartRoomSystem.get_p_AirPurifier()->getItsDouble_airQualityPPM_ProxyFlowPropertyInterface());
-        
-    }
-    {
-        
-        itsAirQualitySensor.get_p_AirQualitySensor()->setItsDouble_airQualityPPM_ProxyFlowPropertyInterface(itsAirPurifier.get_p_AirQualitySensor()->getItsDouble_airQualityPPM_ProxyFlowPropertyInterface());
         
     }
     {
@@ -110,19 +121,6 @@ bool USER_MODEL_startBehavior(void) {
         }
     return done;
 }
-
-#ifdef _OMINSTRUMENT
-static void serializeGlobalVars(AOMSAttributes* /* aomsAttributes */) {
-}
-
-static void RenameGlobalInstances(void) {
-    OM_SET_INSTANCE_NAME(&itsHVAC, HVAC, "itsHVAC", AOMNoMultiplicity);
-    OM_SET_INSTANCE_NAME(&itsTemperatureSensor, TemperatureSensor, "itsTemperatureSensor", AOMNoMultiplicity);
-    OM_SET_INSTANCE_NAME(&itsSmartRoomSystem, SmartRoomSystem, "itsSmartRoomSystem", AOMNoMultiplicity);
-    OM_SET_INSTANCE_NAME(&itsAirPurifier, AirPurifier, "itsAirPurifier", AOMNoMultiplicity);
-    OM_SET_INSTANCE_NAME(&itsAirQualitySensor, AirQualitySensor, "itsAirQualitySensor", AOMNoMultiplicity);
-}
-#endif // _OMINSTRUMENT
 
 //#[ ignore
 USER_MODEL_OMInitializer::USER_MODEL_OMInitializer(void) {

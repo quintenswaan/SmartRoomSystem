@@ -1,6 +1,6 @@
 /********************************************************************
 	Rhapsody	: 9.0 
-	Login		: 20235614
+	Login		: 20174215
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: AirPurifier
@@ -250,17 +250,6 @@ void AirPurifier::purifyAir(void) {
     //#]
 }
 
-//#[ ignore
-void AirPurifier::setAirQualityPPM(double p_airQualityPPM) {
-    if (airQualityPPM != p_airQualityPPM) {
-        airQualityPPM = p_airQualityPPM;
-        FLOW_DATA_RECEIVE("airQualityPPM", airQualityPPM, x2String);
-        FLOW_DATA_SEND(airQualityPPM, p_AirPurifier, setAirQualityPPM, x2String);
-    }
-    
-}
-//#]
-
 void AirPurifier::systemCheck(void) {
     NOTIFY_OPERATION(systemCheck, systemCheck(), 0, SYSTEM_ANALYSIS_SYSTEM_CONTEXT_SYSTEM_CONTEXT_AIR_PURIFIER_AirPurifier_systemCheck_SERIALIZE);
     //#[ operation systemCheck()
@@ -336,7 +325,7 @@ const SmartRoomSystem* AirPurifier::getItsSmartRoomSystem(void) const {
 void AirPurifier::setItsSmartRoomSystem(SmartRoomSystem* const p_SmartRoomSystem) {
     if(p_SmartRoomSystem != NULL)
         {
-            p_SmartRoomSystem->_setItsAirPurifier(this);
+            p_SmartRoomSystem->_setItsAirPurifier_1(this);
         }
     _setItsSmartRoomSystem(p_SmartRoomSystem);
 }
@@ -388,10 +377,10 @@ void AirPurifier::cleanUpRelations(void) {
     if(itsSmartRoomSystem != NULL)
         {
             NOTIFY_RELATION_CLEARED("itsSmartRoomSystem");
-            const AirPurifier* p_AirPurifier = itsSmartRoomSystem->getItsAirPurifier();
+            const AirPurifier* p_AirPurifier = itsSmartRoomSystem->getItsAirPurifier_1();
             if(p_AirPurifier != NULL)
                 {
-                    itsSmartRoomSystem->__setItsAirPurifier(NULL);
+                    itsSmartRoomSystem->__setItsAirPurifier_1(NULL);
                 }
             itsSmartRoomSystem = NULL;
         }
@@ -441,7 +430,7 @@ void AirPurifier::__setItsSmartRoomSystem(SmartRoomSystem* const p_SmartRoomSyst
 void AirPurifier::_setItsSmartRoomSystem(SmartRoomSystem* const p_SmartRoomSystem) {
     if(itsSmartRoomSystem != NULL)
         {
-            itsSmartRoomSystem->__setItsAirPurifier(NULL);
+            itsSmartRoomSystem->__setItsAirPurifier_1(NULL);
         }
     __setItsSmartRoomSystem(p_SmartRoomSystem);
 }
@@ -450,6 +439,17 @@ void AirPurifier::_clearItsSmartRoomSystem(void) {
     NOTIFY_RELATION_CLEARED("itsSmartRoomSystem");
     itsSmartRoomSystem = NULL;
 }
+
+//#[ ignore
+void AirPurifier::setAirQualityPPM(double p_airQualityPPM) {
+    if (airQualityPPM != p_airQualityPPM) {
+        airQualityPPM = p_airQualityPPM;
+        FLOW_DATA_RECEIVE("airQualityPPM", airQualityPPM, x2String);
+        FLOW_DATA_SEND(airQualityPPM, p_AirPurifier, setAirQualityPPM, x2String);
+    }
+    
+}
+//#]
 
 IOxfReactive::TakeEventStatus AirPurifier::SystemCheck_handleEvent(void) {
     IOxfReactive::TakeEventStatus res = eventNotConsumed;
