@@ -1,10 +1,10 @@
 /********************************************************************
 	Rhapsody	: 9.0 
-	Login		: 20174215
+	Login		: 20235614
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: SmartRoomSystem
-//!	Generated Date	: Thu, 18, Apr 2024  
+//!	Generated Date	: Fri, 19, Apr 2024  
 	File Path	: DefaultComponent\DefaultConfig\SmartRoomSystem.cpp
 *********************************************************************/
 
@@ -152,9 +152,147 @@ void SmartRoomSystem::p_SmartRoomSystem_C::cleanUpRelations(void) {
             itsInt_currentTemp_ProxyFlowPropertyInterface = NULL;
         }
 }
+
+SmartRoomSystem::p_AirPurifier_C::InBound_C::InBound_C(void) : double_airQualityPPM_ProxyFlowPropertyInterface(), itsDouble_airQualityPPM_ProxyFlowPropertyInterface(NULL), port(NULL) {
+}
+
+SmartRoomSystem::p_AirPurifier_C::InBound_C::~InBound_C(void) {
+    cleanUpRelations();
+}
+
+void SmartRoomSystem::p_AirPurifier_C::InBound_C::setAirQualityPPM(double p_airQualityPPM) {
+    
+    if (itsDouble_airQualityPPM_ProxyFlowPropertyInterface != NULL) {
+        itsDouble_airQualityPPM_ProxyFlowPropertyInterface->setAirQualityPPM(p_airQualityPPM);
+    }
+    
+}
+
+void SmartRoomSystem::p_AirPurifier_C::InBound_C::setItsDouble_airQualityPPM_ProxyFlowPropertyInterface(double_airQualityPPM_ProxyFlowPropertyInterface* const p_double_airQualityPPM_ProxyFlowPropertyInterface) {
+    itsDouble_airQualityPPM_ProxyFlowPropertyInterface = p_double_airQualityPPM_ProxyFlowPropertyInterface;
+}
+
+SmartRoomSystem::p_AirPurifier_C* SmartRoomSystem::p_AirPurifier_C::InBound_C::getPort(void) const {
+    return port;
+}
+
+void SmartRoomSystem::p_AirPurifier_C::InBound_C::setPort(SmartRoomSystem::p_AirPurifier_C* const p_p_AirPurifier_C) {
+    _setPort(p_p_AirPurifier_C);
+}
+
+void SmartRoomSystem::p_AirPurifier_C::InBound_C::cleanUpRelations(void) {
+    if(itsDouble_airQualityPPM_ProxyFlowPropertyInterface != NULL)
+        {
+            itsDouble_airQualityPPM_ProxyFlowPropertyInterface = NULL;
+        }
+    if(port != NULL)
+        {
+            port = NULL;
+        }
+}
+
+void SmartRoomSystem::p_AirPurifier_C::InBound_C::__setPort(SmartRoomSystem::p_AirPurifier_C* const p_p_AirPurifier_C) {
+    port = p_p_AirPurifier_C;
+}
+
+void SmartRoomSystem::p_AirPurifier_C::InBound_C::_setPort(SmartRoomSystem::p_AirPurifier_C* const p_p_AirPurifier_C) {
+    __setPort(p_p_AirPurifier_C);
+}
+
+void SmartRoomSystem::p_AirPurifier_C::InBound_C::_clearPort(void) {
+    port = NULL;
+}
+
+SmartRoomSystem::p_AirPurifier_C::OutBound_C::OutBound_C(void) : evHumanPresence_ProxyReceptionInterface(), itsEvHumanPresence_ProxyReceptionInterface(NULL) {
+}
+
+SmartRoomSystem::p_AirPurifier_C::OutBound_C::~OutBound_C(void) {
+    cleanUpRelations();
+}
+
+bool SmartRoomSystem::p_AirPurifier_C::OutBound_C::send(IOxfEvent* event, const IOxfEventGenerationParams& params) {
+    bool res = false;
+    if (event != NULL) {
+        if (itsEvHumanPresence_ProxyReceptionInterface != NULL) {
+            if (event->isTypeOf(evHumanPresence_SYSTEM_CONTEXT_SYSTEM_ANALYSIS_id)) {
+                res = itsEvHumanPresence_ProxyReceptionInterface->send(event, params);
+            }
+        }
+    }
+    return res;
+    
+}
+
+bool SmartRoomSystem::p_AirPurifier_C::OutBound_C::send(IOxfEvent* event) {
+    bool res = false;
+    if (event != NULL) {
+        if (itsEvHumanPresence_ProxyReceptionInterface != NULL) {
+            if (event->isTypeOf(evHumanPresence_SYSTEM_CONTEXT_SYSTEM_ANALYSIS_id)) {
+                res = itsEvHumanPresence_ProxyReceptionInterface->send(event);
+            }
+        }
+    }
+    return res;
+    
+}
+
+void SmartRoomSystem::p_AirPurifier_C::OutBound_C::setItsEvHumanPresence_ProxyReceptionInterface(OMReactive* const p_OMReactive) {
+    itsEvHumanPresence_ProxyReceptionInterface = p_OMReactive;
+}
+
+void SmartRoomSystem::p_AirPurifier_C::OutBound_C::cleanUpRelations(void) {
+    if(itsEvHumanPresence_ProxyReceptionInterface != NULL)
+        {
+            itsEvHumanPresence_ProxyReceptionInterface = NULL;
+        }
+}
+
+SmartRoomSystem::p_AirPurifier_C::p_AirPurifier_C(void) : _p_(0) {
+    initRelations();
+}
+
+SmartRoomSystem::p_AirPurifier_C::~p_AirPurifier_C(void) {
+}
+
+void SmartRoomSystem::p_AirPurifier_C::connectSmartRoomSystem(SmartRoomSystem* part) {
+    InBound.setItsDouble_airQualityPPM_ProxyFlowPropertyInterface(part);
+    InBound.setPort(this); // for IS_PORT macro support
+    
+}
+
+double_airQualityPPM_ProxyFlowPropertyInterface* SmartRoomSystem::p_AirPurifier_C::getItsDouble_airQualityPPM_ProxyFlowPropertyInterface(void) {
+    return &InBound;
+}
+
+evHumanPresence_ProxyReceptionInterface* SmartRoomSystem::p_AirPurifier_C::getItsEvHumanPresence_ProxyReceptionInterface(void) {
+    return &OutBound;
+}
+
+void SmartRoomSystem::p_AirPurifier_C::setItsDouble_airQualityPPM_ProxyFlowPropertyInterface(double_airQualityPPM_ProxyFlowPropertyInterface* const p_double_airQualityPPM_ProxyFlowPropertyInterface) {
+    InBound.setItsDouble_airQualityPPM_ProxyFlowPropertyInterface(p_double_airQualityPPM_ProxyFlowPropertyInterface);
+}
+
+void SmartRoomSystem::p_AirPurifier_C::setItsEvHumanPresence_ProxyReceptionInterface(OMReactive* const p_evHumanPresence_ProxyReceptionInterface) {
+    OutBound.setItsEvHumanPresence_ProxyReceptionInterface(p_evHumanPresence_ProxyReceptionInterface);
+}
+
+SmartRoomSystem::p_AirPurifier_C::InBound_C* SmartRoomSystem::p_AirPurifier_C::getInBound(void) const {
+    return (SmartRoomSystem::p_AirPurifier_C::InBound_C*) &InBound;
+}
+
+SmartRoomSystem::p_AirPurifier_C::OutBound_C* SmartRoomSystem::p_AirPurifier_C::getOutBound(void) const {
+    return (SmartRoomSystem::p_AirPurifier_C::OutBound_C*) &OutBound;
+}
+
+void SmartRoomSystem::p_AirPurifier_C::initRelations(void) {
+    InBound._setPort(this);
+}
+
+void SmartRoomSystem::p_AirPurifier_C::destroy(void) {
+}
 //#]
 
-SmartRoomSystem::SmartRoomSystem(IOxfActive* const theActiveContext) : OMReactive(), int_currentTemp_ProxyFlowPropertyInterface(), currentTemp(15), desiredTemp(20), itsAirPurifier(NULL), itsFireSprinklerSystem(NULL), itsHVAC(NULL), itsNaturalEnvironment(NULL), itsRoomSchedularSystem(NULL), itsRoomUser(NULL), itsSecurityAndAccesSystem(NULL), itsStakeholders(NULL), itsStandards(NULL), itsTemperatureSensor(NULL) {
+SmartRoomSystem::SmartRoomSystem(IOxfActive* const theActiveContext) : OMReactive(), int_currentTemp_ProxyFlowPropertyInterface(), double_airQualityPPM_ProxyFlowPropertyInterface(), airQualityPPM(900), currentTemp(15), desiredTemp(20), itsAirPurifier(NULL), itsFireSprinklerSystem(NULL), itsHVAC(NULL), itsNaturalEnvironment(NULL), itsRoomSchedularSystem(NULL), itsRoomUser(NULL), itsSecurityAndAccesSystem(NULL), itsStakeholders(NULL), itsStandards(NULL), itsTemperatureSensor(NULL) {
     NOTIFY_REACTIVE_CONSTRUCTOR(SmartRoomSystem, SmartRoomSystem(), 0, SYSTEM_ANALYSIS_SYSTEM_CONTEXT_SmartRoomSystem_SmartRoomSystem_SERIALIZE);
     setActiveContext(theActiveContext, false);
     initRelations();
@@ -168,6 +306,14 @@ SmartRoomSystem::~SmartRoomSystem(void) {
 }
 
 //#[ ignore
+void SmartRoomSystem::setAirQualityPPM(double p_airQualityPPM) {
+    if (airQualityPPM != p_airQualityPPM) {
+        airQualityPPM = p_airQualityPPM;
+        FLOW_DATA_RECEIVE("airQualityPPM", airQualityPPM, x2String);
+    }
+    
+}
+
 void SmartRoomSystem::setCurrentTemp(int p_currentTemp) {
     if (currentTemp != p_currentTemp) {
         currentTemp = p_currentTemp;
@@ -191,6 +337,18 @@ SmartRoomSystem::p_SmartRoomSystem_C* SmartRoomSystem::getP_SmartRoomSystem(void
 
 SmartRoomSystem::p_SmartRoomSystem_C* SmartRoomSystem::get_p_SmartRoomSystem(void) const {
     return (SmartRoomSystem::p_SmartRoomSystem_C*) &p_SmartRoomSystem;
+}
+
+SmartRoomSystem::p_AirPurifier_C* SmartRoomSystem::getP_AirPurifier(void) const {
+    return (SmartRoomSystem::p_AirPurifier_C*) &p_AirPurifier;
+}
+
+SmartRoomSystem::p_AirPurifier_C* SmartRoomSystem::get_p_AirPurifier(void) const {
+    return (SmartRoomSystem::p_AirPurifier_C*) &p_AirPurifier;
+}
+
+const double SmartRoomSystem::getAirQualityPPM(void) const {
+    return airQualityPPM;
 }
 
 const int SmartRoomSystem::getCurrentTemp(void) const {
@@ -350,6 +508,9 @@ bool SmartRoomSystem::startBehavior(void) {
 void SmartRoomSystem::initRelations(void) {
     if (get_p_SmartRoomSystem() != NULL) {
         get_p_SmartRoomSystem()->connectSmartRoomSystem(this);
+    }
+    if (get_p_AirPurifier() != NULL) {
+        get_p_AirPurifier()->connectSmartRoomSystem(this);
     }
 }
 
@@ -778,7 +939,6 @@ IOxfReactive::TakeEventStatus SmartRoomSystem::Controlling_handleEvent(void) {
                     OUT_PORT(port_SRS)->stopHVAC();
                     //#]
                     NOTIFY_STATE_ENTERED("ROOT.Idle");
-                    pushNullTransition();
                     rootState_subState = Idle;
                     rootState_active = Idle;
                     rootState_timeout = scheduleTimeout(100, "ROOT.Idle");
@@ -945,7 +1105,6 @@ void SmartRoomSystem::rootState_entDef(void) {
         NOTIFY_STATE_ENTERED("ROOT");
         NOTIFY_TRANSITION_STARTED("0");
         NOTIFY_STATE_ENTERED("ROOT.Idle");
-        pushNullTransition();
         rootState_subState = Idle;
         rootState_active = Idle;
         rootState_timeout = scheduleTimeout(100, "ROOT.Idle");
@@ -964,11 +1123,9 @@ IOxfReactive::TakeEventStatus SmartRoomSystem::rootState_processEvent(void) {
                     if(getCurrentEvent() == rootState_timeout)
                         {
                             NOTIFY_TRANSITION_STARTED("10");
-                            popNullTransition();
                             cancel(rootState_timeout);
                             NOTIFY_STATE_EXITED("ROOT.Idle");
                             NOTIFY_STATE_ENTERED("ROOT.Idle");
-                            pushNullTransition();
                             rootState_subState = Idle;
                             rootState_active = Idle;
                             rootState_timeout = scheduleTimeout(100, "ROOT.Idle");
@@ -977,13 +1134,12 @@ IOxfReactive::TakeEventStatus SmartRoomSystem::rootState_processEvent(void) {
                         }
                 }
             else {
-                if(IS_EVENT_TYPE_OF(OMNullEventId) == 1)
+                if(IS_EVENT_TYPE_OF(evHumanPresence_SYSTEM_CONTEXT_SYSTEM_ANALYSIS_id) == 1)
                     {
                         //## transition 1 
                         if(currentTemp != desiredTemp)
                             {
                                 NOTIFY_TRANSITION_STARTED("1");
-                                popNullTransition();
                                 cancel(rootState_timeout);
                                 NOTIFY_STATE_EXITED("ROOT.Idle");
                                 //#[ transition 1 
@@ -1028,6 +1184,7 @@ IOxfReactive::TakeEventStatus SmartRoomSystem::rootState_processEvent(void) {
 void OMAnimatedSmartRoomSystem::serializeAttributes(AOMSAttributes* aomsAttributes) const {
     aomsAttributes->addAttribute("currentTemp", x2String(myReal->currentTemp));
     aomsAttributes->addAttribute("desiredTemp", x2String(myReal->desiredTemp));
+    aomsAttributes->addAttribute("airQualityPPM", x2String(myReal->airQualityPPM));
 }
 
 void OMAnimatedSmartRoomSystem::serializeRelations(AOMSRelations* aomsRelations) const {
@@ -1071,15 +1228,15 @@ void OMAnimatedSmartRoomSystem::serializeRelations(AOMSRelations* aomsRelations)
         {
             aomsRelations->ADD_ITEM(myReal->itsSecurityAndAccesSystem);
         }
-    aomsRelations->addRelation("itsAirPurifier", false, true);
-    if(myReal->itsAirPurifier)
-        {
-            aomsRelations->ADD_ITEM(myReal->itsAirPurifier);
-        }
     aomsRelations->addRelation("itsTemperatureSensor", false, true);
     if(myReal->itsTemperatureSensor)
         {
             aomsRelations->ADD_ITEM(myReal->itsTemperatureSensor);
+        }
+    aomsRelations->addRelation("itsAirPurifier", false, true);
+    if(myReal->itsAirPurifier)
+        {
+            aomsRelations->ADD_ITEM(myReal->itsAirPurifier);
         }
 }
 

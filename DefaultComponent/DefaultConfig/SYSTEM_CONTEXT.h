@@ -1,10 +1,10 @@
 /*********************************************************************
 	Rhapsody	: 9.0 
-	Login		: 20174215
+	Login		: 20235614
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: SYSTEM_CONTEXT
-//!	Generated Date	: Thu, 18, Apr 2024  
+//!	Generated Date	: Fri, 19, Apr 2024  
 	File Path	: DefaultComponent\DefaultConfig\SYSTEM_CONTEXT.h
 *********************************************************************/
 
@@ -17,9 +17,6 @@
 #include <aom.h>
 //## auto_generated
 #include <event.h>
-//## auto_generated
-class AirPurifier;
-
 //## auto_generated
 class FireSprinklerSystem;
 
@@ -164,6 +161,34 @@ class OMAnimatedreqHeating : virtual public AOMEvent {
 
 //#[ ignore
 extern const IOxfEvent::ID reqHeating_SYSTEM_CONTEXT_SYSTEM_ANALYSIS_id;
+//#]
+
+//## event evHumanPresence()
+class evHumanPresence : public OMEvent {
+    ////    Friends    ////
+    
+public :
+
+#ifdef _OMINSTRUMENT
+    friend class OMAnimatedevHumanPresence;
+#endif // _OMINSTRUMENT
+
+    ////    Constructors and destructors    ////
+    
+    //## auto_generated
+    evHumanPresence(void);
+};
+
+#ifdef _OMINSTRUMENT
+//#[ ignore
+class OMAnimatedevHumanPresence : virtual public AOMEvent {
+    DECLARE_META_EVENT(evHumanPresence)
+};
+//#]
+#endif // _OMINSTRUMENT
+
+//#[ ignore
+extern const IOxfEvent::ID evHumanPresence_SYSTEM_CONTEXT_SYSTEM_ANALYSIS_id;
 //#]
 
 #endif

@@ -1,10 +1,10 @@
 /********************************************************************
 	Rhapsody	: 9.0 
-	Login		: 20174215
+	Login		: 20235614
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: SYSTEM_CONTEXT
-//!	Generated Date	: Thu, 18, Apr 2024  
+//!	Generated Date	: Fri, 19, Apr 2024  
 	File Path	: DefaultComponent\DefaultConfig\SYSTEM_CONTEXT.cpp
 *********************************************************************/
 
@@ -14,8 +14,6 @@
 
 //## auto_generated
 #include "SYSTEM_CONTEXT.h"
-//## auto_generated
-#include "AirPurifier.h"
 //## auto_generated
 #include "FireSprinklerSystem.h"
 //## auto_generated
@@ -60,6 +58,12 @@
 #define reqHeating_UNSERIALIZE OM_NO_OP
 
 #define reqHeating_CONSTRUCTOR reqHeating()
+
+#define evHumanPresence_SERIALIZE OM_NO_OP
+
+#define evHumanPresence_UNSERIALIZE OM_NO_OP
+
+#define evHumanPresence_CONSTRUCTOR evHumanPresence()
 //#]
 
 //## package SYSTEM_ANALYSIS::SYSTEM_CONTEXT
@@ -121,6 +125,18 @@ const IOxfEvent::ID reqHeating_SYSTEM_CONTEXT_SYSTEM_ANALYSIS_id(9404);
 //#]
 
 IMPLEMENT_META_EVENT_P(reqHeating, SYSTEM_ANALYSIS_SYSTEM_CONTEXT, SYSTEM_ANALYSIS::SYSTEM_CONTEXT, reqHeating())
+
+//## event evHumanPresence()
+evHumanPresence::evHumanPresence(void) : OMEvent() {
+    NOTIFY_EVENT_CONSTRUCTOR(evHumanPresence)
+    setId(evHumanPresence_SYSTEM_CONTEXT_SYSTEM_ANALYSIS_id);
+}
+
+//#[ ignore
+const IOxfEvent::ID evHumanPresence_SYSTEM_CONTEXT_SYSTEM_ANALYSIS_id(9405);
+//#]
+
+IMPLEMENT_META_EVENT_P(evHumanPresence, SYSTEM_ANALYSIS_SYSTEM_CONTEXT, SYSTEM_ANALYSIS::SYSTEM_CONTEXT, evHumanPresence())
 
 /*********************************************************************
 	File Path	: DefaultComponent\DefaultConfig\SYSTEM_CONTEXT.cpp

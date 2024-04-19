@@ -1,0 +1,19 @@
+I-Logix-RPY-Archive version 8.15.0 * 202002261110
+
+- m_fileModifyTime = { IRPYRawContainer 
+	- size = 0;
+}
+- m_saveUnitAndOwnerSaveUnit = { IRPYRawContainer 
+	- size = 1;
+	- value = "GUID 507c2e93-ad41-4831-bd03-7946953df561" "GUID c4e68525-23da-407c-8953-4e2a03efb7c0"
+	
+}
+- size = 1;
+- hElement = { IHandle 
+	- _m2Class = "ICodeGenConfigInfo";
+	- _filename = ".\\..\\..\\SmartRoomSystem_rpy\\DefaultComponent.cmpx";
+	- _name = "DefaultComponent\\AirPurifier_Simulation";
+	- _id = GUID d0191be2-e73a-44fd-9b2f-c298311c62cd;
+}
+- genTime = 4.18.2024::15:32:13;
+

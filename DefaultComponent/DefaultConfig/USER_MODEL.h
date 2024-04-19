@@ -1,10 +1,10 @@
 /*********************************************************************
 	Rhapsody	: 9.0 
-	Login		: 20174215
+	Login		: 20235614
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: USER_MODEL
-//!	Generated Date	: Thu, 18, Apr 2024  
+//!	Generated Date	: Fri, 19, Apr 2024  
 	File Path	: DefaultComponent\DefaultConfig\USER_MODEL.h
 *********************************************************************/
 
@@ -15,6 +15,12 @@
 #include <oxf.h>
 //## auto_generated
 #include <aom.h>
+//## classInstance itsAirPurifier
+class AirPurifier;
+
+//## classInstance itsAirQualitySensor
+class AirQualitySensor;
+
 //## classInstance itsHVAC
 class HVAC;
 
@@ -26,6 +32,12 @@ class TemperatureSensor;
 
 //## package SYSTEM_ANALYSIS::USER_MODEL
 
+
+//## classInstance itsAirPurifier
+extern AirPurifier itsAirPurifier;
+
+//## classInstance itsAirQualitySensor
+extern AirQualitySensor itsAirQualitySensor;
 
 //## classInstance itsHVAC
 extern HVAC itsHVAC;

@@ -1,10 +1,10 @@
 /********************************************************************
 	Rhapsody	: 9.0 
-	Login		: 20174215
+	Login		: 20235614
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: ProxyPortInterfaces
-//!	Generated Date	: Thu, 18, Apr 2024  
+//!	Generated Date	: Fri, 19, Apr 2024  
 	File Path	: DefaultComponent\DefaultConfig\ProxyPortInterfaces.cpp
 *********************************************************************/
 
@@ -14,6 +14,10 @@
 
 //## auto_generated
 #include "ProxyPortInterfaces.h"
+//## auto_generated
+#include "double_airQualityPPM_ProxyFlowPropertyInterface.h"
+//## auto_generated
+#include "evHumanPresence_ProxyReceptionInterface.h"
 //## auto_generated
 #include "int_currentTemp_ProxyFlowPropertyInterface.h"
 //## package ProxyPortInterfaces

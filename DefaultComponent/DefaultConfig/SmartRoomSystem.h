@@ -1,10 +1,10 @@
 /*********************************************************************
 	Rhapsody	: 9.0 
-	Login		: 20174215
+	Login		: 20235614
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: SmartRoomSystem
-//!	Generated Date	: Thu, 18, Apr 2024  
+//!	Generated Date	: Fri, 19, Apr 2024  
 	File Path	: DefaultComponent\DefaultConfig\SmartRoomSystem.h
 *********************************************************************/
 
@@ -26,11 +26,15 @@
 //## auto_generated
 #include <event.h>
 //## class SmartRoomSystem
+#include "double_airQualityPPM_ProxyFlowPropertyInterface.h"
+//## class SmartRoomSystem
 #include "int_currentTemp_ProxyFlowPropertyInterface.h"
 //## class port_SRS_C
 #include "IB_Mode.h"
 //## class port_SRS_C
 #include "IB_Power.h"
+//## class OutBound
+#include "evHumanPresence_ProxyReceptionInterface.h"
 //## link itsAirPurifier
 class AirPurifier;
 
@@ -68,7 +72,7 @@ class TemperatureSensor;
 //## package SYSTEM_ANALYSIS::SYSTEM_CONTEXT
 
 //## class SmartRoomSystem
-class SmartRoomSystem : public OMReactive, public int_currentTemp_ProxyFlowPropertyInterface {
+class SmartRoomSystem : public OMReactive, public int_currentTemp_ProxyFlowPropertyInterface, public double_airQualityPPM_ProxyFlowPropertyInterface {
 public :
 
 //#[ ignore
@@ -176,6 +180,166 @@ public :
         
         int_currentTemp_ProxyFlowPropertyInterface* itsInt_currentTemp_ProxyFlowPropertyInterface;		//## link itsInt_currentTemp_ProxyFlowPropertyInterface
     };
+    
+    //## package SYSTEM_ANALYSIS::SYSTEM_CONTEXT
+    class p_AirPurifier_C {
+    public :
+    
+        //## auto_generated
+        class InBound_C;
+        
+        //## auto_generated
+        class OutBound_C;
+        
+        //## package SYSTEM_ANALYSIS::SYSTEM_CONTEXT
+        class InBound_C : public double_airQualityPPM_ProxyFlowPropertyInterface {
+            ////    Constructors and destructors    ////
+            
+        public :
+        
+            //## auto_generated
+            InBound_C(void);
+            
+            //## auto_generated
+            virtual ~InBound_C(void);
+            
+            ////    Operations    ////
+            
+            //## auto_generated
+            virtual void setAirQualityPPM(double p_airQualityPPM);
+            
+            ////    Additional operations    ////
+            
+            //## auto_generated
+            void setItsDouble_airQualityPPM_ProxyFlowPropertyInterface(double_airQualityPPM_ProxyFlowPropertyInterface* const p_double_airQualityPPM_ProxyFlowPropertyInterface);
+            
+            //## auto_generated
+            p_AirPurifier_C* getPort(void) const;
+            
+            //## auto_generated
+            void setPort(p_AirPurifier_C* const p_p_AirPurifier_C);
+        
+        protected :
+        
+            //## auto_generated
+            void cleanUpRelations(void);
+            
+            ////    Relations and components    ////
+        
+        private :
+        
+            double_airQualityPPM_ProxyFlowPropertyInterface* itsDouble_airQualityPPM_ProxyFlowPropertyInterface;		//## link itsDouble_airQualityPPM_ProxyFlowPropertyInterface
+            
+            p_AirPurifier_C* port;		//## link port
+            
+            ////    Framework operations    ////
+        
+        public :
+        
+            //## auto_generated
+            void __setPort(p_AirPurifier_C* const p_p_AirPurifier_C);
+            
+            //## auto_generated
+            void _setPort(p_AirPurifier_C* const p_p_AirPurifier_C);
+            
+            //## auto_generated
+            void _clearPort(void);
+        };
+        
+        //## package SYSTEM_ANALYSIS::SYSTEM_CONTEXT
+        class OutBound_C : public evHumanPresence_ProxyReceptionInterface {
+            ////    Constructors and destructors    ////
+            
+        public :
+        
+            //## auto_generated
+            OutBound_C(void);
+            
+            //## auto_generated
+            virtual ~OutBound_C(void);
+            
+            ////    Operations    ////
+            
+            //## auto_generated
+            virtual bool send(IOxfEvent* event, const IOxfEventGenerationParams& params);
+            
+            //## auto_generated
+            virtual bool send(IOxfEvent* event);
+            
+            ////    Additional operations    ////
+            
+            //## auto_generated
+            void setItsEvHumanPresence_ProxyReceptionInterface(OMReactive* const p_OMReactive);
+        
+        protected :
+        
+            //## auto_generated
+            void cleanUpRelations(void);
+            
+            ////    Relations and components    ////
+        
+        private :
+        
+            OMReactive* itsEvHumanPresence_ProxyReceptionInterface;		//## link itsEvHumanPresence_ProxyReceptionInterface
+        };
+        
+        ////    Constructors and destructors    ////
+        
+        //## auto_generated
+        p_AirPurifier_C(void);
+        
+        //## auto_generated
+        virtual ~p_AirPurifier_C(void);
+        
+        ////    Operations    ////
+        
+        //## auto_generated
+        void connectSmartRoomSystem(SmartRoomSystem* part);
+        
+        //## auto_generated
+        double_airQualityPPM_ProxyFlowPropertyInterface* getItsDouble_airQualityPPM_ProxyFlowPropertyInterface(void);
+        
+        //## auto_generated
+        evHumanPresence_ProxyReceptionInterface* getItsEvHumanPresence_ProxyReceptionInterface(void);
+        
+        //## auto_generated
+        void setItsDouble_airQualityPPM_ProxyFlowPropertyInterface(double_airQualityPPM_ProxyFlowPropertyInterface* const p_double_airQualityPPM_ProxyFlowPropertyInterface);
+        
+        //## auto_generated
+        void setItsEvHumanPresence_ProxyReceptionInterface(OMReactive* const p_evHumanPresence_ProxyReceptionInterface);
+        
+        ////    Additional operations    ////
+        
+        //## auto_generated
+        InBound_C* getInBound(void) const;
+        
+        //## auto_generated
+        OutBound_C* getOutBound(void) const;
+    
+    protected :
+    
+        //## auto_generated
+        void initRelations(void);
+        
+        ////    Attributes    ////
+    
+    private :
+    
+        RhpInteger _p_;		//## attribute _p_
+        
+        ////    Relations and components    ////
+        
+        InBound_C InBound;		//## classInstance InBound
+        
+        OutBound_C OutBound;		//## classInstance OutBound
+        
+        ////    Framework operations    ////
+    
+    public :
+    
+        //## auto_generated
+        virtual void destroy(void);
+    };
 //#]
 
     ////    Friends    ////
@@ -195,6 +359,8 @@ public :
     ////    Operations    ////
     
 //#[ ignore
+    void setAirQualityPPM(double p_airQualityPPM);
+    
     void setCurrentTemp(int p_currentTemp);
 //#]
 
@@ -211,6 +377,15 @@ public :
     
     //## auto_generated
     p_SmartRoomSystem_C* get_p_SmartRoomSystem(void) const;
+    
+    //## auto_generated
+    p_AirPurifier_C* getP_AirPurifier(void) const;
+    
+    //## auto_generated
+    p_AirPurifier_C* get_p_AirPurifier(void) const;
+    
+    //## auto_generated
+    const double getAirQualityPPM(void) const;
     
     //## auto_generated
     const int getCurrentTemp(void) const;
@@ -305,6 +480,8 @@ protected :
 
 private :
 
+    double airQualityPPM;		//## attribute airQualityPPM
+    
     int currentTemp;		//## attribute currentTemp
     
     int desiredTemp;		//## attribute desiredTemp
@@ -315,6 +492,8 @@ private :
     port_SRS_C port_SRS;
     
     p_SmartRoomSystem_C p_SmartRoomSystem;
+    
+    p_AirPurifier_C p_AirPurifier;
 //#]
 
     AirPurifier* itsAirPurifier;		//## link itsAirPurifier

@@ -1,3 +1,5 @@
 [Op Calls]
 [Events]
+itsAirPurifier->GEN(evHumanPresence())`AirPurifier
+itsSmartRoomSystem->GEN(evHumanPresence())`SmartRoomSystem
 [Breakpoints]

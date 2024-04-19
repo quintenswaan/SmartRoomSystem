@@ -1,10 +1,10 @@
 /********************************************************************
 	Rhapsody	: 9.0 
-	Login		: 20174215
+	Login		: 20235614
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: USER_MODEL
-//!	Generated Date	: Thu, 18, Apr 2024  
+//!	Generated Date	: Fri, 19, Apr 2024  
 	File Path	: DefaultComponent\DefaultConfig\USER_MODEL.cpp
 *********************************************************************/
 
@@ -14,6 +14,10 @@
 
 //## auto_generated
 #include "USER_MODEL.h"
+//## classInstance itsAirPurifier
+#include "AirPurifier.h"
+//## classInstance itsAirQualitySensor
+#include "AirQualitySensor.h"
 //## classInstance itsHVAC
 #include "HVAC.h"
 //## classInstance itsSmartRoomSystem
@@ -22,6 +26,12 @@
 #include "TemperatureSensor.h"
 //## package SYSTEM_ANALYSIS::USER_MODEL
 
+
+//## classInstance itsAirPurifier
+AirPurifier itsAirPurifier;
+
+//## classInstance itsAirQualitySensor
+AirQualitySensor itsAirQualitySensor;
 
 //## classInstance itsHVAC
 HVAC itsHVAC;
@@ -48,12 +58,29 @@ void USER_MODEL_initRelations(void) {
         {
             itsSmartRoomSystem.setShouldDelete(false);
         }
+        {
+            itsAirPurifier.setShouldDelete(false);
+        }
     }
     {
         
         itsSmartRoomSystem.get_port_SRS()->setItsIB_Power(itsHVAC.get_port_HVAC()->getItsIB_Power());
         
         itsSmartRoomSystem.get_port_SRS()->setItsIB_Mode(itsHVAC.get_port_HVAC()->getItsIB_Mode());
+        
+    }
+    {
+        
+        itsSmartRoomSystem.get_p_AirPurifier()->setItsEvHumanPresence_ProxyReceptionInterface(itsAirPurifier.get_p_AirPurifier()->getItsEvHumanPresence_ProxyReceptionInterface());
+        
+    }{
+        
+        itsAirPurifier.get_p_AirPurifier()->setItsDouble_airQualityPPM_ProxyFlowPropertyInterface(itsSmartRoomSystem.get_p_AirPurifier()->getItsDouble_airQualityPPM_ProxyFlowPropertyInterface());
+        
+    }
+    {
+        
+        itsAirQualitySensor.get_p_AirQualitySensor()->setItsDouble_airQualityPPM_ProxyFlowPropertyInterface(itsAirPurifier.get_p_AirQualitySensor()->getItsDouble_airQualityPPM_ProxyFlowPropertyInterface());
         
     }
     {
@@ -69,6 +96,10 @@ void USER_MODEL_initRelations(void) {
 
 bool USER_MODEL_startBehavior(void) {
     bool done = true;
+    if(done == true)
+        {
+            done = itsAirPurifier.startBehavior();
+        }
     if(done == true)
         {
             done = itsHVAC.startBehavior();
@@ -88,6 +119,8 @@ static void RenameGlobalInstances(void) {
     OM_SET_INSTANCE_NAME(&itsHVAC, HVAC, "itsHVAC", AOMNoMultiplicity);
     OM_SET_INSTANCE_NAME(&itsTemperatureSensor, TemperatureSensor, "itsTemperatureSensor", AOMNoMultiplicity);
     OM_SET_INSTANCE_NAME(&itsSmartRoomSystem, SmartRoomSystem, "itsSmartRoomSystem", AOMNoMultiplicity);
+    OM_SET_INSTANCE_NAME(&itsAirPurifier, AirPurifier, "itsAirPurifier", AOMNoMultiplicity);
+    OM_SET_INSTANCE_NAME(&itsAirQualitySensor, AirQualitySensor, "itsAirQualitySensor", AOMNoMultiplicity);
 }
 #endif // _OMINSTRUMENT
 

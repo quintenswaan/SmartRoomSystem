@@ -93,15 +93,17 @@ OBJS= \
   FireSprinklerSystem.obj \
   RoomSchedularSystem.obj \
   SecurityAndAccesSystem.obj \
-  AirPurifier.obj \
   IB_Power.obj \
   IB_Mode.obj \
   RoomUser.obj \
+  AirPurifier.obj \
+  AirQualitySensor.obj \
   TemperatureSensor.obj \
-  SYSTEM_CONTEXT.obj \
-  USER_MODEL.obj \
   USE_CASES.obj \
+  SYSTEM_CONTEXT.obj \
+  SYSTEM_CONTEXT_AIR_PURIFIER.obj \
   OPERATING_ENVIRONMENT.obj \
+  USER_MODEL.obj \
   ProxyPortInterfaces.obj
 
 
@@ -185,7 +187,7 @@ SOCK_LIB=
 
 
 
-SmartRoomSystem.obj : SmartRoomSystem.cpp SmartRoomSystem.h    SYSTEM_CONTEXT.h RoomUser.h Stakeholders.h Standards.h NaturalEnvironment.h HVAC.h FireSprinklerSystem.h RoomSchedularSystem.h SecurityAndAccesSystem.h AirPurifier.h TemperatureSensor.h IB_Power.h IB_Mode.h int_currentTemp_ProxyFlowPropertyInterface.h 
+SmartRoomSystem.obj : SmartRoomSystem.cpp SmartRoomSystem.h    SYSTEM_CONTEXT.h RoomUser.h Stakeholders.h Standards.h NaturalEnvironment.h HVAC.h FireSprinklerSystem.h RoomSchedularSystem.h SecurityAndAccesSystem.h TemperatureSensor.h AirPurifier.h IB_Power.h IB_Mode.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"SmartRoomSystem.obj" "SmartRoomSystem.cpp" 
 
@@ -233,12 +235,6 @@ SecurityAndAccesSystem.obj : SecurityAndAccesSystem.cpp SecurityAndAccesSystem.h
 
 
 
-AirPurifier.obj : AirPurifier.cpp AirPurifier.h    SYSTEM_CONTEXT.h SmartRoomSystem.h 
-	$(CREATE_OBJ_DIR)
-	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"AirPurifier.obj" "AirPurifier.cpp" 
-
-
-
 IB_Power.obj : IB_Power.cpp IB_Power.h    SYSTEM_CONTEXT.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"IB_Power.obj" "IB_Power.cpp" 
@@ -257,21 +253,21 @@ RoomUser.obj : RoomUser.cpp RoomUser.h    SYSTEM_CONTEXT.h SmartRoomSystem.h
 
 
 
-TemperatureSensor.obj : TemperatureSensor.cpp TemperatureSensor.h    OPERATING_ENVIRONMENT.h SmartRoomSystem.h int_currentTemp_ProxyFlowPropertyInterface.h 
+AirPurifier.obj : AirPurifier.cpp AirPurifier.h    SYSTEM_CONTEXT_AIR_PURIFIER.h AirQualitySensor.h SmartRoomSystem.h SYSTEM_CONTEXT.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"AirPurifier.obj" "AirPurifier.cpp" 
+
+
+
+AirQualitySensor.obj : AirQualitySensor.cpp AirQualitySensor.h    SYSTEM_CONTEXT_AIR_PURIFIER.h AirPurifier.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"AirQualitySensor.obj" "AirQualitySensor.cpp" 
+
+
+
+TemperatureSensor.obj : TemperatureSensor.cpp TemperatureSensor.h    OPERATING_ENVIRONMENT.h SmartRoomSystem.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"TemperatureSensor.obj" "TemperatureSensor.cpp" 
-
-
-
-SYSTEM_CONTEXT.obj : SYSTEM_CONTEXT.cpp SYSTEM_CONTEXT.h    SmartRoomSystem.h Stakeholders.h Standards.h NaturalEnvironment.h HVAC.h FireSprinklerSystem.h RoomSchedularSystem.h SecurityAndAccesSystem.h AirPurifier.h IB_Power.h IB_Mode.h 
-	$(CREATE_OBJ_DIR)
-	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"SYSTEM_CONTEXT.obj" "SYSTEM_CONTEXT.cpp" 
-
-
-
-USER_MODEL.obj : USER_MODEL.cpp USER_MODEL.h    HVAC.h TemperatureSensor.h SmartRoomSystem.h 
-	$(CREATE_OBJ_DIR)
-	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"USER_MODEL.obj" "USER_MODEL.cpp" 
 
 
 
@@ -281,13 +277,31 @@ USE_CASES.obj : USE_CASES.cpp USE_CASES.h
 
 
 
+SYSTEM_CONTEXT.obj : SYSTEM_CONTEXT.cpp SYSTEM_CONTEXT.h    SmartRoomSystem.h Stakeholders.h Standards.h NaturalEnvironment.h HVAC.h FireSprinklerSystem.h RoomSchedularSystem.h SecurityAndAccesSystem.h IB_Power.h IB_Mode.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"SYSTEM_CONTEXT.obj" "SYSTEM_CONTEXT.cpp" 
+
+
+
+SYSTEM_CONTEXT_AIR_PURIFIER.obj : SYSTEM_CONTEXT_AIR_PURIFIER.cpp SYSTEM_CONTEXT_AIR_PURIFIER.h    AirPurifier.h AirQualitySensor.h SYSTEM_CONTEXT.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"SYSTEM_CONTEXT_AIR_PURIFIER.obj" "SYSTEM_CONTEXT_AIR_PURIFIER.cpp" 
+
+
+
 OPERATING_ENVIRONMENT.obj : OPERATING_ENVIRONMENT.cpp OPERATING_ENVIRONMENT.h    TemperatureSensor.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"OPERATING_ENVIRONMENT.obj" "OPERATING_ENVIRONMENT.cpp" 
 
 
 
-ProxyPortInterfaces.obj : ProxyPortInterfaces.cpp ProxyPortInterfaces.h    int_currentTemp_ProxyFlowPropertyInterface.h 
+USER_MODEL.obj : USER_MODEL.cpp USER_MODEL.h    HVAC.h TemperatureSensor.h SmartRoomSystem.h AirPurifier.h AirQualitySensor.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"USER_MODEL.obj" "USER_MODEL.cpp" 
+
+
+
+ProxyPortInterfaces.obj : ProxyPortInterfaces.cpp ProxyPortInterfaces.h    
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"ProxyPortInterfaces.obj" "ProxyPortInterfaces.cpp" 
 
@@ -328,15 +342,17 @@ clean:
 	if exist FireSprinklerSystem.obj erase FireSprinklerSystem.obj
 	if exist RoomSchedularSystem.obj erase RoomSchedularSystem.obj
 	if exist SecurityAndAccesSystem.obj erase SecurityAndAccesSystem.obj
-	if exist AirPurifier.obj erase AirPurifier.obj
 	if exist IB_Power.obj erase IB_Power.obj
 	if exist IB_Mode.obj erase IB_Mode.obj
 	if exist RoomUser.obj erase RoomUser.obj
+	if exist AirPurifier.obj erase AirPurifier.obj
+	if exist AirQualitySensor.obj erase AirQualitySensor.obj
 	if exist TemperatureSensor.obj erase TemperatureSensor.obj
-	if exist SYSTEM_CONTEXT.obj erase SYSTEM_CONTEXT.obj
-	if exist USER_MODEL.obj erase USER_MODEL.obj
 	if exist USE_CASES.obj erase USE_CASES.obj
+	if exist SYSTEM_CONTEXT.obj erase SYSTEM_CONTEXT.obj
+	if exist SYSTEM_CONTEXT_AIR_PURIFIER.obj erase SYSTEM_CONTEXT_AIR_PURIFIER.obj
 	if exist OPERATING_ENVIRONMENT.obj erase OPERATING_ENVIRONMENT.obj
+	if exist USER_MODEL.obj erase USER_MODEL.obj
 	if exist ProxyPortInterfaces.obj erase ProxyPortInterfaces.obj
 	if exist $(TARGET_MAIN)$(OBJ_EXT) erase $(TARGET_MAIN)$(OBJ_EXT)
 	if exist *$(OBJ_EXT) erase *$(OBJ_EXT)
